@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<pcToLineNum>
+<entry filename="C:\\Users\\telle\\eclipse-workspace\\DiscGolf\\source\\DiscGolfView.mc" id="3" lineNum="5" pc="268435456" symbol="initialize"/>
+<entry filename="C:\\Users\\telle\\eclipse-workspace\\DiscGolf\\source\\DiscGolfView.mc" id="3" lineNum="6" pc="268435460" symbol="initialize"/>
+<entry filename="C:\\Users\\telle\\eclipse-workspace\\DiscGolf\\source\\DiscGolfView.mc" id="4" lineNum="10" pc="268435479" symbol="onLayout"/>
+<entry filename="C:\\Users\\telle\\eclipse-workspace\\DiscGolf\\source\\DiscGolfView.mc" id="4" lineNum="11" pc="268435483" symbol="onLayout"/>
+<entry filename="C:\\Users\\telle\\eclipse-workspace\\DiscGolf\\source\\DiscGolfView.mc" id="5" lineNum="17" pc="268435521" symbol="onShow"/>
+<entry filename="C:\\Users\\telle\\eclipse-workspace\\DiscGolf\\source\\DiscGolfView.mc" id="6" lineNum="21" pc="268435526" symbol="onUpdate"/>
+<entry filename="C:\\Users\\telle\\eclipse-workspace\\DiscGolf\\source\\DiscGolfView.mc" id="6" lineNum="23" pc="268435530" symbol="onUpdate"/>
+<entry filename="C:\\Users\\telle\\eclipse-workspace\\DiscGolf\\source\\DiscGolfView.mc" id="7" lineNum="29" pc="268435551" symbol="onHide"/>
+<entry filename="C:\\Users\\telle\\eclipse-workspace\\DiscGolf\\source\\DiscGolfApp.mc" id="9" lineNum="6" pc="268435556" symbol="initialize"/>
+<entry filename="C:\\Users\\telle\\eclipse-workspace\\DiscGolf\\source\\DiscGolfApp.mc" id="9" lineNum="7" pc="268435560" symbol="initialize"/>
+<entry filename="C:\\Users\\telle\\eclipse-workspace\\DiscGolf\\source\\DiscGolfApp.mc" id="10" lineNum="11" pc="268435579" symbol="onStart"/>
+<entry filename="C:\\Users\\telle\\eclipse-workspace\\DiscGolf\\source\\DiscGolfApp.mc" id="11" lineNum="15" pc="268435584" symbol="onStop"/>
+<entry filename="C:\\Users\\telle\\eclipse-workspace\\DiscGolf\\source\\DiscGolfApp.mc" id="12" lineNum="19" pc="268435589" symbol="getInitialView"/>
+<entry filename="C:\\Users\\telle\\eclipse-workspace\\DiscGolf\\source\\DiscGolfApp.mc" id="12" lineNum="20" pc="268435593" symbol="getInitialView"/>
+<entry filename="C:\\Users\\telle\\eclipse-workspace\\DiscGolf\\source\\DiscGolfDelegate.mc" id="14" lineNum="5" pc="268435661" symbol="initialize"/>
+<entry filename="C:\\Users\\telle\\eclipse-workspace\\DiscGolf\\source\\DiscGolfDelegate.mc" id="14" lineNum="6" pc="268435665" symbol="initialize"/>
+<entry filename="C:\\Users\\telle\\eclipse-workspace\\DiscGolf\\source\\DiscGolfDelegate.mc" id="15" lineNum="9" pc="268435684" symbol="onMenu"/>
+<entry filename="C:\\Users\\telle\\eclipse-workspace\\DiscGolf\\source\\DiscGolfDelegate.mc" id="15" lineNum="10" pc="268435688" symbol="onMenu"/>
+<entry filename="C:\\Users\\telle\\eclipse-workspace\\DiscGolf\\source\\DiscGolfDelegate.mc" id="15" lineNum="11" pc="268435772" symbol="onMenu"/>
+<entry filename="C:\\Users\\telle\\eclipse-workspace\\DiscGolf\\source\\DiscGolfMenuDelegate.mc" id="17" lineNum="6" pc="268435776" symbol="initialize"/>
+<entry filename="C:\\Users\\telle\\eclipse-workspace\\DiscGolf\\source\\DiscGolfMenuDelegate.mc" id="17" lineNum="7" pc="268435780" symbol="initialize"/>
+<entry filename="C:\\Users\\telle\\eclipse-workspace\\DiscGolf\\source\\DiscGolfMenuDelegate.mc" id="18" lineNum="10" pc="268435799" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\telle\\eclipse-workspace\\DiscGolf\\source\\DiscGolfMenuDelegate.mc" id="18" lineNum="11" pc="268435803" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\telle\\eclipse-workspace\\DiscGolf\\source\\DiscGolfMenuDelegate.mc" id="18" lineNum="12" pc="268435814" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\telle\\eclipse-workspace\\DiscGolf\\source\\DiscGolfMenuDelegate.mc" id="18" lineNum="13" pc="268435838" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\telle\\eclipse-workspace\\DiscGolf\\source\\DiscGolfMenuDelegate.mc" id="18" lineNum="14" pc="268435849" symbol="onMenuItem"/>
+<entry filename="C:\\Windows\\System32\\Rez" id="24" lineNum="16" pc="268435874" symbol="initialize"/>
+<entry filename="C:\\Windows\\System32\\Rez" id="24" lineNum="17" pc="268435878" symbol="initialize"/>
+<entry filename="C:\\Windows\\System32\\Rez" id="24" lineNum="18" pc="268435896" symbol="initialize"/>
+<entry filename="C:\\Windows\\System32\\Rez" id="24" lineNum="19" pc="268435948" symbol="initialize"/>
+<entry filename="C:\\Windows\\System32\\Rez" id="27" lineNum="37" pc="268436001" symbol="MainLayout"/>
+<entry filename="C:\\Windows\\System32\\Rez" id="27" lineNum="41" pc="268436013" symbol="MainLayout"/>
+<entry filename="C:\\Windows\\System32\\Rez" id="27" lineNum="42" pc="268436184" symbol="MainLayout"/>
+<entry filename="C:\\Windows\\System32\\Rez" id="27" lineNum="43" pc="268436217" symbol="MainLayout"/>
+<entry filename="C:\\Windows\\System32\\Rez" id="27" lineNum="44" pc="268436269" symbol="MainLayout"/>
+<entry filename="C:\\Windows\\System32\\Rez" id="27" lineNum="45" pc="268436385" symbol="MainLayout"/>
+<entry filename="C:\\Windows\\System32\\Rez" id="27" lineNum="48" pc="268436437" symbol="MainLayout"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388644" module="true" symbol="System"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="8389349" symbol="justification"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry id="17" object="true" symbol="MainMenu"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry id="18" method="true" symbol="MainLayout"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="11" object="true" symbol="DiscGolfDelegate"/>
+<entry id="9" object="true" symbol="DiscGolfView"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry field="true" id="22" symbol="AppName"/>
+<entry id="8389080" method="true" symbol="onMenu"/>
+<entry id="24" symbol="item_2"/>
+<entry id="23" symbol="item_1"/>
+<entry field="true" id="16" symbol="LauncherIcon"/>
+<entry field="true" id="20" symbol="menu_label_2"/>
+<entry field="true" id="19" symbol="menu_label_1"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="10" object="true" symbol="DiscGolfApp"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry field="true" id="15" symbol="id_monkey"/>
+<entry id="8389348" symbol="font"/>
+<entry id="8389347" symbol="color"/>
+<entry id="12" object="true" symbol="DiscGolfMenuDelegate"/>
+<entry id="8389109" method="true" symbol="onMenuItem"/>
+<entry id="14" module="true" symbol="Layouts"/>
+<entry field="true" id="21" symbol="prompt"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="8389345" symbol="rezId"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry id="8389346" symbol="text"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="13" module="true" symbol="Menus"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry id="8388635" module="true" symbol="Application"/>
+</symbolTable>
+<localVars>
+<entry endPc="268435521" name="dc" stackId="1" startPc="268435479"/>
+<entry endPc="268435551" name="dc" stackId="1" startPc="268435526"/>
+<entry endPc="268435584" name="state" stackId="1" startPc="268435579"/>
+<entry endPc="268435589" name="state" stackId="1" startPc="268435584"/>
+<entry endPc="268435874" name="item" stackId="1" startPc="268435799"/>
+<entry endPc="268436464" name="rez_cmp_local_bitmap_7731679095_fontHeight" stackId="3" startPc="268436013"/>
+<entry endPc="268436464" name="rez_cmp_local_bitmap_id_monkey" stackId="4" startPc="268436013"/>
+<entry endPc="268436464" name="rez_cmp_local_bitmap_7731679095" stackId="2" startPc="268436013"/>
+<entry endPc="268436465" name="dc" stackId="1" startPc="268436001"/>
+</localVars>
+<annotations/>
+<functions>
+<functionEntry accessMode="public" name="initialize" parent="DiscGolfView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onLayout" parent="DiscGolfView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="DiscGolfView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onUpdate" parent="DiscGolfView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="DiscGolfView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="DiscGolfApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStart" parent="DiscGolfApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStop" parent="DiscGolfApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getInitialView" parent="DiscGolfApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="DiscGolfDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onMenu" parent="DiscGolfDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="DiscGolfMenuDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onMenuItem" parent="DiscGolfMenuDelegate">
+<param id="item"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="MainMenu">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="MainLayout" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+</functions>
+<dataEntryOffsetMappings>
+<dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry offset="198" parentId="globals" symbolId="DiscGolfMenuDelegate" type="class"/>
+<dataEntry offset="253" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="332" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="379" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="418" parentId="Menus" symbolId="MainMenu" type="class"/>
+<dataEntry offset="465" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="496" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="527" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="566" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="629" parentId="globals" symbolId="DiscGolfView" type="class"/>
+<dataEntry offset="708" parentId="globals" symbolId="DiscGolfDelegate" type="class"/>
+<dataEntry offset="763" parentId="globals" symbolId="DiscGolfApp" type="class"/>
+</dataEntryOffsetMappings>
+</debugInfo>
