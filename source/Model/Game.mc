@@ -6,15 +6,15 @@ class Game{
         mCourse = course;
     }
 
-    function playActiveHole(){
-        //TODO
+    function playActiveHole(score){
+        activeHole.setScore(score);
     }
 
     function nextHole(){
-        //TODO
+        activeHole = mCourse.getHoles()[activeHole.getIndex + 1];
     }
 
-    function selectHole(){
-        //TODO
+    function selectHole(index){
+        activeHole = mCourse.getHoles()[index];
     }
 }
