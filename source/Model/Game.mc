@@ -4,6 +4,7 @@ class Game{
 
     function initialize(course){
         mCourse = course;
+        activeHole = mCourse.getHoles()[0];
     }
 
     function playActiveHole(score){

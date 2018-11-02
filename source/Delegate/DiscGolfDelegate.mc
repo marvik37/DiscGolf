@@ -7,7 +7,6 @@ class DiscGolfDelegate extends WatchUi.BehaviorDelegate {
     }
 
     function onMenu() {
-        WatchUi.pushView(new Rez.Menus.MainMenu(), new DiscGolfMenuDelegate(), WatchUi.SLIDE_UP);
         return true;
     }
 
