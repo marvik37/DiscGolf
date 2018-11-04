@@ -2,12 +2,15 @@ using Toybox.WatchUi;
 
 class DiscGolfView extends WatchUi.View {
 
+    hidden var painter;
+
     function initialize() {
         View.initialize();
     }
 
     // Load your resources here
     function onLayout(dc) {
+        Gui.initializer(dc);
     }
 
     // Called when this View is brought to the foreground. Restore
@@ -20,7 +23,6 @@ class DiscGolfView extends WatchUi.View {
     function onUpdate(dc) {
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
-        Painter.test(dc);
     }
 
     // Called when this View is removed from the screen. Save the
