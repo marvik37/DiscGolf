@@ -2,7 +2,7 @@ using Toybox.WatchUi;
 
 class DiscGolfView extends WatchUi.View {
 
-    hidden var painter;
+    hidden var gui;
 
     function initialize() {
         View.initialize();
@@ -10,7 +10,7 @@ class DiscGolfView extends WatchUi.View {
 
     // Load your resources here
     function onLayout(dc) {
-        Gui.initializer(dc);
+        gui = new Gui(dc);
     }
 
     // Called when this View is brought to the foreground. Restore
@@ -23,13 +23,7 @@ class DiscGolfView extends WatchUi.View {
     function onUpdate(dc) {
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
-        Gui.backgroundColor(Gui.WHITE);
-        Gui.frontColor(Gui.BLACK);
-        Gui.topText("Hullnr");
-        Gui.drawLines();
-        Gui.scoreText();
-        Gui.totalText();
-        Gui.drawArrows();
+        gui.loadLayout();
     }
 
     // Called when this View is removed from the screen. Save the
