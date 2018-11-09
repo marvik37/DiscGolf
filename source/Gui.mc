@@ -1,11 +1,11 @@
 using Toybox.Graphics as Gfx;
 
-module Gui{
+class Gui {
 
-    var height;
-    var width;
-    var mDc;
-    var mFont = Gfx.FONT_MEDIUM;
+    hidden var height;
+    hidden var width;
+    hidden var mDc;
+    hidden var mFont = Gfx.FONT_MEDIUM;
 
     /** FONTS **/
     const LARGE_FONT = Gfx.FONT_LARGE;
@@ -22,43 +22,57 @@ module Gui{
     var UP_ARROW = [[0,10], [10,10], [5,0]];
     var DOWN_ARROW = [[0,0], [10,0], [5,10]];
 
-    function initializer(dc) {
+    function initialize(dc) {
         mDc = dc;
         height = mDc.getHeight();
         width = mDc.getWidth();
     }
 
-    function backgroundColor(color) {
+    function loadLayout(){
+        backgroundColor(WHITE);
+        frontColor(BLACK);
+        drawLines();
+        drawText();
+        drawArrows();
+    }
+
+    hidden function backgroundColor(color) {
         mDc.setColor(color, Gfx.COLOR_TRANSPARENT);
         mDc.fillRectangle(0, 0, width, height);
     }
 
-    function frontColor(color){
+    hidden function frontColor(color){
         mDc.setColor(color, Gfx.COLOR_TRANSPARENT);
     }
 
-   function topText(text) {
+    hidden function topText(text) {
        var pos = [width/2, height/7];
        mDc.drawText(pos[0], pos[1], LARGE_FONT, text, CENTER_TEXT);
    }
 
-   function drawLines() {
-       mDc.drawLine(0, height/5, width, height/5);
-       mDc.drawLine(width/2, height/5, width/2, height);
+   hidden function drawLines() {
+       mDc.drawLine(0, height/4, width, height/4);
+       mDc.drawLine(width/2, height/4, width/2, height);
    }
 
-    function scoreText() {
+    hidden function scoreText() {
         var pos = [width/4, height/3];
         mDc.drawText(pos[0], pos[1], MEDIUM_FONT, "Score:", CENTER_TEXT);
     }
 
-    function totalText() {
+    hidden function totalText() {
         var pos = [(width/4) * 3, height/3];
         mDc.drawText(pos[0], pos[1], MEDIUM_FONT, "Total", CENTER_TEXT);    
     }
 
-    function drawArrows() {
-        var pos = [(width/5)*2 , (height / 2) ];
+    hidden function drawText(){
+        topText("Hullnr");
+        scoreText();
+        totalText();
+    }
+
+    hidden function drawArrows() {
+        var pos = [(width/5)*2 , (height / 5) * 3 ];
 
         for(var i = 0; i < UP_ARROW.size(); i++){
             UP_ARROW[i][0] += pos[0];
@@ -73,6 +87,6 @@ module Gui{
         mDc.fillPolygon(UP_ARROW);
         mDc.fillPolygon(DOWN_ARROW);
     }
-
-
+    
 }
+
