@@ -3,14 +3,18 @@ using Toybox.WatchUi;
 class DiscGolfView extends WatchUi.View {
 
     hidden var gui;
+    hidden var mGame;
+    hidden var mController;
 
-    function initialize() {
+    function initialize(game, controller) {
         View.initialize();
+        mGame = game;
+        mController = controller; 
     }
 
     // Load your resources here
     function onLayout(dc) {
-        gui = new Gui(dc);
+        gui = new Gui(dc, mController);
     }
 
     // Called when this View is brought to the foreground. Restore

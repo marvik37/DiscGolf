@@ -18,4 +18,8 @@ class Game{
     function selectHole(index){
         activeHole = mCourse.getHoles()[index];
     }
+
+    function getActiveHole() {
+        return activeHole;
+    }
 }

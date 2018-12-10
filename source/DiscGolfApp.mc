@@ -3,6 +3,9 @@ using Toybox.WatchUi;
 
 class DiscGolfApp extends Application.AppBase {
 
+    hidden var game;
+    hidden var controller;
+
     function initialize() {
         AppBase.initialize();
     }
@@ -10,7 +13,8 @@ class DiscGolfApp extends Application.AppBase {
     // onStart() is called on application start up
     function onStart(state) {
         var course = new Course();
-        var game = new Game(course);
+        game = new Game(course);
+        controller = new Controller(game);
     }
 
     // onStop() is called when your application is exiting
@@ -19,7 +23,8 @@ class DiscGolfApp extends Application.AppBase {
 
     // Return the initial view of your application here
     function getInitialView() {
-        return [ new DiscGolfView(), new DiscGolfDelegate() ];
+        var view = new DiscGolfView(game, controller);
+        return [ view, new DiscGolfDelegate(view) ];
     }
 
 }

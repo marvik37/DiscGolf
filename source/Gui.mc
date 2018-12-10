@@ -2,6 +2,7 @@ using Toybox.Graphics as Gfx;
 
 class Gui {
 
+    hidden var mController;
     hidden var height;
     hidden var width;
     hidden var mDc;
@@ -22,8 +23,9 @@ class Gui {
     var UP_ARROW = [[0,10], [10,10], [5,0]];
     var DOWN_ARROW = [[0,0], [10,0], [5,10]];
 
-    function initialize(dc) {
+    function initialize(dc, controller) {
         mDc = dc;
+        mController = controller;
         height = mDc.getHeight();
         width = mDc.getWidth();
     }
@@ -66,7 +68,8 @@ class Gui {
     }
 
     hidden function drawText(){
-        topText("Hullnr");
+        var text = "Hullnr " + mController.currentHole().toString(); 
+        topText(text);
         scoreText();
         totalText();
     }
