@@ -65,121 +65,129 @@
 <entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="30" lineNum="60" pc="268436530" symbol="scoreText"/>
 <entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="30" lineNum="61" pc="268436534" symbol="scoreText"/>
 <entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="30" lineNum="62" pc="268436586" symbol="scoreText"/>
-<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="31" lineNum="65" pc="268436642" symbol="totalText"/>
-<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="31" lineNum="66" pc="268436646" symbol="totalText"/>
-<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="31" lineNum="67" pc="268436704" symbol="totalText"/>
-<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="32" lineNum="70" pc="268436760" symbol="drawText"/>
-<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="32" lineNum="71" pc="268436764" symbol="drawText"/>
-<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="32" lineNum="72" pc="268436798" symbol="drawText"/>
-<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="32" lineNum="73" pc="268436812" symbol="drawText"/>
-<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="32" lineNum="74" pc="268436824" symbol="drawText"/>
-<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="33" lineNum="77" pc="268436837" symbol="drawArrows"/>
-<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="33" lineNum="78" pc="268436841" symbol="drawArrows"/>
-<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="33" lineNum="80" pc="268436905" symbol="drawArrows"/>
-<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="33" lineNum="81" pc="268436935" symbol="drawArrows"/>
-<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="33" lineNum="82" pc="268436966" symbol="drawArrows"/>
-<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="33" lineNum="85" pc="268437016" symbol="drawArrows"/>
-<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="33" lineNum="86" pc="268437046" symbol="drawArrows"/>
-<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="33" lineNum="87" pc="268437077" symbol="drawArrows"/>
-<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="33" lineNum="90" pc="268437127" symbol="drawArrows"/>
-<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="33" lineNum="91" pc="268437153" symbol="drawArrows"/>
-<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Model\\Game.mc" id="35" lineNum="5" pc="268437180" symbol="initialize"/>
-<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Model\\Game.mc" id="35" lineNum="6" pc="268437184" symbol="initialize"/>
-<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Model\\Game.mc" id="35" lineNum="7" pc="268437194" symbol="initialize"/>
-<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Model\\Game.mc" id="36" lineNum="10" pc="268437226" symbol="playActiveHole"/>
-<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Model\\Game.mc" id="36" lineNum="11" pc="268437230" symbol="playActiveHole"/>
-<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Model\\Game.mc" id="37" lineNum="14" pc="268437251" symbol="nextHole"/>
-<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Model\\Game.mc" id="37" lineNum="15" pc="268437255" symbol="nextHole"/>
-<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Model\\Game.mc" id="38" lineNum="18" pc="268437291" symbol="selectHole"/>
-<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Model\\Game.mc" id="38" lineNum="19" pc="268437295" symbol="selectHole"/>
-<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Model\\Game.mc" id="39" lineNum="22" pc="268437324" symbol="getActiveHole"/>
-<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Model\\Game.mc" id="39" lineNum="23" pc="268437328" symbol="getActiveHole"/>
-<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="41" lineNum="8" pc="268437338" symbol="initialize"/>
-<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="41" lineNum="9" pc="268437342" symbol="initialize"/>
-<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="41" lineNum="10" pc="268437360" symbol="initialize"/>
-<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="42" lineNum="13" pc="268437371" symbol="onMenu"/>
-<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="42" lineNum="14" pc="268437375" symbol="onMenu"/>
-<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Model\\Controller.mc" id="44" lineNum="6" pc="268437379" symbol="initialize"/>
-<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Model\\Controller.mc" id="44" lineNum="7" pc="268437383" symbol="initialize"/>
-<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Model\\Controller.mc" id="45" lineNum="10" pc="268437394" symbol="currentHole"/>
-<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Model\\Controller.mc" id="45" lineNum="11" pc="268437398" symbol="currentHole"/>
-<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Model\\Controller.mc" id="45" lineNum="12" pc="268437432" symbol="currentHole"/>
-<entry filename="Rez" id="52" lineNum="20" pc="268437436" symbol="MainLayout"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="31" lineNum="65" pc="268436642" symbol="score"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="31" lineNum="66" pc="268436646" symbol="score"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="31" lineNum="67" pc="268436704" symbol="score"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="32" lineNum="70" pc="268436757" symbol="totalText"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="32" lineNum="71" pc="268436761" symbol="totalText"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="32" lineNum="72" pc="268436819" symbol="totalText"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="33" lineNum="75" pc="268436875" symbol="drawText"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="33" lineNum="76" pc="268436879" symbol="drawText"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="33" lineNum="77" pc="268436923" symbol="drawText"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="33" lineNum="78" pc="268436935" symbol="drawText"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="33" lineNum="79" pc="268436964" symbol="drawText"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="34" lineNum="82" pc="268436977" symbol="drawArrows"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="34" lineNum="83" pc="268436981" symbol="drawArrows"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="34" lineNum="85" pc="268437045" symbol="drawArrows"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="34" lineNum="86" pc="268437075" symbol="drawArrows"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="34" lineNum="87" pc="268437106" symbol="drawArrows"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="34" lineNum="90" pc="268437156" symbol="drawArrows"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="34" lineNum="91" pc="268437186" symbol="drawArrows"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="34" lineNum="92" pc="268437217" symbol="drawArrows"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="34" lineNum="95" pc="268437267" symbol="drawArrows"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Gui.mc" id="34" lineNum="96" pc="268437293" symbol="drawArrows"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Model\\Game.mc" id="36" lineNum="5" pc="268437320" symbol="initialize"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Model\\Game.mc" id="36" lineNum="6" pc="268437324" symbol="initialize"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Model\\Game.mc" id="36" lineNum="7" pc="268437334" symbol="initialize"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Model\\Game.mc" id="37" lineNum="10" pc="268437366" symbol="playActiveHole"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Model\\Game.mc" id="37" lineNum="11" pc="268437370" symbol="playActiveHole"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Model\\Game.mc" id="38" lineNum="14" pc="268437391" symbol="nextHole"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Model\\Game.mc" id="38" lineNum="15" pc="268437395" symbol="nextHole"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Model\\Game.mc" id="39" lineNum="18" pc="268437431" symbol="selectHole"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Model\\Game.mc" id="39" lineNum="19" pc="268437435" symbol="selectHole"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Model\\Game.mc" id="40" lineNum="22" pc="268437464" symbol="getActiveHole"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Model\\Game.mc" id="40" lineNum="23" pc="268437468" symbol="getActiveHole"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="42" lineNum="8" pc="268437478" symbol="initialize"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="42" lineNum="9" pc="268437482" symbol="initialize"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="42" lineNum="10" pc="268437500" symbol="initialize"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="43" lineNum="13" pc="268437511" symbol="onMenu"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="43" lineNum="14" pc="268437515" symbol="onMenu"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Model\\Controller.mc" id="45" lineNum="6" pc="268437519" symbol="initialize"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Model\\Controller.mc" id="45" lineNum="7" pc="268437523" symbol="initialize"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Model\\Controller.mc" id="46" lineNum="10" pc="268437534" symbol="currentHole"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Model\\Controller.mc" id="46" lineNum="11" pc="268437538" symbol="currentHole"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Model\\Controller.mc" id="46" lineNum="12" pc="268437572" symbol="currentHole"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Model\\Controller.mc" id="47" lineNum="15" pc="268437576" symbol="currentHoleScore"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Model\\Controller.mc" id="47" lineNum="16" pc="268437580" symbol="currentHoleScore"/>
+<entry filename="C:\\Users\\telle\\OneDrive for Business\\ConnectIQ\\Workspace\\DiscGolf\\source\\Model\\Controller.mc" id="47" lineNum="18" pc="268437608" symbol="currentHoleScore"/>
+<entry filename="Rez" id="54" lineNum="20" pc="268437636" symbol="MainLayout"/>
 </pcToLineNum>
 <symbolTable>
-<entry id="49" method="true" symbol="getIndex"/>
+<entry id="51" method="true" symbol="getIndex"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry id="31" method="true" symbol="scoreText"/>
 <entry field="true" id="25" symbol="UP_ARROW"/>
 <entry field="true" id="17" symbol="controller"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-<entry id="41" method="true" symbol="currentHole"/>
+<entry id="42" method="true" symbol="currentHole"/>
 <entry field="true" id="19" symbol="mDc"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
-<entry field="true" id="47" symbol="mScore"/>
+<entry field="true" id="49" symbol="mScore"/>
 <entry field="true" id="8389128" symbol="mFont"/>
-<entry id="53" method="true" symbol="setScore"/>
+<entry id="55" method="true" symbol="setScore"/>
 <entry id="8388639" module="true" symbol="Graphics"/>
-<entry id="45" method="true" symbol="MainLayout"/>
+<entry id="47" method="true" symbol="MainLayout"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
 <entry id="8389123" method="true" symbol="onShow"/>
 <entry id="14" object="true" symbol="DiscGolfDelegate"/>
 <entry field="true" id="8388889" symbol="mIndex"/>
 <entry id="11" object="true" symbol="DiscGolfView"/>
 <entry field="true" id="16" symbol="game"/>
-<entry id="32" method="true" symbol="totalText"/>
+<entry id="43" method="true" symbol="currentHoleScore"/>
+<entry id="33" method="true" symbol="totalText"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry field="true" id="46" symbol="AppName"/>
+<entry field="true" id="48" symbol="AppName"/>
 <entry id="8389080" method="true" symbol="onMenu"/>
 <entry field="true" id="22" symbol="CENTER_TEXT"/>
-<entry field="true" id="44" symbol="LauncherIcon"/>
+<entry field="true" id="46" symbol="LauncherIcon"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
-<entry id="37" method="true" symbol="nextHole"/>
+<entry id="38" method="true" symbol="nextHole"/>
 <entry id="9" object="true" symbol="DiscGolfApp"/>
 <entry id="8389281" method="true" symbol="onStop"/>
+<entry id="32" method="true" symbol="score"/>
 <entry field="true" id="21" symbol="MEDIUM_FONT"/>
-<entry field="true" id="56" symbol="gui"/>
+<entry field="true" id="58" symbol="gui"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
-<entry field="true" id="57" symbol="relatedView"/>
+<entry field="true" id="59" symbol="relatedView"/>
 <entry id="12" object="true" symbol="Gui"/>
-<entry field="true" id="48" symbol="mPar"/>
+<entry field="true" id="50" symbol="mPar"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
-<entry id="55" method="true" symbol="getHoles"/>
+<entry id="57" method="true" symbol="getHoles"/>
 <entry id="8389279" method="true" symbol="onStart"/>
 <entry id="8389190" method="true" symbol="drawText"/>
-<entry id="51" method="true" symbol="setPar"/>
+<entry id="53" method="true" symbol="setPar"/>
 <entry id="30" method="true" symbol="drawLines"/>
 <entry field="true" id="8389743" method="true" symbol="backgroundColor"/>
-<entry id="50" method="true" symbol="getPar"/>
+<entry id="52" method="true" symbol="getPar"/>
 <entry id="27" method="true" symbol="loadLayout"/>
 <entry id="10" object="true" symbol="Hole"/>
 <entry field="true" id="8389067" symbol="height"/>
 <entry id="8389959" object="true" symbol="Course"/>
 <entry id="13" object="true" symbol="Game"/>
-<entry id="43" module="true" symbol="Layouts"/>
+<entry id="45" module="true" symbol="Layouts"/>
 <entry field="true" id="18" symbol="mController"/>
 <entry id="15" object="true" symbol="Controller"/>
 <entry id="8389125" method="true" symbol="onHide"/>
-<entry field="true" id="34" symbol="mCourse"/>
-<entry field="true" id="54" symbol="mHoles"/>
+<entry field="true" id="35" symbol="mCourse"/>
+<entry field="true" id="56" symbol="mHoles"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
 <entry id="29" method="true" symbol="topText"/>
 <entry field="true" id="8389066" symbol="width"/>
-<entry id="39" method="true" symbol="getActiveHole"/>
+<entry id="40" method="true" symbol="getActiveHole"/>
 <entry field="true" id="26" symbol="DOWN_ARROW"/>
-<entry id="42" module="true" symbol="Menus"/>
-<entry id="33" method="true" symbol="drawArrows"/>
+<entry id="44" module="true" symbol="Menus"/>
+<entry id="34" method="true" symbol="drawArrows"/>
 <entry field="true" id="24" symbol="WHITE"/>
 <entry id="28" method="true" symbol="frontColor"/>
-<entry field="true" id="40" symbol="mGame"/>
+<entry field="true" id="41" symbol="mGame"/>
 <entry field="true" id="20" symbol="LARGE_FONT"/>
-<entry id="38" method="true" symbol="selectHole"/>
+<entry id="39" method="true" symbol="selectHole"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
-<entry id="52" method="true" symbol="getScore"/>
+<entry id="54" method="true" symbol="getScore"/>
 <entry field="true" id="23" symbol="BLACK"/>
-<entry field="true" id="35" symbol="activeHole"/>
-<entry id="36" method="true" symbol="playActiveHole"/>
+<entry field="true" id="36" symbol="activeHole"/>
+<entry id="37" method="true" symbol="playActiveHole"/>
 <entry id="8388635" module="true" symbol="Application"/>
 </symbolTable>
 <localVars>
@@ -202,18 +210,20 @@
 <entry endPc="268436397" name="pos" stackId="2" startPc="268436293"/>
 <entry endPc="268436398" name="text" stackId="1" startPc="268436289"/>
 <entry endPc="268436641" name="pos" stackId="1" startPc="268436534"/>
-<entry endPc="268436759" name="pos" stackId="1" startPc="268436646"/>
-<entry endPc="268436836" name="text" stackId="1" startPc="268436764"/>
-<entry endPc="268437016" name="i" stackId="2" startPc="268436935"/>
-<entry endPc="268437127" name="i" stackId="3" startPc="268437046"/>
-<entry endPc="268437179" name="pos" stackId="1" startPc="268436841"/>
-<entry endPc="268437226" name="course" stackId="1" startPc="268437180"/>
-<entry endPc="268437251" name="score" stackId="1" startPc="268437226"/>
-<entry endPc="268437324" name="index" stackId="1" startPc="268437291"/>
-<entry endPc="268437371" name="view" stackId="1" startPc="268437338"/>
-<entry endPc="268437394" name="game" stackId="1" startPc="268437379"/>
-<entry endPc="268437435" name="retur" stackId="1" startPc="268437398"/>
-<entry endPc="268437449" name="dc" stackId="1" startPc="268437436"/>
+<entry endPc="268436756" name="pos" stackId="2" startPc="268436646"/>
+<entry endPc="268436757" name="score" stackId="1" startPc="268436642"/>
+<entry endPc="268436874" name="pos" stackId="1" startPc="268436761"/>
+<entry endPc="268437156" name="i" stackId="2" startPc="268437075"/>
+<entry endPc="268437267" name="i" stackId="3" startPc="268437186"/>
+<entry endPc="268437319" name="pos" stackId="1" startPc="268436981"/>
+<entry endPc="268437366" name="course" stackId="1" startPc="268437320"/>
+<entry endPc="268437391" name="score" stackId="1" startPc="268437366"/>
+<entry endPc="268437464" name="index" stackId="1" startPc="268437431"/>
+<entry endPc="268437511" name="view" stackId="1" startPc="268437478"/>
+<entry endPc="268437534" name="game" stackId="1" startPc="268437519"/>
+<entry endPc="268437575" name="retur" stackId="1" startPc="268437538"/>
+<entry endPc="268437635" name="score" stackId="1" startPc="268437580"/>
+<entry endPc="268437649" name="dc" stackId="1" startPc="268437636"/>
 </localVars>
 <annotations/>
 <functions>
@@ -303,6 +313,10 @@
 <functionEntry accessMode="protected" name="scoreText" parent="Gui">
 <documentation/>
 </functionEntry>
+<functionEntry accessMode="protected" name="score" parent="Gui">
+<param id="score"/>
+<documentation/>
+</functionEntry>
 <functionEntry accessMode="protected" name="totalText" parent="Gui">
 <documentation/>
 </functionEntry>
@@ -344,6 +358,9 @@
 <functionEntry accessMode="public" name="currentHole" parent="Controller">
 <documentation/>
 </functionEntry>
+<functionEntry accessMode="public" name="currentHoleScore" parent="Controller">
+<documentation/>
+</functionEntry>
 <functionEntry accessMode="public" name="MainLayout" parent="Layouts">
 <param id="dc"/>
 <documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
@@ -353,18 +370,18 @@
 <dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
 <dataEntry offset="262" parentId="globals" symbolId="DiscGolfApp" type="class"/>
 <dataEntry offset="349" parentId="globals" symbolId="Gui" type="class"/>
-<dataEntry offset="564" parentId="globals" symbolId="Game" type="class"/>
-<dataEntry offset="659" parentId="globals" symbolId="Controller" type="class"/>
-<dataEntry offset="722" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry offset="801" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry offset="840" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry offset="871" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry offset="902" parentId="Rez" symbolId="JsonData" type="module"/>
-<dataEntry offset="933" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry offset="972" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry offset="1011" parentId="globals" symbolId="Hole" type="class"/>
-<dataEntry offset="1122" parentId="globals" symbolId="Course" type="class"/>
-<dataEntry offset="1185" parentId="globals" symbolId="DiscGolfView" type="class"/>
-<dataEntry offset="1288" parentId="globals" symbolId="DiscGolfDelegate" type="class"/>
+<dataEntry offset="572" parentId="globals" symbolId="Game" type="class"/>
+<dataEntry offset="667" parentId="globals" symbolId="Controller" type="class"/>
+<dataEntry offset="738" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="817" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="856" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="887" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="918" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="949" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="988" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="1027" parentId="globals" symbolId="Hole" type="class"/>
+<dataEntry offset="1138" parentId="globals" symbolId="Course" type="class"/>
+<dataEntry offset="1201" parentId="globals" symbolId="DiscGolfView" type="class"/>
+<dataEntry offset="1304" parentId="globals" symbolId="DiscGolfDelegate" type="class"/>
 </dataEntryOffsetMappings>
 </debugInfo>

@@ -11,4 +11,10 @@ class Controller{
         var retur = mGame.getActiveHole().getIndex() + 1;
         return retur;
     }
+
+    function currentHoleScore() {
+        var score = mGame.getActiveHole().getScore();
+
+        return score == null ? "-" : score.toString();
+    }
 }
