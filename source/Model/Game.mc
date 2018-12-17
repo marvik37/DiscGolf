@@ -8,7 +8,7 @@ class Game{
     }
 
     function playActiveHole(score){
-        activeHole.setScore(score);
+        activeHole.setThrows(score);
     }
 
     function nextHole(){
@@ -21,5 +21,16 @@ class Game{
 
     function getActiveHole() {
         return activeHole;
+    }
+
+    function totalThrows() {
+        var holes = mCourse.getHoles();
+        var throws = 0;
+        for(var i = 0; i < holes.size(); i++){
+            if(holes[i].isRegistered()){
+                throws += holes[i].getThrows();
+            }
+        }
+        return throws;
     }
 }

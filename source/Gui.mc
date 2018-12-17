@@ -67,6 +67,12 @@ class Gui {
         mDc.drawText(pos[0], pos[1], LARGE_FONT, score, CENTER_TEXT);
     }
 
+    hidden function totalThrows(throws) {
+        var pos = [(width/4) * 3, (height/3)*2];
+        mDc.drawText(pos[0], pos[1], MEDIUM_FONT, throws, CENTER_TEXT);
+        
+    }
+
     hidden function totalText() {
         var pos = [(width/4) * 3, height/3];
         mDc.drawText(pos[0], pos[1], MEDIUM_FONT, "Total", CENTER_TEXT);    
@@ -75,8 +81,9 @@ class Gui {
     hidden function drawText(){
         topText("Hullnr " + mController.currentHole().toString());
         scoreText();
-        score(mController.currentHoleScore());
+        score(mController.currentHoleThrows());
         totalText();
+        totalThrows(mController.totalThrows());
     }
 
     hidden function drawArrows() {

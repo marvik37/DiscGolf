@@ -12,9 +12,13 @@ class Controller{
         return retur;
     }
 
-    function currentHoleScore() {
-        var score = mGame.getActiveHole().getScore();
+    function currentHoleThrows() {
+        var throws = mGame.getActiveHole().getThrows();
 
-        return score == null ? "-" : score.toString();
+        return throws == null ? "-" : throws.toString();
+    }
+
+    function totalThrows() {
+        return mGame.totalThrows().toString();
     }
 }

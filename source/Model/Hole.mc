@@ -3,9 +3,16 @@ class Hole{
     hidden var mIndex;
     hidden var mScore;
     hidden var mPar = 3;
+    hidden var mThrows;
+    hidden var registered;
 
     function initialize(index){
         mIndex = index;
+        registered = false;
+    }
+
+    function isRegistered() {
+        return registered;
     }
 
     function getIndex(){
@@ -20,11 +27,16 @@ class Hole{
         mPar = par;
     }
 
-    function getScore(){
-        return mScore;
+    function score(){
+        return mThrows - mPar;
     }
 
-    function setScore(score){
-        return mScore;
+    function setThrows(throws) {
+        registered = true;
+        mThrows = throws;
+    }
+
+    function getThrows() {
+        return mThrows;
     }
 }
