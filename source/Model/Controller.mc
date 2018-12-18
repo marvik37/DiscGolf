@@ -8,8 +8,7 @@ class Controller{
     }
 
     function currentHole() {
-        var retur = mGame.getActiveHole().getIndex() + 1;
-        return retur;
+        return mGame.getActiveHole().getIndex() + 1;
     }
 
     function currentHoleThrows() {
@@ -20,5 +19,35 @@ class Controller{
 
     function totalThrows() {
         return mGame.totalThrows().toString();
+    }
+
+    function plussOne() {
+        var hole = mGame.getActiveHole();
+        var throws = hole.getThrows();
+
+        if(throws == null){
+            hole.setThrows(hole.getPar());
+            return true;
+        }
+        hole.setThrows(throws + 1);
+        return true;
+    }
+
+    function minusOne() {
+        var hole = mGame.getActiveHole();
+        var throws = hole.getThrows();
+        
+        if(throws == null){
+            hole.setThrows(hole.getPar() - 1);
+            return true;
+        }
+
+        if(throws == 1){
+            return true;
+        }
+
+        hole.setThrows(throws - 1);
+        return true;
+        
     }
 }
