@@ -1,6 +1,6 @@
-using Toybox.WatchUi;
+using Toybox.WatchUi as Ui;
 
-class DiscGolfDelegate extends WatchUi.BehaviorDelegate {
+class DiscGolfDelegate extends Ui.BehaviorDelegate {
 
     hidden var relatedView;
     hidden var mController;
@@ -11,10 +11,11 @@ class DiscGolfDelegate extends WatchUi.BehaviorDelegate {
         mController = controller;
     }
 
-    function onKeyReleased(keyEvent) {
+    function onKey(keyEvent) {
         var key = keyEvent.getKey();
+        System.println(key);
         switch(key){
-            case KEY_UP:
+            case Ui.KEY_UP:
                 mController.plussOne();
                 break;
             case KEY_DOWN:
@@ -22,6 +23,7 @@ class DiscGolfDelegate extends WatchUi.BehaviorDelegate {
                 break;
         }
         relatedView.requestUpdate();
+        return true;
     }
 
     function onMenu() {
