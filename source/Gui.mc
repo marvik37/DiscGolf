@@ -18,24 +18,36 @@ class Gui {
     /** COLORS **/
     const BLACK = Gfx.COLOR_BLACK;
     const WHITE = Gfx.COLOR_WHITE;
-
-    /** ARROWS **/
-    var UP_ARROW = [[0,10], [10,10], [5,0]];
-    var DOWN_ARROW = [[0,0], [10,0], [5,10]];
+    
 
     function initialize(dc, controller) {
         mDc = dc;
         mController = controller;
         height = mDc.getHeight();
         width = mDc.getWidth();
+       
     }
 
-    function loadLayout(){
+    function loadLayout() {
+        setColor();
+        setLayout();
+    }
+
+    function setColor() {
         backgroundColor(WHITE);
         frontColor(BLACK);
+    }
+
+    function setLayout() {
         drawLines();
+        drawArrows();   
         drawText();
-        drawArrows();
+    }
+
+    function updateText(){
+        score(mController.currentHoleThrows());
+        totalThrows(mController.totalThrows());
+        topText("Hullnr " + mController.currentHole().toString());
     }
 
     hidden function backgroundColor(color) {
@@ -44,7 +56,7 @@ class Gui {
     }
 
     hidden function frontColor(color){
-        mDc.setColor(color, Gfx.COLOR_TRANSPARENT);
+        mDc.setColor(color, WHITE);
     }
 
     hidden function topText(text) {
@@ -79,24 +91,25 @@ class Gui {
     }
 
     hidden function drawText(){
-        topText("Hullnr " + mController.currentHole().toString());
         scoreText();
-        score(mController.currentHoleThrows());
         totalText();
-        totalThrows(mController.totalThrows());
     }
 
     hidden function drawArrows() {
-        var pos = [(width/5)*2 , (height / 5) * 3 ];
+    	
+    	var UP_ARROW = [[0,20], [30,20], [15,0]];
+    	var DOWN_ARROW = [[0,0], [30,0], [15,20]];
+    	
+        var pos = [(width/3) , (height / 5) * 3 ];
 
         for(var i = 0; i < UP_ARROW.size(); i++){
             UP_ARROW[i][0] += pos[0];
-            UP_ARROW[i][1] += pos[1] - 10;
+            UP_ARROW[i][1] += pos[1] - 15;
         }
 
         for(var i = 0; i < DOWN_ARROW.size(); i++){
             DOWN_ARROW[i][0] += pos[0];
-            DOWN_ARROW[i][1] += pos[1] + 10;
+            DOWN_ARROW[i][1] += pos[1] + 15;
         }
 
         mDc.fillPolygon(UP_ARROW);

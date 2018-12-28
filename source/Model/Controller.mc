@@ -7,6 +7,10 @@ class Controller{
         mGame = game;
     }
 
+    function nextHole() {
+        mGame.nextHole();
+    }
+
     function currentHole() {
         return mGame.getActiveHole().getIndex() + 1;
     }

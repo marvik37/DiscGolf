@@ -21,9 +21,12 @@ class DiscGolfDelegate extends Ui.BehaviorDelegate {
             case KEY_DOWN:
                 mController.minusOne();
                 break;
+            case KEY_ENTER:
+                mController.nextHole();
+                break;
         }
         relatedView.requestUpdate();
-        return true;
+        return false;
     }
 
     function onMenu() {
