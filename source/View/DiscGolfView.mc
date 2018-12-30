@@ -3,12 +3,10 @@ using Toybox.WatchUi;
 class DiscGolfView extends WatchUi.View {
 
     hidden var gui;
-    hidden var mGame;
     hidden var mController;
 
-    function initialize(game, controller) {
+    function initialize( controller) {
         View.initialize();
-        mGame = game;
         mController = controller; 
     }
 

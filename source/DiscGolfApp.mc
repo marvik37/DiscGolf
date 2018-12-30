@@ -23,7 +23,7 @@ class DiscGolfApp extends Application.AppBase {
 
     // Return the initial view of your application here
     function getInitialView() {
-        var view = new DiscGolfView(game, controller);
+        var view = new DiscGolfView( controller);
         return [ view, new DiscGolfDelegate(view, controller) ];
     }
 

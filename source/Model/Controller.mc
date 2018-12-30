@@ -7,8 +7,19 @@ class Controller{
         mGame = game;
     }
 
+    function parValue() {
+        return mGame.getActiveHole().getPar().toString();
+    }
+
     function nextHole() {
-        mGame.nextHole();
+        var numberOfHoles = mGame.getCourse().getHoles().size();
+        if(currentHole() < numberOfHoles){
+            mGame.nextHole();
+        }
+        else if(currentHole() == numberOfHoles){
+            mGame.selectHole(0);
+        }
+        
     }
 
     function currentHole() {
@@ -23,6 +34,18 @@ class Controller{
 
     function totalThrows() {
         return mGame.totalThrows().toString();
+    }
+
+    function totalScore() {
+        var score = mGame.totalScore();
+        if(score == 0){
+            return "E";
+        }
+        if(score > 0){
+            return "+" + score.toString();
+        }
+
+        return score.toString();
     }
 
     function plussOne() {

@@ -1,7 +1,6 @@
 class Hole{
 
     hidden var mIndex;
-    hidden var mScore;
     hidden var mPar = 3;
     hidden var mThrows;
     hidden var registered;

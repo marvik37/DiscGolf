@@ -6,7 +6,6 @@ class Gui {
     hidden var height;
     hidden var width;
     hidden var mDc;
-    hidden var mFont = Gfx.FONT_MEDIUM;
 
     /** FONTS **/
     const LARGE_FONT = Gfx.FONT_LARGE;
@@ -46,8 +45,9 @@ class Gui {
 
     function updateText(){
         score(mController.currentHoleThrows());
-        totalThrows(mController.totalThrows());
-        topText("Hullnr " + mController.currentHole().toString());
+        totalThrows(mController.totalThrows(), mController.totalScore());
+        topText("Hole " + mController.currentHole().toString());
+        holePar(mController.parValue());
     }
 
     hidden function backgroundColor(color) {
@@ -79,20 +79,31 @@ class Gui {
         mDc.drawText(pos[0], pos[1], LARGE_FONT, score, CENTER_TEXT);
     }
 
-    hidden function totalThrows(throws) {
-        var pos = [(width/4) * 3, (height/3)*2];
-        mDc.drawText(pos[0], pos[1], MEDIUM_FONT, throws, CENTER_TEXT);
-        
+    hidden function totalThrows(throws, score) {
+        var pos = [(width/4) * 3, (height/5)*3 + Gfx.getFontHeight(MEDIUM_FONT) + 5];
+        var text = score + "(" + throws + ")";
+        mDc.drawText(pos[0], pos[1], LARGE_FONT, text, CENTER_TEXT);
     }
 
     hidden function totalText() {
-        var pos = [(width/4) * 3, height/3];
+        var pos = [(width/4) * 3, (height/5)*3];
         mDc.drawText(pos[0], pos[1], MEDIUM_FONT, "Total", CENTER_TEXT);    
+    }
+
+    hidden function parText() {
+        var pos = [(width/4) * 3, height/3];
+        mDc.drawText(pos[0], pos[1], MEDIUM_FONT, "Par", CENTER_TEXT);
+    }
+
+    hidden function holePar(par) {
+        var pos = [(width/4) * 3, (height/3) + Gfx.getFontHeight(MEDIUM_FONT)];
+        mDc.drawText(pos[0], pos[1], MEDIUM_FONT, par, CENTER_TEXT);
     }
 
     hidden function drawText(){
         scoreText();
         totalText();
+        parText();
     }
 
     hidden function drawArrows() {
