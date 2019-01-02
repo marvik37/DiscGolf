@@ -1,4 +1,7 @@
 <strings>
     <string id="AppName">DiscGolf</string>
     
+    <!--MenuLabels  -->
+    <string id="MainMenuTitle">Menu</string>
+    <string id="MenuSelectHole">Select hole</string>
 </strings>
