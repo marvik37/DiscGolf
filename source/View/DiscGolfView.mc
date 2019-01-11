@@ -1,4 +1,5 @@
 using Toybox.WatchUi;
+using Gui;
 
 class DiscGolfView extends WatchUi.View {
 
@@ -12,7 +13,7 @@ class DiscGolfView extends WatchUi.View {
 
     // Load your resources here
     function onLayout(dc) {
-        gui = new Gui(dc, mController);
+        gui = new Gui.MainGui(dc, mController);
     }
 
     // Called when this View is brought to the foreground. Restore
