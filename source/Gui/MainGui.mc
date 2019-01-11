@@ -2,6 +2,11 @@ using Toybox.Graphics as Gfx;
 
 module Gui{
 
+    function backgroundColor(color, dc) {
+        dc.setColor(color, Gfx.COLOR_TRANSPARENT);
+        dc.fillRectangle(0, 0, width, height);
+    }
+
     class MainGui {
 
         hidden var mController;
