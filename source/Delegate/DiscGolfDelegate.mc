@@ -30,7 +30,7 @@ class DiscGolfDelegate extends Ui.BehaviorDelegate {
     }
 
     function onMenu() {
-        Ui.pushView(new Rez.Menus.MainMenu(), new MainMenuDelegate(), Ui.SLIDE_UP);
+        Ui.pushView(new Rez.Menus.MainMenu(), new MainMenuDelegate(mController), Ui.SLIDE_UP);
         return true;
     }
 

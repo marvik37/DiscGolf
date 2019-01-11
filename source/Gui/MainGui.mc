@@ -22,9 +22,9 @@ module Gui{
             setLayout();
         }
 
-        function setColor() {
-            backgroundColor(WHITE);
-            frontColor(BLACK);
+        hidden function setColor() {
+            backgroundColor(WHITE, mDc);
+            frontColor(BLACK, mDc);
         }
 
         function setLayout() {
@@ -38,15 +38,6 @@ module Gui{
             totalThrows(mController.totalThrows(), mController.totalScore());
             topText("Hole " + mController.currentHole().toString());
             holePar(mController.parValue());
-        }
-
-        hidden function backgroundColor(color) {
-            mDc.setColor(color, Gfx.COLOR_TRANSPARENT);
-            mDc.fillRectangle(0, 0, width, height);
-        }
-
-        hidden function frontColor(color){
-            mDc.setColor(color, WHITE);
         }
 
         hidden function topText(text) {

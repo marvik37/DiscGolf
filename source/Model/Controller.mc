@@ -7,6 +7,10 @@ class Controller{
         mGame = game;
     }
 
+    function getGame(){
+        return mGame;
+    }
+
     function parValue() {
         return mGame.getActiveHole().getPar().toString();
     }
