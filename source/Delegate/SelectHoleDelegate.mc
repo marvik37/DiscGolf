@@ -18,15 +18,23 @@ class SelectHoleDelegate extends Ui.BehaviorDelegate{
 
         switch(key){
             case Ui.KEY_UP:
-                mController.nextHole();
+                mController.previousHole();
                 break;
             case Ui.KEY_DOWN:
-                mController.previousHole();
+                mController.nextHole();
+                break;
+            case Ui.KEY_ENTER:
+                Ui.popView(Ui.SLIDE_IMMEDIATE);
+                return false;
                 break;
         }
         relatedView.requestUpdate();
         return false;
     }
 
+    function onBack() {
+        mController.getGame().selectHole(currentHole - 1);
+        return false;
+    }
     
 }
