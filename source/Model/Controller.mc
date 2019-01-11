@@ -7,6 +7,10 @@ class Controller{
         mGame = game;
     }
 
+    function getGame(){
+        return mGame;
+    }
+
     function parValue() {
         return mGame.getActiveHole().getPar().toString();
     }
@@ -20,6 +24,17 @@ class Controller{
             mGame.selectHole(0);
         }
         
+    }
+
+    function previousHole() {
+        var numberOfHoles = mGame.getCourse().getHoles().size();
+        if(currentHole() > 1){
+            mGame.previousHole();
+        }
+        else if(currentHole() == 1){
+            mGame.selectHole(numberOfHoles - 1);
+        }
+
     }
 
     function currentHole() {

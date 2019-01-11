@@ -15,6 +15,10 @@ class Game{
         selectHole(activeHole.getIndex() + 1);
     }
 
+    function previousHole() {
+        selectHole(activeHole.getIndex() - 1);
+    }
+
     function selectHole(index){
         activeHole = mCourse.getHoles()[index];
     }
