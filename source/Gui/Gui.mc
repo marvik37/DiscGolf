@@ -42,7 +42,7 @@ module Gui {
 
 
     /** Color **/
-    function backgroundColor(color, dc) {
+    function backgroundColor(color, dc, width, height) {
         dc.setColor(color, Gfx.COLOR_TRANSPARENT);
         dc.fillRectangle(0, 0, width, height);
     }

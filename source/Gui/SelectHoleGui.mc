@@ -22,7 +22,7 @@ module Gui{
         }
 
         hidden function setColor(front, back) {
-            backgroundColor(back, mDc);
+            backgroundColor(back, mDc, width, height);
             frontColor(front, mDc);
         }
 
