@@ -12,7 +12,8 @@ class MainMenuDelegate extends Ui.MenuInputDelegate{
     function onMenuItem(item) {
         if(item == :selectHole){
             System.println("Select hole");
-            Ui.pushView(new SelectHoleView(mController), new SelectHoleDelegate(), Ui.SLIDE_UP);
+            var view = new SelectHoleView(mController);
+            Ui.pushView(view, new SelectHoleDelegate(view, mController), Ui.SLIDE_UP);
         }
     }
 }

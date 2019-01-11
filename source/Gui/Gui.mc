@@ -24,7 +24,7 @@ module Gui {
 
     /** Rows **/
     function topRow(width, height) {
-        var pos = [width/2, height/3];
+        var pos = [width/2, height/4];
         return pos;
     }
 
@@ -34,7 +34,7 @@ module Gui {
     }
 
     function bottomRow(width, height) {
-        var pos = [width/2, (height/3)*2];
+        var pos = [width/2, (height/4)*3];
         return pos;
     }
 

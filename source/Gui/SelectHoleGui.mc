@@ -18,6 +18,7 @@ module Gui{
 
         function update() {
             setColor(BLACK, WHITE);
+            drawLines();
             updateText();
         }
 
@@ -30,6 +31,11 @@ module Gui{
             topRowText();
             midRowText();
             bottomRowText();
+        }
+
+        hidden function drawLines(){
+            mDc.drawLine(0, height/3, width, height/3);
+            mDc.drawLine(0, (height/3)*2, width, (height/3)*2);
         }
 
         hidden function midRowText() {

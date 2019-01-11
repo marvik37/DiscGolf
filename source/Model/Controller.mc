@@ -26,6 +26,17 @@ class Controller{
         
     }
 
+    function previousHole() {
+        var numberOfHoles = mGame.getCourse().getHoles().size();
+        if(currentHole() > 1){
+            mGame.previousHole();
+        }
+        else if(currentHole() == 1){
+            mGame.selectHole(numberOfHoles - 1);
+        }
+
+    }
+
     function currentHole() {
         return mGame.getActiveHole().getIndex() + 1;
     }
