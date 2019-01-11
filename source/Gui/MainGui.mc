@@ -9,12 +9,13 @@ module Gui{
         hidden var width;
         hidden var mDc;
 
+        hidden var parPos = [(width/4) * 3, (height/3) + Gfx.getFontHeight(MEDIUM_FONT)];
+
         function initialize(dc, controller) {
             mDc = dc;
             mController = controller;
             height = mDc.getHeight();
             width = mDc.getWidth();
-        
         }
 
         function loadLayout() {
@@ -37,6 +38,13 @@ module Gui{
             score(mController.currentHoleThrows());
             totalThrows(mController.totalThrows(), mController.totalScore());
             topText("Hole " + mController.currentHole().toString());
+
+            //Edit par box
+            if(mController.editPar){
+                mdc.fillRectangle(parPos[0], parPos[1], 5, 5);
+                frontColor(WHITE, mDc)
+            }
+
             holePar(mController.parValue());
         }
 
@@ -77,8 +85,7 @@ module Gui{
         }
 
         hidden function holePar(par) {
-            var pos = [(width/4) * 3, (height/3) + Gfx.getFontHeight(MEDIUM_FONT)];
-            mDc.drawText(pos[0], pos[1], MEDIUM_FONT, par, CENTER_TEXT);
+            mDc.drawText(parPos[0], parPos[1], MEDIUM_FONT, par, CENTER_TEXT);
         }
 
         hidden function drawText(){

@@ -2,6 +2,8 @@
 class Controller{
 
     hidden var mGame;
+    
+    var editPar = false;
 
     function initialize(game) {
         mGame = game;
@@ -10,6 +12,8 @@ class Controller{
     function getGame(){
         return mGame;
     }
+
+    
 
     function parValue() {
         return mGame.getActiveHole().getPar().toString();
