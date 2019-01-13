@@ -1,4 +1,3 @@
 <menu id="MainMenu" title="@Strings.MainMenuTitle">
     <menu-item id="selectHole">@Strings.MenuSelectHole</menu-item>
-    <menu-item id="changePar">@Strings.MenuPar</menu-item>
 </menu>

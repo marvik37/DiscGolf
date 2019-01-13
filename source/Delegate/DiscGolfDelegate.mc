@@ -14,16 +14,6 @@ class DiscGolfDelegate extends Ui.BehaviorDelegate {
     function onKey(keyEvent) {
         var key = keyEvent.getKey();
         System.println(key);
-        
-        if(mController.editPar){
-            return editPar(key);
-        }
-        else{
-            return setThrows(key);
-        }
-    }
-
-    hidden function setThrows(key) {
         switch(key){
             case Ui.KEY_UP:
                 mController.plussOne();
@@ -37,25 +27,6 @@ class DiscGolfDelegate extends Ui.BehaviorDelegate {
         }
         relatedView.requestUpdate();
         return false;
-    }
-
-    hidden function editPar(key) {
-        switch(key){
-            case Ui.KEY_UP:
-                mController.parPluss();
-                break;
-            case Ui.KEY_DOWN:
-                mController.parMinus();
-                break;
-            case Ui.KEY_ENTER:
-                mController.editPar = false;
-                break;
-            case Ui.KEY_ESC:
-                mController.editPar = false;
-                break;
-        }
-        relatedView.requestUpdate();
-        return true;
     }
 
     function onMenu() {
