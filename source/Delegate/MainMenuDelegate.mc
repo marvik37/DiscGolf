@@ -18,7 +18,6 @@ class MainMenuDelegate extends Ui.MenuInputDelegate{
 
         if(item == :changePar){
             mController.editPar = true;
-            Ui.popView(Ui.SLIDE_IMMEDIATE);
         }
     }
 }

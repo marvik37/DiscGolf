@@ -13,7 +13,21 @@ class Controller{
         return mGame;
     }
 
+    function parPluss() {
+        var hole = mGame.getActiveHole();
+        var par = hole.getPar();
+        hole.setPar(par + 1);
+    }
+
+    function parMinus() {
+        var hole = mGame.getActiveHole();
+        var par = hole.getPar();
+
+        if(par > 1){
+            hole.setPar(par - 1);
+        }
     
+    }
 
     function parValue() {
         return mGame.getActiveHole().getPar().toString();

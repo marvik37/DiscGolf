@@ -2,8 +2,8 @@ class Course{
 
     hidden var mHoles;
 
-    function initialize(){
-        mHoles = new [18];
+    function initialize(numberOfHoles){
+        mHoles = new [numberOfHoles];
         for(var i = 0; i < mHoles.size(); i++){
             mHoles[i] = new Hole(i);
         }
