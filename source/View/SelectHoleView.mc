@@ -1,13 +1,18 @@
 using Toybox.WatchUi as Ui;
 
 class SelectHoleView extends Ui.View{
+    
+    hidden var gui;
+    hidden var mController;
 
-    function initialize() {
+    function initialize(controller) {
         View.initialize();
+        mController = controller;
     }
 
     // Load your resources here
     function onLayout(dc) {
+        gui = new Gui.SelectHoleGui(dc, mController);
     }
 
     // Called when this View is brought to the foreground. Restore
@@ -19,7 +24,8 @@ class SelectHoleView extends Ui.View{
     // Update the view
     function onUpdate(dc) {
         // Call the parent onUpdate function to redraw the layout
-        
+        View.onUpdate(dc);
+        gui.update();
     }
 
     // Called when this View is removed from the screen. Save the
