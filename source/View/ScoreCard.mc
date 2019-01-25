@@ -7,7 +7,7 @@ class ScoreCardView extends Ui.View{
     hidden var mController;
 
     function initialize(controller) {
-        View.initialize()
+        View.initialize();
         mController = controller;
     }
 
