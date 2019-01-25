@@ -116,6 +116,6 @@ class Controller{
         for(var i = 0; i < holes.size(); i++){
             holes[i].restart();
         }
-        mGame.firstNotRegisterdHole();
+        mGame.selectHole(0);
     }
 }
