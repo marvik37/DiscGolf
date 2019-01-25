@@ -116,7 +116,7 @@ class Controller{
     function save() {
         var app = App.getApp();
 
-        var holes = game.getCourse().getHoles();
+        var holes = mGame.getCourse().getHoles();
         var state = new [holes.size()];
         for(var i = 0; i < holes.size(); i++){
             if(holes[i].isRegistered()){
