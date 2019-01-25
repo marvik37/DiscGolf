@@ -48,6 +48,6 @@ module Gui {
     }
 
     function frontColor(color, dc){
-        dc.setColor(color, WHITE);
+        dc.setColor(color, Gfx.COLOR_TRANSPARENT);
     }
 }

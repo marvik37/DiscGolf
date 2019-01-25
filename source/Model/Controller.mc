@@ -1,9 +1,9 @@
 
-using Toybox.Application as App;
-
 class Controller{
 
     hidden var mGame;
+    
+    var editPar = false;
 
     function initialize(game) {
         mGame = game;
@@ -11,6 +11,22 @@ class Controller{
 
     function getGame(){
         return mGame;
+    }
+
+    function parPluss() {
+        var hole = mGame.getActiveHole();
+        var par = hole.getPar();
+        hole.setPar(par + 1);
+    }
+
+    function parMinus() {
+        var hole = mGame.getActiveHole();
+        var par = hole.getPar();
+
+        if(par > 1){
+            hole.setPar(par - 1);
+        }
+    
     }
 
     function parValue() {
@@ -93,29 +109,5 @@ class Controller{
         hole.setThrows(throws - 1);
         return true;
         
-    }
-
-    function save() {
-        var app = App.getApp();
-
-        var holes = mGame.getCourse().getHoles();
-        var state = new [holes.size()];
-        for(var i = 0; i < holes.size(); i++){
-            if(holes[i].isRegistered()){
-                state[i] = holes[i].getThrows();
-            }else{
-                state[i] = 0;
-            }
-        }
-
-        app.setProperty("CurrentGame", state);
-    }
-
-    function newGame() {
-        var holes = mGame.getCourse().getHoles();
-        for(var i = 0; i < holes.size(); i++){
-            holes[i].restart();
-        }
-        mGame.selectHole(0);
     }
 }

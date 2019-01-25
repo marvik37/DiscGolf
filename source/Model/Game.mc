@@ -4,17 +4,7 @@ class Game{
 
     function initialize(course){
         mCourse = course;
-        activeHole = firstNotRegisterdHole();
-    }
-
-    function firstNotRegisterdHole() {
-        var holes = mCourse.getHoles();
-        for(var i = 0; i < holes.size(); i++){
-            if(!holes[i].isRegistered()){
-                return holes[i];
-                break;
-            }
-        }
+        activeHole = mCourse.getHoles()[0];
     }
 
     function playActiveHole(score){
