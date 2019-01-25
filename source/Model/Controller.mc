@@ -110,4 +110,12 @@ class Controller{
 
         app.setProperty("CurrentGame", state);
     }
+
+    function newGame() {
+        var holes = mGame.getCourse().getHoles();
+        for(var i = 0; i < holes.size(); i++){
+            holes[i].restart();
+        }
+        mGame.firstNotRegisteredHole();
+    }
 }
