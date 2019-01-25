@@ -2,4 +2,5 @@
     <menu-item id="selectHole">@Strings.MenuSelectHole</menu-item>
     <menu-item id="changePar">@Strings.MenuPar</menu-item>
     <menu-item id="newGame">@Strings.MenuNewGame</menu-item>
+    <menu-item id="scorecard">@Strings.MenuScorecard</menu-item>
 </menu>
