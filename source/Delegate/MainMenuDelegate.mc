@@ -14,10 +14,8 @@ class MainMenuDelegate extends Ui.MenuInputDelegate{
             System.println("Select hole");
             var view = new SelectHoleView(mController);
             Ui.switchToView(view, new SelectHoleDelegate(view, mController), Ui.SLIDE_UP);
-        }
-
-        if(item == :changePar){
-            mController.editPar = true;
+        }else if(item == :newGame){
+            mController.newGame();
         }
     }
 }

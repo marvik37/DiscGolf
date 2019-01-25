@@ -10,6 +10,11 @@ class Hole{
         registered = false;
     }
 
+    function restart(){
+        registered = false;
+        mThrows = null;
+    }
+
     function isRegistered() {
         return registered;
     }
