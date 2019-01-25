@@ -1,4 +1,6 @@
 
+using Toybox.Application as App;
+
 class Controller{
 
     hidden var mGame;
@@ -109,5 +111,21 @@ class Controller{
         hole.setThrows(throws - 1);
         return true;
         
+    }
+
+    function save() {
+        var app = App.getApp();
+
+        var holes = game.getCourse().getHoles();
+        var state = new [holes.size()];
+        for(var i = 0; i < holes.size(); i++){
+            if(holes[i].isRegistered()){
+                state[i] = holes.getThrows();
+            }else{
+                state[i] = 0;
+            }
+        }
+
+        app.setProperty("CurrentGame", state);
     }
 }
