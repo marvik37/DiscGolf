@@ -5,4 +5,5 @@
     <string id="MainMenuTitle">Menu</string>
     <string id="MenuSelectHole">Select hole</string>
     <string id="MenuPar">Edit Par</string>
+    <string id="MenuNewGame">New game</string>
 </strings>
