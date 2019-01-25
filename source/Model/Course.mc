@@ -16,8 +16,8 @@ class Course{
         mHoles = new [state.size()];
         for(var i = 0; i < mHoles.size(); i++){
             var hole = new Hole(i);
-            if(state[i].isRegistered()){
-                hole.setThrows(state[i].getThrows());
+            if(state[i] != 0){
+                hole.setThrows(state[i]);
                 mHoles[i] = hole;
             }
         }
