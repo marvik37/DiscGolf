@@ -11,7 +11,7 @@ class Game{
         var holes = mCourse.getHoles();
         for(var i = 0; i < holes.size(); i++){
             if(!holes[i].isRegistered()){
-                activeHole = holes[i];
+                return holes[i];
                 break;
             }
         }
