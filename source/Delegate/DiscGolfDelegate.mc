@@ -34,4 +34,9 @@ class DiscGolfDelegate extends Ui.BehaviorDelegate {
         return true;
     }
 
+    function onBack() {
+        mController.save();
+        return false;
+    }
+
 }
