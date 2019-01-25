@@ -12,7 +12,7 @@ class ScoreCardView extends Ui.View{
     }
 
     function onLayout(dc) {
-        gui = Gui.ScoreCardGui(dc, mController); 
+        gui = new Gui.ScoreCardGui(dc, mController); 
     }
 
 
