@@ -120,7 +120,7 @@ class Controller{
         var state = new [holes.size()];
         for(var i = 0; i < holes.size(); i++){
             if(holes[i].isRegistered()){
-                state[i] = holes.getThrows();
+                state[i] = holes[i].getThrows();
             }else{
                 state[i] = 0;
             }
