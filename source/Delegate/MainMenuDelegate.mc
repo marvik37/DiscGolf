@@ -16,6 +16,9 @@ class MainMenuDelegate extends Ui.MenuInputDelegate{
             Ui.switchToView(view, new SelectHoleDelegate(view, mController), Ui.SLIDE_UP);
         }else if(item == :newGame){
             mController.newGame();
+        }else if(item == :scorecard){
+            var view = new ScoreCardView(mController);
+            Ui.switchToView(view, new ScoreCardDelegate(view, mController), Ui.SLIDE_UP);
         }
     }
 }
