@@ -31,7 +31,17 @@ module Gui{
         }
 
 
-        function drawTable() {
+        function update() {
+            setColor();
+            drawTable();
+        }
+
+        hidden function setColor() {
+            backgroundColor(WHITE, mDc, width, height);
+            frontColor(BLACK, mDc);
+        }
+
+        hidden function drawTable() {
 
             mDc.drawLine(left, top, width, top);
             mDc.drawLine(left, middle, width, middle);
