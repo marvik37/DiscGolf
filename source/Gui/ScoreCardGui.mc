@@ -11,9 +11,9 @@ module Gui{
 
         hidden const columnWidth = 10;
 
-        hidden var top = height / 4;
-        hidden var middle = height / 2;
-        hidden var bottom = (height/4) * 3;
+        hidden var top;
+        hidden var middle; 
+        hidden var bottom;
 
         hidden var left = 20;
         
@@ -23,6 +23,10 @@ module Gui{
             mController = controller;
             height = mDc.getHeight();
             width = mDc.getWidth();
+
+            top = height / 4;
+            middle = height / 2;
+            bottom = (height/4) * 3;
         
         }
 
