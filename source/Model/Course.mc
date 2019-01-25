@@ -19,6 +19,8 @@ class Course{
             if(state[i] != 0){
                 hole.setThrows(state[i]);
                 mHoles[i] = hole;
+            }else{
+                mHoles[i] = hole;
             }
         }
     }
