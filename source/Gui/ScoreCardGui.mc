@@ -59,9 +59,17 @@ module Gui{
         }
 
         hidden function drawScore() {
+
+            var holes = mController.getGame().getCourse().getHoles();
             var x = left + (columnWidth/2);
             for(var i = 0; i < 9; i++){
-                mDc.drawText(x, top - ((top - middle) / 2), MEDIUM_FONT, mController.currentHoleThrows(), CENTER_TEXT);
+                mDc.drawText(x, top - ((top - middle) / 2), MEDIUM_FONT, holes[i].getThrows(), CENTER_TEXT);
+                x += columnWidth;
+            }
+
+            x = left + (columnWidth/2);
+            for(var i = 9; i < holes.size(); i++){
+                mDc.drawText(x, top - ((middle - bottom) / 2), MEDIUM_FONT, holes[i].getThrows(),CENTER_TEXT);
                 x += columnWidth;
             }
         }
