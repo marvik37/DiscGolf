@@ -88,7 +88,7 @@ module Gui{
 
             x = left + (columnWidth/2);
             for(var i = 0; i < 9; i++){
-                drawBottomLine(throws(holes[i]));
+                drawBottomLine(throws(holes[i]), x);
                 x += columnWidth;
             }
         }
@@ -104,7 +104,7 @@ module Gui{
 
             x = left + (columnWidth/2);
             for(var i = 9; i < holes.size(); i++){
-                drawBottomLine(throws(holes[i]));
+                drawBottomLine(throws(holes[i]), x);
                 x += columnWidth;
             }
 
