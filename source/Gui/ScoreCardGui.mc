@@ -79,13 +79,13 @@ module Gui{
 
         }
 
-        hidden function title(text) {
+        hidden function titleText(text) {
             mDc.drawText(mDc.getWidth()/2, title, LARGE_FONT, "Hole 1-9", CENTER_TEXT);
         }
 
         hidden function drawScoreFront9() {
             
-            title("Hole 1-9");
+            titleText("Hole 1-9");
 
             var holes = mController.getGame().getCourse().getHoles();
             var x = left + (columnWidth/2);
@@ -104,7 +104,7 @@ module Gui{
 
         hidden function drawScoreBack9(){
             
-            title("Hole 10-18");
+            titleText("Hole 10-18");
 
             var holes = mController.getGame().getCourse().getHoles();
             var x = left + (columnWidth/2);
