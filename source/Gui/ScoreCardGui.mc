@@ -29,7 +29,7 @@ module Gui{
             middle = height / 2;
             bottom = (height/4) * 3;
 
-            left = 20;
+            left = (mDc.getWitdt() - (columnWidth*9)) / 2;
             right = left + columnWidth * 9;
         }
 
@@ -73,7 +73,7 @@ module Gui{
 
             x = left + (columnWidth/2);
             for(var i = 9; i < holes.size(); i++){
-                mDc.drawText(x, middle - ((middle - bottom) / 2), MEDIUM_FONT, holes[i].getThrows(),CENTER_TEXT);
+                mDc.drawText(x, middle - ((middle - bottom) / 2), MEDIUM_FONT, throws(holes[i]),CENTER_TEXT);
                 x += columnWidth;
             }
         }
