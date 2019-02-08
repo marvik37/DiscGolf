@@ -59,10 +59,10 @@ module Gui{
         }
 
         hidden function drawScore() {
-            var x = left;
+            var x = left + (columnWidth/2);
             for(var i = 0; i < 9; i++){
                 mDc.drawText(x, top - ((top - middle) / 2), MEDIUM_FONT, mController.currentHoleThrows(), CENTER_TEXT);
-                x += 10;
+                x += columnWidth;
             }
         }
     }
