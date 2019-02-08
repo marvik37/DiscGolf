@@ -60,7 +60,7 @@ module Gui{
         hidden function drawScore() {
             var x = left;
             for(var i = 0; i < 9; i++){
-                mDc.draText(x, top - (top - bottom) / 2, mController.currentHoleThrows(), CENTER_TEXT);
+                mDc.drawText(x, top - (top - bottom) / 2, mController.currentHoleThrows(), CENTER_TEXT);
                 x += 3;
             }
         }
