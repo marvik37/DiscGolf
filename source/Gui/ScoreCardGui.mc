@@ -80,7 +80,7 @@ module Gui{
         }
 
         hidden function titleText(text) {
-            mDc.drawText(mDc.getWidth()/2, title, LARGE_FONT, "Hole 1-9", CENTER_TEXT);
+            mDc.drawText(mDc.getWidth()/2, title, LARGE_FONT, text, CENTER_TEXT);
         }
 
         hidden function drawScoreFront9() {
