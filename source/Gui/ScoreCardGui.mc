@@ -128,13 +128,13 @@ module Gui{
 
         hidden function color(hole, x) {
             if(hole.getThrows() < hole.getPar()){
-                frontColor(GREEN);
+                frontColor(GREEN, mDc);
                 fillRectangle(x, middle, columnWidth, columnHeight);
             }else if(hole.getThrows() > hole.getPar()){
-                frontColor(RED);
+                frontColor(RED, mDc);
                 fillRectangle(x,middle, columnWidth, columnHeight);
             }
-            frontColor(BLACK);
+            frontColor(BLACK, mDc);
         }
     }
 
