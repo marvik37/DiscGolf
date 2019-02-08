@@ -5,7 +5,7 @@ module Gui {
     /** FONTS **/
     const LARGE_FONT = Gfx.FONT_LARGE;
     const MEDIUM_FONT = Gfx.FONT_MEDIUM;
-
+    const SMALL_FONT = Gfx.FONT_SMALL;
 
 
 

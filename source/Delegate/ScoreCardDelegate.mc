@@ -10,4 +10,19 @@ class ScoreCardDelegate extends Ui.BehaviorDelegate{
         relatedView = view;
         mController = controller;
     }
+
+    function onKey(keyEvent) {
+        var key = keyEvent.getKey();
+
+        switch(key){
+            case Ui.KEY_UP:
+                relatedView.shiftScoreCard();
+                break;
+            case Ui.KEY_DOWN:
+                relatedView.shiftScoreCard();
+                break;
+        }
+        relatedView.requestUpdate();
+        return false;
+    }
 }

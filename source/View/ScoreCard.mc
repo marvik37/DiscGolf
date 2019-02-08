@@ -5,6 +5,7 @@ class ScoreCardView extends Ui.View{
 
     hidden var gui;
     hidden var mController;
+    hidden var front = true;
 
     function initialize(controller) {
         View.initialize();
@@ -26,8 +27,16 @@ class ScoreCardView extends Ui.View{
     function onUpdate(dc) {
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
-        gui.update();
+        gui.update(front);
         return true;
+    }
+
+    function shiftScoreCard() {
+        if(front){
+            front = false;
+        }else{
+            front = true;
+        }
     }
 
     // Called when this View is removed from the screen. Save the

@@ -34,10 +34,15 @@ module Gui{
         }
 
 
-        function update() {
+        function update(front) {
             setColor();
             drawTable();
-            drawScore();
+            if(front){
+                drawScoreFront9();
+            }else{
+                drawScoreBack9();
+            }
+            
         }
 
         hidden function setColor() {
@@ -62,20 +67,47 @@ module Gui{
             return hole.getThrows() == null ? "-" : hole.getThrows();
         }
 
-        hidden function drawScore() {
+        hidden function drawTopLine(text, x){
+            mDc.drawText(x, top - ((top - middle) / 2), SMALL_FONT, text, CENTER_TEXT);
+        }
+
+        hidden function drawBottomLine(text, x) {
+            mDc.drawText(x, middle - ((middle - bottom) / 2), MEDIUM_FONT, text,CENTER_TEXT);
+
+        }
+
+        hidden function drawScoreFront9() {
 
             var holes = mController.getGame().getCourse().getHoles();
             var x = left + (columnWidth/2);
+
+            for(var i = 1; i <= 9; i++){
+                drawTopLine(i, x);
+                x += columnWidth;
+            }
+
+            x = left + (columnWidth/2);
             for(var i = 0; i < 9; i++){
-                mDc.drawText(x, top - ((top - middle) / 2), MEDIUM_FONT, throws(holes[i]), CENTER_TEXT);
+                drawBottomLine(throws(holes[i]));
+                x += columnWidth;
+            }
+        }
+
+        hidden function drawScoreBack9(){
+            var holes = mController.getGame().getCourse().getHoles();
+            var x = left + (columnWidth/2);
+
+            for(var i = 10; i <= 18; i++){
+                drawTopLine(i, x);
                 x += columnWidth;
             }
 
             x = left + (columnWidth/2);
             for(var i = 9; i < holes.size(); i++){
-                mDc.drawText(x, middle - ((middle - bottom) / 2), MEDIUM_FONT, throws(holes[i]),CENTER_TEXT);
+                drawBottomLine(throws(holes[i]));
                 x += columnWidth;
             }
+
         }
     }
 
