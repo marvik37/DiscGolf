@@ -10,6 +10,7 @@ module Gui{
         hidden var mDc;
 
         hidden const columnWidth = 18;
+        hidden var columnHeight;
 
         hidden var title;
         hidden var top;
@@ -31,6 +32,8 @@ module Gui{
             top = height / 4;
             middle = height / 2;
             bottom = (height/4) * 3;
+
+            columnHeight = middle - top;
 
             left = (mDc.getWidth() - (columnWidth*9)) / 2;
             right = left + columnWidth * 9;
@@ -97,6 +100,7 @@ module Gui{
 
             x = left + (columnWidth/2);
             for(var i = 0; i < 9; i++){
+                color(holes[i], x);
                 drawBottomLine(throws(holes[i]), x);
                 x += columnWidth;
             }
@@ -120,6 +124,17 @@ module Gui{
                 x += columnWidth;
             }
 
+        }
+
+        hidden function color(hole, x) {
+            if(hole.getThrows() < hole.getPar()){
+                frontColor(GREEN);
+                fillRectangle(x, middle, columnWidth, columnHeight);
+            }else if(hole.getThrows() > hole.getPar()){
+                frontColor(RED);
+                fillRectangle(x,middle, columnWidth, columnHeight);
+            }
+            frontColor(BLACK);
         }
     }
 

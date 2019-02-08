@@ -18,7 +18,8 @@ module Gui {
     /** COLORS **/
     const BLACK = Gfx.COLOR_BLACK;
     const WHITE = Gfx.COLOR_WHITE;
-
+    const GREEN = Gfx.COLOR_GREEN;
+    const RED = Gfx.COLOR_RED;
 
 
 
