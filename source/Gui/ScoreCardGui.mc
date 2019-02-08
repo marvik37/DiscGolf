@@ -37,6 +37,7 @@ module Gui{
         function update() {
             setColor();
             drawTable();
+            drawScore();
         }
 
         hidden function setColor() {
