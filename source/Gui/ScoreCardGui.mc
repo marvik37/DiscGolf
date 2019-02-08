@@ -29,7 +29,7 @@ module Gui{
             middle = height / 2;
             bottom = (height/4) * 3;
 
-            left = (mDc.getWitdt() - (columnWidth*9)) / 2;
+            left = (mDc.getWitdth() - (columnWidth*9)) / 2;
             right = left + columnWidth * 9;
         }
 
