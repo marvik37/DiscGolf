@@ -9,13 +9,14 @@ module Gui{
         hidden var width;
         hidden var mDc;
 
-        hidden const columnWidth = 10;
+        hidden const columnWidth = 18;
 
         hidden var top;
         hidden var middle; 
         hidden var bottom;
 
-        hidden var left = 20;
+        hidden var left;
+        hidden var right;
         
 
         function initialize(dc, controller) {
@@ -27,7 +28,9 @@ module Gui{
             top = height / 4;
             middle = height / 2;
             bottom = (height/4) * 3;
-        
+
+            left = 20;
+            right = left + columnWidth * 9;
         }
 
 
@@ -43,9 +46,9 @@ module Gui{
 
         hidden function drawTable() {
 
-            mDc.drawLine(left, top, width, top);
-            mDc.drawLine(left, middle, width, middle);
-            mDc.drawLine(left, bottom, width, bottom);
+            mDc.drawLine(left, top, right, top);
+            mDc.drawLine(left, middle, right, middle);
+            mDc.drawLine(left, bottom, right, bottom);
 
             var x = left;
             for(var i = 0; i < 10; i++){
