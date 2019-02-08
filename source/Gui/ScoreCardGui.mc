@@ -11,6 +11,7 @@ module Gui{
 
         hidden const columnWidth = 18;
 
+        hidden var title;
         hidden var top;
         hidden var middle; 
         hidden var bottom;
@@ -24,6 +25,8 @@ module Gui{
             mController = controller;
             height = mDc.getHeight();
             width = mDc.getWidth();
+
+            title = height / 8;
 
             top = height / 4;
             middle = height / 2;
@@ -76,7 +79,13 @@ module Gui{
 
         }
 
+        hidden function title(text) {
+            mDc.drawText(mDc.getWidth()/2, title, LARGE_FONT, "Hole 1-9", CENTER_TEXT);
+        }
+
         hidden function drawScoreFront9() {
+            
+            title("Hole 1-9");
 
             var holes = mController.getGame().getCourse().getHoles();
             var x = left + (columnWidth/2);
@@ -94,6 +103,9 @@ module Gui{
         }
 
         hidden function drawScoreBack9(){
+            
+            title("Hole 10-18");
+
             var holes = mController.getGame().getCourse().getHoles();
             var x = left + (columnWidth/2);
 
