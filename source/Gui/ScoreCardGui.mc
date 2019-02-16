@@ -127,12 +127,16 @@ module Gui{
         }
 
         hidden function color(hole, x) {
+            if (hole.getThrows() == null){
+                return;
+            }
+            x = x - (columnWidth/2);
             if(hole.getThrows() < hole.getPar()){
                 frontColor(GREEN, mDc);
-                fillRectangle(x, middle, columnWidth, columnHeight);
+                mDc.fillRectangle(x, middle, columnWidth, columnHeight);
             }else if(hole.getThrows() > hole.getPar()){
                 frontColor(RED, mDc);
-                fillRectangle(x,middle, columnWidth, columnHeight);
+                mDc.fillRectangle(x,middle, columnWidth, columnHeight);
             }
             frontColor(BLACK, mDc);
         }

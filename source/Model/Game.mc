@@ -15,6 +15,7 @@ class Game{
                 break;
             }
         }
+        return holes[0];
     }
 
     function playActiveHole(score){
