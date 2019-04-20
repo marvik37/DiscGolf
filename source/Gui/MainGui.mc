@@ -36,10 +36,17 @@ module Gui{
         }
 
         function updateText(){
+            time();
             score(mController.currentHoleThrows());
             totalThrows(mController.totalThrows(), mController.totalScore());
             topText("Hole " + mController.currentHole().toString());
             parValue();
+        }
+
+        hidden function time() {
+            var pos = [width/2, height/20];
+            var time = new Time();
+            mDc.drawText(pos[0], pos[1], SMALL_FONT, time.now(), CENTER_TEXT);
         }
 
         hidden function parValue() {
@@ -56,7 +63,7 @@ module Gui{
         }
 
         hidden function topText(text) {
-            var pos = [width/2, height/7];
+            var pos = [width/2, height/6];
             mDc.drawText(pos[0], pos[1], LARGE_FONT, text, CENTER_TEXT);
         }
 
