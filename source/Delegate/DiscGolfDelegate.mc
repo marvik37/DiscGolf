@@ -23,6 +23,11 @@ class DiscGolfDelegate extends Ui.BehaviorDelegate {
         }
     }
 
+    function onTap(keyEvent) {
+        var coordinates = keyEvent.getCoordinates;
+        
+    }
+
     hidden function setThrows(key) {
         switch(key){
             case Ui.KEY_UP:

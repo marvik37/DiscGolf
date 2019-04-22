@@ -2,6 +2,10 @@ using Toybox.Graphics as Gfx;
 
 module Gui {
 
+    enum{
+            Forerunner235, Vivoactive
+        }
+
     /** FONTS **/
     const LARGE_FONT = Gfx.FONT_LARGE;
     const MEDIUM_FONT = Gfx.FONT_MEDIUM;
