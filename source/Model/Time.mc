@@ -1,6 +1,5 @@
 
-using Toybox.Time;
-using Toybox.Time.Gregorian;
+using Toybox.System;
 
 class Time{
 
@@ -8,17 +7,8 @@ class Time{
     hidden var minutes;
     hidden var time;
 
-    hidden var format = Time.FORMAT_MEDIUM;
 
     function initialize() {
-        var moment = new Time.Moment(Time.now().value());
-        time = Gregorian.info(moment, format);
-        minutes = time.min;
-        hour = time.hour;
-    }
-
-
-    function now() {
-        return hour + ":" + minutes;
-    }
-}
+        time = System.getClockTime(); // ClockTime object
+        hour = time.hour.format("%02d");
+        minutes = time.min.format("%02d");
