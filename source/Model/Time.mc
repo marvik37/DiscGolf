@@ -12,3 +12,5 @@ class Time{
         time = System.getClockTime(); // ClockTime object
         hour = time.hour.format("%02d");
         minutes = time.min.format("%02d");
+    }
+}
