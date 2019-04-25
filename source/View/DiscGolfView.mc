@@ -1,9 +1,11 @@
 using Toybox.WatchUi;
+using Toybox.System as Sys;
 using Gui;
 
 class DiscGolfView extends WatchUi.View {
 
-    hidden var gui;
+    var gui;
+    
     hidden var mController;
 
     function initialize( controller) {

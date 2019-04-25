@@ -1,6 +1,7 @@
 
 using Toybox.System;
 using Toybox.WatchUi as Ui;
+using Toybox.Timer;
 
 
 class Time{
@@ -13,15 +14,21 @@ class Time{
 
 
     function initialize() {
-        time = System.getClockTime(); // ClockTime object
-        hour = time.hour.format("%02d");
-        minutes = time.min.format("%02d");
-
+        getTime();
         timer = new Timer.Timer();
-        timer.start(method(:update), 60000 - (time.sec * 1000), false);
-
     }
 
+    function start() {
+    	getTime();
+        timer.start(method(:update), 60000 - (time.sec * 1000), false);
+    }
+	
+	hidden function getTime(){
+		time = System.getClockTime();
+		hour = time.hour.format("%02d");
+        minutes = time.min.format("%02d");
+	}
+	
     function now() {
         return hour + ":" + minutes;
     }

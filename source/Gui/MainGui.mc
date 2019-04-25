@@ -1,5 +1,8 @@
 using Toybox.Graphics as Gfx;
 using Toybox.System as Sys;
+using Toybox.Application as App;
+
+
 
 
 module Gui{
@@ -15,7 +18,8 @@ module Gui{
         hidden var parPos;
         hidden var totalPos;
 
-        
+        hidden var time;
+
 
         function initialize(dc, controller) {
             mDc = dc;
@@ -26,6 +30,7 @@ module Gui{
             version = getVersion();
             setParPos(version);
             setTotalPos();
+            time = App.getApp().time;
         }
 
         hidden function setTotalPos() {
@@ -71,16 +76,16 @@ module Gui{
         }
 
         function updateText(){
-            time();
+            drawTime();
             score(mController.currentHoleThrows());
             totalThrows(mController.totalThrows(), mController.totalScore());
             topText("Hole " + mController.currentHole().toString());
             parValue();
         }
 
-        hidden function time() {
+        hidden function drawTime() {
             var pos = [width/2, height/20];
-            var time = new Time();
+            time.start();
             mDc.drawText(pos[0], pos[1], SMALL_FONT, time.now(), CENTER_TEXT);
         }
 
@@ -179,8 +184,10 @@ module Gui{
                 DOWN_ARROW[i][1] += pos[1] + 15;
             }
 
-            mDc.drawRectangle(width/3 - 10, (height/5) *3 + 10, 50, 50);
-            mDc.drawRectangle(width/3 - 10, (height/5) *3 -40, 50, 50);
+//            var tapBox = tapBoxUp();
+//            var tapBox2 = tapBoxDown();
+//            mDc.drawRectangle(tapBox[0], tapBox[1], 50, 50);
+//            mDc.drawRectangle(tapBox2[0], tapBox2[1], 50, 50);
 
 
             mDc.fillPolygon(UP_ARROW);

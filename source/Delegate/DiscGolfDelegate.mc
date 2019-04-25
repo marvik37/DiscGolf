@@ -24,8 +24,16 @@ class DiscGolfDelegate extends Ui.BehaviorDelegate {
     }
 
     function onTap(keyEvent) {
-        var coordinates = keyEvent.getCoordinates;
-        
+        var coordinates = keyEvent.getCoordinates();
+        var tapUp = Gui.tapBoxUp();
+        var tapDown = Gui.tapBoxDown();
+
+        if(coordinates[0] > tapUp[0] && coordinates[0] < tapUp[0] + Gui.TAP_BOX_WIDTH
+        && coordinates[1] > tapUp[1] && coordinates[1] < tapUp[1] + Gui.TAP_BOX_HEIGHT){
+            mController.plussOne();
+            relatedView.requestUpdate();
+        }
+        return false;
     }
 
     hidden function setThrows(key) {
