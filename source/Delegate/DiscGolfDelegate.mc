@@ -25,15 +25,27 @@ class DiscGolfDelegate extends Ui.BehaviorDelegate {
 
     function onTap(keyEvent) {
         
-
-        if(tapUp(keyEvent)){
-            mController.plussOne();
-            relatedView.requestUpdate();
+        if(mController.editPar){
+            if(tapUp(keyEvent)){
+                mController.parPluss();
+                relatedView.requestUpdate();
+            }
+            if(tapDown(keyEvent)){
+                mController.parMinus();
+                relatedView.requestUpdate();
+            }
+        }else{
+            if(tapUp(keyEvent)){
+                mController.plussOne();
+                relatedView.requestUpdate();
+            }
+            if(tapDown(keyEvent)){
+                mController.minusOne();
+                relatedView.requestUpdate();
+            }
         }
-        if(tapDown(keyEvent)){
-            mController.minusOne();
-            relatedView.requestUpdate();
-        }
+        
+        
         return false;
     }
 

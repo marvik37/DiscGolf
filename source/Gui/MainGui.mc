@@ -110,7 +110,6 @@ module Gui{
 
         hidden function editParValue(font) {
             var size = Gfx.getFontHeight(font);
-            parPos[1] += size;
             mDc.fillRectangle(parPos[0] - (size/2), parPos[1] - (size/2), size, size);
             frontColor(WHITE, mDc);
             holePar(mController.parValue(), font);

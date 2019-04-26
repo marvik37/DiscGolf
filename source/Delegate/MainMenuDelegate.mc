@@ -25,4 +25,7 @@ class MainMenuDelegate extends Ui.MenuInputDelegate{
             mController.editPar = true;
         }
     }
+
+    
+
 }
