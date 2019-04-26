@@ -34,8 +34,16 @@ module Gui{
         }
 
         hidden function drawLines(){
-            mDc.drawLine(0, height/3, width, height/3);
-            mDc.drawLine(0, (height/3)*2, width, (height/3)*2);
+            drawLineUp();
+            drawLineDown();
+        }
+
+        function drawLineUp() {
+            mDc.drawLine(0, lineUp()[1], lineUp()[0], lineUp()[1]);
+        }
+
+        function drawLineDown() {
+            mDc.drawLine(0, lineDown()[1], lineDown()[0], lineDown()[1]);
         }
 
         hidden function midRowText() {

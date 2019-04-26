@@ -1,6 +1,11 @@
 using Toybox.Graphics as Gfx;
+using Toybox.System as Sys;
 
 module Gui {
+
+    enum{
+            Forerunner235, Vivoactive
+        }
 
     /** FONTS **/
     const LARGE_FONT = Gfx.FONT_LARGE;
@@ -40,6 +45,26 @@ module Gui {
     }
 
 
+    
+
+    /** Arrows **/
+    function tapBoxUp() {
+        var settings = Sys.getDeviceSettings();
+        var height = settings.screenHeight;
+        var width = settings.screenWidth;
+        return [width/3 - 10, (height/5) *3 - 40];
+    }
+
+    function tapBoxDown() {
+        var settings = Sys.getDeviceSettings();
+        var height = settings.screenHeight;
+        var width = settings.screenWidth;
+        return [width/3 - 10, (height/5) *3 + 10];
+    }
+
+    const TAP_BOX_HEIGHT = 50;
+    const TAP_BOX_WIDTH = 50;
+
 
 
     /** Color **/
@@ -51,4 +76,22 @@ module Gui {
     function frontColor(color, dc){
         dc.setColor(color, Gfx.COLOR_TRANSPARENT);
     }
+
+
+    /** Select hole **/
+    function lineUp() {
+        var settings = Sys.getDeviceSettings();
+        var height = settings.screenHeight;
+        var width = settings.screenWidth;
+        return [width, (height/3)];
+    }
+
+    function lineDown() {
+        var settings = Sys.getDeviceSettings();
+        var height = settings.screenHeight;
+        var width = settings.screenWidth;
+        return [width, (height/3)*2];
+    }
+
+    
 }

@@ -23,6 +23,49 @@ class DiscGolfDelegate extends Ui.BehaviorDelegate {
         }
     }
 
+    function onTap(keyEvent) {
+        
+        if(mController.editPar){
+            if(tapUp(keyEvent)){
+                mController.parPluss();
+                relatedView.requestUpdate();
+            }
+            if(tapDown(keyEvent)){
+                mController.parMinus();
+                relatedView.requestUpdate();
+            }
+        }else{
+            if(tapUp(keyEvent)){
+                mController.plussOne();
+                relatedView.requestUpdate();
+            }
+            if(tapDown(keyEvent)){
+                mController.minusOne();
+                relatedView.requestUpdate();
+            }
+        }
+        
+        
+        return false;
+    }
+
+    hidden function tapDown(keyEvent) {
+        var coordinates = keyEvent.getCoordinates();
+        var tapDown = Gui.tapBoxDown();
+
+        return coordinates[0] > tapDown[0] && coordinates[0] < tapDown[0] + Gui.TAP_BOX_WIDTH
+        && coordinates[1] > tapDown[1] && coordinates[1] < tapDown[1] + Gui.TAP_BOX_HEIGHT;
+
+    }
+
+    hidden function tapUp(keyEvent) {
+        var coordinates = keyEvent.getCoordinates();
+        var tapUp = Gui.tapBoxUp();
+
+        return coordinates[0] > tapUp[0] && coordinates[0] < tapUp[0] + Gui.TAP_BOX_WIDTH
+        && coordinates[1] > tapUp[1] && coordinates[1] < tapUp[1] + Gui.TAP_BOX_HEIGHT;
+    }
+
     hidden function setThrows(key) {
         switch(key){
             case Ui.KEY_UP:

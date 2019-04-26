@@ -1,4 +1,9 @@
 using Toybox.Graphics as Gfx;
+using Toybox.System as Sys;
+using Toybox.Application as App;
+
+
+
 
 module Gui{
 
@@ -8,17 +13,52 @@ module Gui{
         hidden var height;
         hidden var width;
         hidden var mDc;
+        hidden var version;
 
-        hidden var parPos ;
+        hidden var parPos;
+        hidden var totalPos;
+
+        hidden var time;
+
 
         function initialize(dc, controller) {
             mDc = dc;
+            Sys.println(mDc.getHeight());
             mController = controller;
             height = mDc.getHeight();
             width = mDc.getWidth();
-            parPos = [(width/4) * 3, (height/3) + Gfx.getFontHeight(MEDIUM_FONT)];
+            version = getVersion();
+            setParPos(version);
+            setTotalPos();
+            time = App.getApp().time;
         }
 
+        hidden function setTotalPos() {
+            totalPos = [(width/4) * 3, (height/5)*3];
+        }
+
+        hidden function setParPos(version) {
+            var pos = [(width/4) * 3, (height/3)];
+            switch (version){
+                case Forerunner235:
+                    pos[1] += Gfx.getFontHeight(MEDIUM_FONT);
+                    break;
+                case Vivoactive:
+                    pos[1] += Gfx.getFontHeight(SMALL_FONT);
+                    break;
+            }
+            parPos = pos;
+        }
+
+        hidden function getVersion() {
+            if(height == 180){
+                return Forerunner235;
+            }else if(height == 148){
+                return Vivoactive;
+            }
+            return null;
+        }
+        
         function loadLayout() {
             setColor();
             setLayout();
@@ -36,30 +76,44 @@ module Gui{
         }
 
         function updateText(){
-            time();
+            drawTime();
             score(mController.currentHoleThrows());
             totalThrows(mController.totalThrows(), mController.totalScore());
             topText("Hole " + mController.currentHole().toString());
             parValue();
         }
 
-        hidden function time() {
+        hidden function drawTime() {
             var pos = [width/2, height/20];
-            var time = new Time();
+            time.start();
             mDc.drawText(pos[0], pos[1], SMALL_FONT, time.now(), CENTER_TEXT);
         }
 
         hidden function parValue() {
             //Edit par box
             if(mController.editPar){
-                var size = Gfx.getFontHeight(MEDIUM_FONT);
-                mDc.fillRectangle(parPos[0] - (size/2), parPos[1] - (size/2), size, size);
-                frontColor(WHITE, mDc);
-                holePar(mController.parValue());
-                frontColor(BLACK, mDc);
+                if(version == Forerunner235){
+                    editParValue(MEDIUM_FONT);
+                }else if(version == Vivoactive){
+                    editParValue(SMALL_FONT);
+                }
+                    
             }else{
-                holePar(mController.parValue());
+                if(version == Forerunner235){
+                    holePar(mController.parValue(), MEDIUM_FONT);
+                }else if(version == Vivoactive){
+                    holePar(mController.parValue(), SMALL_FONT);
+                }
+                
             }
+        }
+
+        hidden function editParValue(font) {
+            var size = Gfx.getFontHeight(font);
+            mDc.fillRectangle(parPos[0] - (size/2), parPos[1] - (size/2), size, size);
+            frontColor(WHITE, mDc);
+            holePar(mController.parValue(), font);
+            frontColor(BLACK, mDc);
         }
 
         hidden function topText(text) {
@@ -83,23 +137,27 @@ module Gui{
         }
 
         hidden function totalThrows(throws, score) {
-            var pos = [(width/4) * 3, (height/5)*3 + Gfx.getFontHeight(MEDIUM_FONT) + 5];
+            var pos = [totalPos[0], totalPos[1]+Gfx.getFontHeight(MEDIUM_FONT)+5];
             var text = score + "(" + throws + ")";
             mDc.drawText(pos[0], pos[1], LARGE_FONT, text, CENTER_TEXT);
         }
 
         hidden function totalText() {
-            var pos = [(width/4) * 3, (height/5)*3];
-            mDc.drawText(pos[0], pos[1], MEDIUM_FONT, "Total", CENTER_TEXT);    
+            mDc.drawText(totalPos[0], totalPos[1], MEDIUM_FONT, "Total", CENTER_TEXT);    
         }
 
         hidden function parText() {
             var pos = [(width/4) * 3, height/3];
-            mDc.drawText(pos[0], pos[1], MEDIUM_FONT, "Par", CENTER_TEXT);
+            if(version == Vivoactive){
+                mDc.drawText(pos[0], pos[1], SMALL_FONT, "Par", CENTER_TEXT);
+            }else if(version == Forerunner235){
+                mDc.drawText(pos[0], pos[1], MEDIUM_FONT, "Par", CENTER_TEXT);
+            }
+            
         }
 
-        hidden function holePar(par) {
-            mDc.drawText(parPos[0], parPos[1], MEDIUM_FONT, par, CENTER_TEXT);
+        hidden function holePar(par, font) {
+            mDc.drawText(parPos[0], parPos[1], font, par, CENTER_TEXT);
         }
 
         hidden function drawText(){
@@ -124,6 +182,7 @@ module Gui{
                 DOWN_ARROW[i][0] += pos[0];
                 DOWN_ARROW[i][1] += pos[1] + 15;
             }
+
 
             mDc.fillPolygon(UP_ARROW);
             mDc.fillPolygon(DOWN_ARROW);

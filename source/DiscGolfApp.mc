@@ -6,8 +6,11 @@ class DiscGolfApp extends Application.AppBase {
     hidden var game;
     hidden var controller;
 
+    var time;
+
     function initialize() {
         AppBase.initialize();
+        time = new Time();
     }
 
     // onStart() is called on application start up
