@@ -34,7 +34,7 @@ module Gui{
         }
 
         hidden function drawLines(){
-            drawLineUp()
+            drawLineUp();
             drawLineDown();
         }
 

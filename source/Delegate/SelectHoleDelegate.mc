@@ -42,11 +42,11 @@ class SelectHoleDelegate extends Ui.BehaviorDelegate{
         var upRow = Gui.lineUp();
         var downRow = Gui.lineDown();
 
-        if(coordinate[1] < upRow){
+        if(coordinate[1] < upRow[1]){
             mController.previousHole();
             relatedView.requestUpdate();
         }
-        else if(coordinate[1] > downRow){
+        else if(coordinate[1] > downRow[1]){
             mController.nextHole();
             relatedView.requestUpdate();
         }
