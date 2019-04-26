@@ -15,8 +15,7 @@ module Gui{
         hidden var mDc;
         hidden var version;
 
-        hidden var parPos;
-        hidden var totalPos;
+        hidden var parValuePos;
 
         hidden var time;
 
@@ -29,16 +28,13 @@ module Gui{
             width = mDc.getWidth();
             version = getVersion();
             setParPos(version);
-            setTotalPos();
             time = App.getApp().time;
         }
 
-        hidden function setTotalPos() {
-            totalPos = [(width/4) * 3, (height/5)*3];
-        }
+       
 
         hidden function setParPos(version) {
-            var pos = [(width/4) * 3, (height/3)];
+            var pos = parSection();
             switch (version){
                 case Forerunner235:
                     pos[1] += Gfx.getFontHeight(MEDIUM_FONT);
@@ -46,8 +42,11 @@ module Gui{
                 case Vivoactive:
                     pos[1] += Gfx.getFontHeight(SMALL_FONT);
                     break;
+                default:
+                    pos[1] += Gfx.getFontHeight(MEDIUM_FONT);
+                    break;
             }
-            parPos = pos;
+            parValuePos = pos;
         }
 
         hidden function getVersion() {
@@ -110,7 +109,7 @@ module Gui{
 
         hidden function editParValue(font) {
             var size = Gfx.getFontHeight(font);
-            mDc.fillRectangle(parPos[0] - (size/2), parPos[1] - (size/2), size, size);
+            mDc.fillRectangle(parValuePos[0] - (size/2), parValuePos[1] - (size/2), size, size);
             frontColor(WHITE, mDc);
             holePar(mController.parValue(), font);
             frontColor(BLACK, mDc);
@@ -127,27 +126,29 @@ module Gui{
         }
 
         hidden function scoreText() {
-            var pos = [width/4, height/3];
+            var pos = scoreSection();
             mDc.drawText(pos[0], pos[1], MEDIUM_FONT, "Score:", CENTER_TEXT);
         }
 
         hidden function score(score) {
-            var pos = [width/5 , (height/5) * 3];
+            var pos = scoreValueSection();
             mDc.drawText(pos[0], pos[1], LARGE_FONT, score, CENTER_TEXT);
         }
 
         hidden function totalThrows(throws, score) {
-            var pos = [totalPos[0], totalPos[1]+Gfx.getFontHeight(MEDIUM_FONT)+5];
+            var pos = totalSection();
+            pos[1] += Gfx.getFontHeight(MEDIUM_FONT)+5;
             var text = score + "(" + throws + ")";
             mDc.drawText(pos[0], pos[1], LARGE_FONT, text, CENTER_TEXT);
         }
 
         hidden function totalText() {
-            mDc.drawText(totalPos[0], totalPos[1], MEDIUM_FONT, "Total", CENTER_TEXT);    
+            var pos = totalSection();
+            mDc.drawText(pos[0], pos[1], MEDIUM_FONT, "Total", CENTER_TEXT);    
         }
 
         hidden function parText() {
-            var pos = [(width/4) * 3, height/3];
+            var pos = parSection();
             if(version == Vivoactive){
                 mDc.drawText(pos[0], pos[1], SMALL_FONT, "Par", CENTER_TEXT);
             }else if(version == Forerunner235){
@@ -157,7 +158,7 @@ module Gui{
         }
 
         hidden function holePar(par, font) {
-            mDc.drawText(parPos[0], parPos[1], font, par, CENTER_TEXT);
+            mDc.drawText(parValuePos[0], parValuePos[1], font, par, CENTER_TEXT);
         }
 
         hidden function drawText(){
@@ -167,11 +168,8 @@ module Gui{
         }
 
         hidden function drawArrows() {
-            
-            var UP_ARROW = [[0,20], [30,20], [15,0]];
-            var DOWN_ARROW = [[0,0], [30,0], [15,20]];
-            
-            var pos = [(width/3) , (height / 5) * 3 ];
+
+            var pos = ARROW_POS;
 
             for(var i = 0; i < UP_ARROW.size(); i++){
                 UP_ARROW[i][0] += pos[0];
