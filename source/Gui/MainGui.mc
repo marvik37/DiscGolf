@@ -183,11 +183,6 @@ module Gui{
                 DOWN_ARROW[i][1] += pos[1] + 15;
             }
 
-           var tapBox = tapBoxUp();
-           var tapBox2 = tapBoxDown();
-           mDc.drawRectangle(tapBox[0], tapBox[1], 50, 50);
-           mDc.drawRectangle(tapBox2[0], tapBox2[1], 50, 50);
-
 
             mDc.fillPolygon(UP_ARROW);
             mDc.fillPolygon(DOWN_ARROW);
