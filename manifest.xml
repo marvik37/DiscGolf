@@ -2,6 +2,7 @@
     <iq:application entry="DiscGolfApp" id="855561ce024a4afab2920e3fa0786500" launcherIcon="@Drawables.LauncherIcon" name="@Strings.AppName" type="watch-app" version="0.0.0">
         <iq:products>
             <iq:product id="fr235"/>
+            <iq:product id="vivoactive"/>
         </iq:products>
         <iq:permissions/>
         <iq:languages>

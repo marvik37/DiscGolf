@@ -124,434 +124,446 @@
 <entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\MainGui.mc" id="28" lineNum="182" pc="268438616" symbol="drawArrows"/>
 <entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\MainGui.mc" id="28" lineNum="183" pc="268438640" symbol="drawArrows"/>
 <entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\MainGui.mc" id="28" lineNum="184" pc="268438665" symbol="drawArrows"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\MainGui.mc" id="28" lineNum="193" pc="268438709" symbol="drawArrows"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\MainGui.mc" id="28" lineNum="194" pc="268438729" symbol="drawArrows"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="30" lineNum="12" pc="268438750" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="30" lineNum="13" pc="268438754" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="30" lineNum="14" pc="268438764" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="30" lineNum="15" pc="268438774" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="30" lineNum="16" pc="268438799" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="31" lineNum="19" pc="268438825" symbol="update"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="31" lineNum="20" pc="268438829" symbol="update"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="31" lineNum="21" pc="268438857" symbol="update"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="31" lineNum="22" pc="268438869" symbol="update"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="32" lineNum="25" pc="268438882" symbol="setColor"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="32" lineNum="26" pc="268438886" symbol="setColor"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="32" lineNum="27" pc="268438924" symbol="setColor"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="33" lineNum="30" pc="268438947" symbol="updateText"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="33" lineNum="31" pc="268438951" symbol="updateText"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="33" lineNum="32" pc="268438963" symbol="updateText"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="33" lineNum="33" pc="268438975" symbol="updateText"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="34" lineNum="36" pc="268438988" symbol="drawLines"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="34" lineNum="37" pc="268438992" symbol="drawLines"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="34" lineNum="38" pc="268439051" symbol="drawLines"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="35" lineNum="41" pc="268439123" symbol="midRowText"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="35" lineNum="42" pc="268439127" symbol="midRowText"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="35" lineNum="43" pc="268439156" symbol="midRowText"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="35" lineNum="44" pc="268439175" symbol="midRowText"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="35" lineNum="45" pc="268439194" symbol="midRowText"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="36" lineNum="48" pc="268439247" symbol="topRowText"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="36" lineNum="49" pc="268439251" symbol="topRowText"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="36" lineNum="50" pc="268439280" symbol="topRowText"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="36" lineNum="52" pc="268439299" symbol="topRowText"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="36" lineNum="53" pc="268439310" symbol="topRowText"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="36" lineNum="54" pc="268439335" symbol="topRowText"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="37" lineNum="58" pc="268439391" symbol="bottomRowText"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="37" lineNum="59" pc="268439395" symbol="bottomRowText"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="37" lineNum="60" pc="268439424" symbol="bottomRowText"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="37" lineNum="61" pc="268439443" symbol="bottomRowText"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="37" lineNum="63" pc="268439489" symbol="bottomRowText"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="37" lineNum="64" pc="268439497" symbol="bottomRowText"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="37" lineNum="65" pc="268439522" symbol="bottomRowText"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="39" lineNum="8" pc="268439578" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="39" lineNum="9" pc="268439582" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="39" lineNum="10" pc="268439592" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="40" lineNum="13" pc="268439603" symbol="restart"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="40" lineNum="14" pc="268439607" symbol="restart"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="40" lineNum="15" pc="268439617" symbol="restart"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="41" lineNum="18" pc="268439627" symbol="isRegistered"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="41" lineNum="19" pc="268439631" symbol="isRegistered"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="42" lineNum="22" pc="268439641" symbol="getIndex"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="42" lineNum="23" pc="268439645" symbol="getIndex"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="43" lineNum="26" pc="268439655" symbol="getPar"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="43" lineNum="27" pc="268439659" symbol="getPar"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="44" lineNum="30" pc="268439669" symbol="setPar"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="44" lineNum="31" pc="268439673" symbol="setPar"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="45" lineNum="34" pc="268439684" symbol="score"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="45" lineNum="35" pc="268439688" symbol="score"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="46" lineNum="38" pc="268439707" symbol="setThrows"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="46" lineNum="39" pc="268439711" symbol="setThrows"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="46" lineNum="40" pc="268439721" symbol="setThrows"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="47" lineNum="43" pc="268439732" symbol="getThrows"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="47" lineNum="44" pc="268439736" symbol="getThrows"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Time.mc" id="49" lineNum="16" pc="268439746" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Time.mc" id="49" lineNum="17" pc="268439750" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Time.mc" id="49" lineNum="18" pc="268439762" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Time.mc" id="50" lineNum="21" pc="268439797" symbol="start"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Time.mc" id="50" lineNum="22" pc="268439801" symbol="start"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Time.mc" id="50" lineNum="23" pc="268439813" symbol="start"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Time.mc" id="51" lineNum="26" pc="268439876" symbol="getTime"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Time.mc" id="51" lineNum="27" pc="268439880" symbol="getTime"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Time.mc" id="51" lineNum="28" pc="268439903" symbol="getTime"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Time.mc" id="51" lineNum="29" pc="268439939" symbol="getTime"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Time.mc" id="52" lineNum="32" pc="268439976" symbol="now"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Time.mc" id="52" lineNum="33" pc="268439980" symbol="now"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Time.mc" id="53" lineNum="36" pc="268440005" symbol="update"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Time.mc" id="53" lineNum="37" pc="268440009" symbol="update"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="54" lineNum="32" pc="268440026" symbol="topRow"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="54" lineNum="33" pc="268440038" symbol="topRow"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="54" lineNum="34" pc="268440078" symbol="topRow"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="55" lineNum="37" pc="268440082" symbol="midRow"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="55" lineNum="38" pc="268440094" symbol="midRow"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="55" lineNum="39" pc="268440134" symbol="midRow"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="56" lineNum="42" pc="268440138" symbol="bottomRow"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="56" lineNum="43" pc="268440150" symbol="bottomRow"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="56" lineNum="44" pc="268440196" symbol="bottomRow"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="57" lineNum="51" pc="268440200" symbol="tapBoxUp"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="57" lineNum="52" pc="268440212" symbol="tapBoxUp"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="57" lineNum="53" pc="268440229" symbol="tapBoxUp"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="57" lineNum="54" pc="268440239" symbol="tapBoxUp"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="57" lineNum="55" pc="268440249" symbol="tapBoxUp"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="58" lineNum="58" pc="268440307" symbol="tapBoxDown"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="58" lineNum="59" pc="268440319" symbol="tapBoxDown"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="58" lineNum="60" pc="268440336" symbol="tapBoxDown"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="58" lineNum="61" pc="268440346" symbol="tapBoxDown"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="58" lineNum="62" pc="268440356" symbol="tapBoxDown"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="59" lineNum="71" pc="268440414" symbol="backgroundColor"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="59" lineNum="72" pc="268440426" symbol="backgroundColor"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="59" lineNum="73" pc="268440452" symbol="backgroundColor"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="60" lineNum="76" pc="268440479" symbol="frontColor"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="60" lineNum="77" pc="268440491" symbol="frontColor"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\ScoreCardDelegate.mc" id="62" lineNum="8" pc="268440518" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\ScoreCardDelegate.mc" id="62" lineNum="9" pc="268440522" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\ScoreCardDelegate.mc" id="62" lineNum="10" pc="268440540" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\ScoreCardDelegate.mc" id="62" lineNum="11" pc="268440550" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\ScoreCardDelegate.mc" id="63" lineNum="14" pc="268440561" symbol="onKey"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\ScoreCardDelegate.mc" id="63" lineNum="15" pc="268440565" symbol="onKey"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\ScoreCardDelegate.mc" id="63" lineNum="17" pc="268440578" symbol="onKey"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\ScoreCardDelegate.mc" id="63" lineNum="19" pc="268440645" symbol="onKey"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\ScoreCardDelegate.mc" id="63" lineNum="20" pc="268440663" symbol="onKey"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\ScoreCardDelegate.mc" id="63" lineNum="22" pc="268440666" symbol="onKey"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\ScoreCardDelegate.mc" id="63" lineNum="23" pc="268440684" symbol="onKey"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\ScoreCardDelegate.mc" id="63" lineNum="25" pc="268440687" symbol="onKey"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\ScoreCardDelegate.mc" id="63" lineNum="26" pc="268440705" symbol="onKey"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Course.mc" id="65" lineNum="6" pc="268440709" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Course.mc" id="65" lineNum="7" pc="268440713" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Course.mc" id="65" lineNum="8" pc="268440720" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Course.mc" id="65" lineNum="10" pc="268440735" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Course.mc" id="66" lineNum="15" pc="268440750" symbol="lastCourse"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Course.mc" id="66" lineNum="16" pc="268440754" symbol="lastCourse"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Course.mc" id="66" lineNum="17" pc="268440774" symbol="lastCourse"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Course.mc" id="66" lineNum="18" pc="268440804" symbol="lastCourse"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Course.mc" id="66" lineNum="19" pc="268440830" symbol="lastCourse"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Course.mc" id="66" lineNum="20" pc="268440844" symbol="lastCourse"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Course.mc" id="66" lineNum="21" pc="268440861" symbol="lastCourse"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Course.mc" id="66" lineNum="23" pc="268440877" symbol="lastCourse"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Course.mc" id="67" lineNum="28" pc="268440904" symbol="createNewCourse"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Course.mc" id="67" lineNum="29" pc="268440908" symbol="createNewCourse"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Course.mc" id="67" lineNum="30" pc="268440922" symbol="createNewCourse"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Course.mc" id="67" lineNum="31" pc="268440952" symbol="createNewCourse"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Course.mc" id="68" lineNum="35" pc="268441001" symbol="getHoles"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Course.mc" id="68" lineNum="36" pc="268441005" symbol="getHoles"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="70" lineNum="10" pc="268441015" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="70" lineNum="11" pc="268441019" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="71" lineNum="14" pc="268441030" symbol="getGame"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="71" lineNum="15" pc="268441034" symbol="getGame"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="72" lineNum="18" pc="268441044" symbol="parPluss"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="72" lineNum="19" pc="268441048" symbol="parPluss"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="72" lineNum="20" pc="268441067" symbol="parPluss"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="72" lineNum="21" pc="268441080" symbol="parPluss"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="73" lineNum="24" pc="268441101" symbol="parMinus"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="73" lineNum="25" pc="268441105" symbol="parMinus"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="73" lineNum="26" pc="268441124" symbol="parMinus"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="73" lineNum="28" pc="268441137" symbol="parMinus"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="73" lineNum="29" pc="268441148" symbol="parMinus"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="74" lineNum="34" pc="268441172" symbol="parValue"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="74" lineNum="35" pc="268441176" symbol="parValue"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="75" lineNum="38" pc="268441213" symbol="nextHole"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="75" lineNum="39" pc="268441217" symbol="nextHole"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="75" lineNum="40" pc="268441254" symbol="nextHole"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="75" lineNum="41" pc="268441271" symbol="nextHole"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="75" lineNum="43" pc="268441292" symbol="nextHole"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="75" lineNum="44" pc="268441309" symbol="nextHole"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="76" lineNum="49" pc="268441336" symbol="previousHole"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="76" lineNum="50" pc="268441340" symbol="previousHole"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="76" lineNum="51" pc="268441377" symbol="previousHole"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="76" lineNum="52" pc="268441397" symbol="previousHole"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="76" lineNum="54" pc="268441418" symbol="previousHole"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="76" lineNum="55" pc="268441438" symbol="previousHole"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="77" lineNum="60" pc="268441468" symbol="currentHole"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="77" lineNum="61" pc="268441472" symbol="currentHole"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="78" lineNum="64" pc="268441506" symbol="currentHoleThrows"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="78" lineNum="65" pc="268441510" symbol="currentHoleThrows"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="78" lineNum="67" pc="268441538" symbol="currentHoleThrows"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="79" lineNum="70" pc="268441566" symbol="totalThrows"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="79" lineNum="71" pc="268441570" symbol="totalThrows"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="80" lineNum="74" pc="268441598" symbol="totalScore"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="80" lineNum="75" pc="268441602" symbol="totalScore"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="80" lineNum="76" pc="268441621" symbol="totalScore"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="80" lineNum="77" pc="268441632" symbol="totalScore"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="80" lineNum="79" pc="268441641" symbol="totalScore"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="80" lineNum="80" pc="268441652" symbol="totalScore"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="80" lineNum="83" pc="268441673" symbol="totalScore"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="81" lineNum="86" pc="268441686" symbol="plussOne"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="81" lineNum="87" pc="268441690" symbol="plussOne"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="81" lineNum="88" pc="268441709" symbol="plussOne"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="81" lineNum="90" pc="268441722" symbol="plussOne"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="81" lineNum="91" pc="268441729" symbol="plussOne"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="81" lineNum="92" pc="268441752" symbol="plussOne"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="81" lineNum="94" pc="268441758" symbol="plussOne"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="81" lineNum="95" pc="268441778" symbol="plussOne"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="82" lineNum="98" pc="268441782" symbol="minusOne"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="82" lineNum="99" pc="268441786" symbol="minusOne"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="82" lineNum="100" pc="268441805" symbol="minusOne"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="82" lineNum="102" pc="268441818" symbol="minusOne"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="82" lineNum="103" pc="268441825" symbol="minusOne"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="82" lineNum="104" pc="268441854" symbol="minusOne"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="82" lineNum="107" pc="268441860" symbol="minusOne"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="82" lineNum="108" pc="268441871" symbol="minusOne"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="82" lineNum="111" pc="268441877" symbol="minusOne"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="82" lineNum="112" pc="268441897" symbol="minusOne"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="83" lineNum="116" pc="268441901" symbol="save"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="83" lineNum="117" pc="268441905" symbol="save"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="83" lineNum="119" pc="268441922" symbol="save"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="83" lineNum="120" pc="268441950" symbol="save"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="83" lineNum="121" pc="268441964" symbol="save"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="83" lineNum="122" pc="268441988" symbol="save"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="83" lineNum="123" pc="268442005" symbol="save"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="83" lineNum="125" pc="268442027" symbol="save"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="83" lineNum="129" pc="268442050" symbol="save"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="84" lineNum="132" pc="268442070" symbol="newGame"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="84" lineNum="133" pc="268442074" symbol="newGame"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="84" lineNum="134" pc="268442102" symbol="newGame"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="84" lineNum="135" pc="268442126" symbol="newGame"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="84" lineNum="137" pc="268442154" symbol="newGame"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\DiscGolfView.mc" id="86" lineNum="11" pc="268442178" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\DiscGolfView.mc" id="86" lineNum="12" pc="268442182" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\DiscGolfView.mc" id="86" lineNum="13" pc="268442200" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\DiscGolfView.mc" id="87" lineNum="17" pc="268442211" symbol="onLayout"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\DiscGolfView.mc" id="87" lineNum="18" pc="268442215" symbol="onLayout"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\DiscGolfView.mc" id="88" lineNum="24" pc="268442260" symbol="onShow"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\DiscGolfView.mc" id="89" lineNum="28" pc="268442265" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\DiscGolfView.mc" id="89" lineNum="30" pc="268442269" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\DiscGolfView.mc" id="89" lineNum="31" pc="268442289" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\DiscGolfView.mc" id="89" lineNum="32" pc="268442307" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\DiscGolfView.mc" id="89" lineNum="33" pc="268442325" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\DiscGolfView.mc" id="90" lineNum="39" pc="268442329" symbol="onHide"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="92" lineNum="5" pc="268442334" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="92" lineNum="6" pc="268442338" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="92" lineNum="7" pc="268442348" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="93" lineNum="10" pc="268442368" symbol="firstNotRegisterdHole"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="93" lineNum="11" pc="268442372" symbol="firstNotRegisterdHole"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="93" lineNum="12" pc="268442391" symbol="firstNotRegisterdHole"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="93" lineNum="13" pc="268442415" symbol="firstNotRegisterdHole"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="93" lineNum="14" pc="268442433" symbol="firstNotRegisterdHole"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="93" lineNum="15" pc="268442439" symbol="firstNotRegisterdHole"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="93" lineNum="18" pc="268442458" symbol="firstNotRegisterdHole"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="94" lineNum="21" pc="268442468" symbol="playActiveHole"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="94" lineNum="22" pc="268442472" symbol="playActiveHole"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="95" lineNum="25" pc="268442493" symbol="nextHole"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="95" lineNum="26" pc="268442497" symbol="nextHole"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="96" lineNum="29" pc="268442533" symbol="previousHole"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="96" lineNum="30" pc="268442537" symbol="previousHole"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="97" lineNum="33" pc="268442573" symbol="selectHole"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="97" lineNum="34" pc="268442577" symbol="selectHole"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="98" lineNum="37" pc="268442606" symbol="getActiveHole"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="98" lineNum="38" pc="268442610" symbol="getActiveHole"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="99" lineNum="41" pc="268442620" symbol="getCourse"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="99" lineNum="42" pc="268442624" symbol="getCourse"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="100" lineNum="45" pc="268442634" symbol="totalScore"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="100" lineNum="46" pc="268442638" symbol="totalScore"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="100" lineNum="47" pc="268442657" symbol="totalScore"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="100" lineNum="49" pc="268442664" symbol="totalScore"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="100" lineNum="50" pc="268442688" symbol="totalScore"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="100" lineNum="51" pc="268442705" symbol="totalScore"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="100" lineNum="55" pc="268442740" symbol="totalScore"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="101" lineNum="58" pc="268442744" symbol="totalThrows"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="101" lineNum="59" pc="268442748" symbol="totalThrows"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="101" lineNum="60" pc="268442767" symbol="totalThrows"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="101" lineNum="61" pc="268442774" symbol="totalThrows"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="101" lineNum="62" pc="268442798" symbol="totalThrows"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="101" lineNum="63" pc="268442815" symbol="totalThrows"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="101" lineNum="66" pc="268442850" symbol="totalThrows"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\MainMenuDelegate.mc" id="103" lineNum="7" pc="268442854" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\MainMenuDelegate.mc" id="103" lineNum="8" pc="268442858" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\MainMenuDelegate.mc" id="103" lineNum="9" pc="268442876" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\MainMenuDelegate.mc" id="104" lineNum="12" pc="268442887" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\MainMenuDelegate.mc" id="104" lineNum="13" pc="268442891" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\MainMenuDelegate.mc" id="104" lineNum="14" pc="268442902" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\MainMenuDelegate.mc" id="104" lineNum="15" pc="268442925" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\MainMenuDelegate.mc" id="104" lineNum="16" pc="268442957" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\MainMenuDelegate.mc" id="104" lineNum="17" pc="268443022" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\MainMenuDelegate.mc" id="104" lineNum="18" pc="268443033" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\MainMenuDelegate.mc" id="104" lineNum="19" pc="268443054" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\MainMenuDelegate.mc" id="104" lineNum="20" pc="268443065" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\MainMenuDelegate.mc" id="104" lineNum="21" pc="268443097" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\MainMenuDelegate.mc" id="104" lineNum="24" pc="268443162" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\MainMenuDelegate.mc" id="104" lineNum="25" pc="268443173" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\DiscGolfApp.mc" id="106" lineNum="11" pc="268443193" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\DiscGolfApp.mc" id="106" lineNum="12" pc="268443197" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\DiscGolfApp.mc" id="106" lineNum="13" pc="268443215" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\DiscGolfApp.mc" id="107" lineNum="17" pc="268443246" symbol="onStart"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\DiscGolfApp.mc" id="107" lineNum="18" pc="268443250" symbol="onStart"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\DiscGolfApp.mc" id="107" lineNum="19" pc="268443285" symbol="onStart"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\DiscGolfApp.mc" id="107" lineNum="20" pc="268443317" symbol="onStart"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\DiscGolfApp.mc" id="108" lineNum="24" pc="268443356" symbol="onStop"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\DiscGolfApp.mc" id="109" lineNum="28" pc="268443361" symbol="getInitialView"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\DiscGolfApp.mc" id="109" lineNum="29" pc="268443365" symbol="getInitialView"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\DiscGolfApp.mc" id="109" lineNum="30" pc="268443397" symbol="getInitialView"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\DiscGolfApp.mc" id="110" lineNum="33" pc="268443455" symbol="getLastGame"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\DiscGolfApp.mc" id="110" lineNum="34" pc="268443459" symbol="getLastGame"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="112" lineNum="24" pc="268443477" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="112" lineNum="25" pc="268443481" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="112" lineNum="26" pc="268443491" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="112" lineNum="27" pc="268443501" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="112" lineNum="28" pc="268443526" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="112" lineNum="30" pc="268443551" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="112" lineNum="32" pc="268443573" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="112" lineNum="33" pc="268443595" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="112" lineNum="34" pc="268443617" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="112" lineNum="36" pc="268443645" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="112" lineNum="38" pc="268443670" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="112" lineNum="39" pc="268443716" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="113" lineNum="43" pc="268443748" symbol="update"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="113" lineNum="44" pc="268443752" symbol="update"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="113" lineNum="45" pc="268443764" symbol="update"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="113" lineNum="46" pc="268443776" symbol="update"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="113" lineNum="47" pc="268443781" symbol="update"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="113" lineNum="49" pc="268443796" symbol="update"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="114" lineNum="54" pc="268443809" symbol="setColor"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="114" lineNum="55" pc="268443813" symbol="setColor"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="114" lineNum="56" pc="268443857" symbol="setColor"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="115" lineNum="59" pc="268443886" symbol="drawTable"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="115" lineNum="61" pc="268443890" symbol="drawTable"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="115" lineNum="62" pc="268443940" symbol="drawTable"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="115" lineNum="63" pc="268443990" symbol="drawTable"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="115" lineNum="65" pc="268444040" symbol="drawTable"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="115" lineNum="66" pc="268444050" symbol="drawTable"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="115" lineNum="67" pc="268444068" symbol="drawTable"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="115" lineNum="68" pc="268444106" symbol="drawTable"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="116" lineNum="72" pc="268444133" symbol="throws"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="116" lineNum="73" pc="268444137" symbol="throws"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="117" lineNum="76" pc="268444174" symbol="drawTopLine"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="117" lineNum="77" pc="268444178" symbol="drawTopLine"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="118" lineNum="80" pc="268444249" symbol="drawBottomLine"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="118" lineNum="81" pc="268444253" symbol="drawBottomLine"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="119" lineNum="85" pc="268444324" symbol="titleText"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="119" lineNum="86" pc="268444328" symbol="titleText"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="120" lineNum="89" pc="268444396" symbol="drawScoreFront9"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="120" lineNum="91" pc="268444400" symbol="drawScoreFront9"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="120" lineNum="93" pc="268444417" symbol="drawScoreFront9"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="120" lineNum="94" pc="268444454" symbol="drawScoreFront9"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="120" lineNum="96" pc="268444479" symbol="drawScoreFront9"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="120" lineNum="97" pc="268444497" symbol="drawScoreFront9"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="120" lineNum="98" pc="268444513" symbol="drawScoreFront9"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="120" lineNum="101" pc="268444539" symbol="drawScoreFront9"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="120" lineNum="102" pc="268444564" symbol="drawScoreFront9"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="120" lineNum="103" pc="268444582" symbol="drawScoreFront9"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="120" lineNum="104" pc="268444601" symbol="drawScoreFront9"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="120" lineNum="105" pc="268444631" symbol="drawScoreFront9"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="121" lineNum="109" pc="268444658" symbol="drawScoreBack9"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="121" lineNum="111" pc="268444662" symbol="drawScoreBack9"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="121" lineNum="113" pc="268444679" symbol="drawScoreBack9"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="121" lineNum="114" pc="268444716" symbol="drawScoreBack9"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="121" lineNum="116" pc="268444741" symbol="drawScoreBack9"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="121" lineNum="117" pc="268444759" symbol="drawScoreBack9"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="121" lineNum="118" pc="268444775" symbol="drawScoreBack9"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="121" lineNum="121" pc="268444801" symbol="drawScoreBack9"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="121" lineNum="122" pc="268444826" symbol="drawScoreBack9"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="121" lineNum="123" pc="268444850" symbol="drawScoreBack9"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="121" lineNum="124" pc="268444880" symbol="drawScoreBack9"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="122" lineNum="129" pc="268444907" symbol="color"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="122" lineNum="130" pc="268444911" symbol="color"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="122" lineNum="131" pc="268444927" symbol="color"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="122" lineNum="133" pc="268444931" symbol="color"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="122" lineNum="134" pc="268444950" symbol="color"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="122" lineNum="135" pc="268444976" symbol="color"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="122" lineNum="136" pc="268445004" symbol="color"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="122" lineNum="137" pc="268445051" symbol="color"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="122" lineNum="138" pc="268445077" symbol="color"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="122" lineNum="139" pc="268445105" symbol="color"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="122" lineNum="141" pc="268445152" symbol="color"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\ScoreCard.mc" id="124" lineNum="10" pc="268445181" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\ScoreCard.mc" id="124" lineNum="11" pc="268445185" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\ScoreCard.mc" id="124" lineNum="12" pc="268445203" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\ScoreCard.mc" id="125" lineNum="15" pc="268445214" symbol="onLayout"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\ScoreCard.mc" id="125" lineNum="16" pc="268445218" symbol="onLayout"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\ScoreCard.mc" id="126" lineNum="23" pc="268445263" symbol="onShow"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\ScoreCard.mc" id="127" lineNum="27" pc="268445268" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\ScoreCard.mc" id="127" lineNum="29" pc="268445272" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\ScoreCard.mc" id="127" lineNum="30" pc="268445292" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\ScoreCard.mc" id="127" lineNum="31" pc="268445318" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\ScoreCard.mc" id="128" lineNum="34" pc="268445322" symbol="shiftScoreCard"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\ScoreCard.mc" id="128" lineNum="35" pc="268445326" symbol="shiftScoreCard"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\ScoreCard.mc" id="128" lineNum="36" pc="268445337" symbol="shiftScoreCard"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\ScoreCard.mc" id="128" lineNum="38" pc="268445350" symbol="shiftScoreCard"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\ScoreCard.mc" id="129" lineNum="45" pc="268445361" symbol="onHide"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="131" lineNum="8" pc="268445366" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="131" lineNum="9" pc="268445370" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="131" lineNum="10" pc="268445388" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="131" lineNum="11" pc="268445398" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="132" lineNum="14" pc="268445409" symbol="onKey"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="132" lineNum="15" pc="268445413" symbol="onKey"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="132" lineNum="16" pc="268445426" symbol="onKey"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="132" lineNum="18" pc="268445446" symbol="onKey"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="132" lineNum="19" pc="268445463" symbol="onKey"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="132" lineNum="22" pc="268445480" symbol="onKey"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="133" lineNum="26" pc="268445495" symbol="onTap"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="133" lineNum="27" pc="268445499" symbol="onTap"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="133" lineNum="28" pc="268445512" symbol="onTap"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="133" lineNum="29" pc="268445531" symbol="onTap"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="133" lineNum="31" pc="268445550" symbol="onTap"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="133" lineNum="33" pc="268445669" symbol="onTap"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="133" lineNum="34" pc="268445687" symbol="onTap"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="133" lineNum="36" pc="268445708" symbol="onTap"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="134" lineNum="39" pc="268445712" symbol="setThrows"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="134" lineNum="40" pc="268445716" symbol="setThrows"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="134" lineNum="42" pc="268445801" symbol="setThrows"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="134" lineNum="43" pc="268445819" symbol="setThrows"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="134" lineNum="45" pc="268445822" symbol="setThrows"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="134" lineNum="46" pc="268445840" symbol="setThrows"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="134" lineNum="48" pc="268445843" symbol="setThrows"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="134" lineNum="49" pc="268445861" symbol="setThrows"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="134" lineNum="51" pc="268445864" symbol="setThrows"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="134" lineNum="52" pc="268445882" symbol="setThrows"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="135" lineNum="55" pc="268445886" symbol="editPar"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="135" lineNum="56" pc="268445890" symbol="editPar"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="135" lineNum="58" pc="268446009" symbol="editPar"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="135" lineNum="59" pc="268446027" symbol="editPar"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="135" lineNum="61" pc="268446030" symbol="editPar"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="135" lineNum="62" pc="268446048" symbol="editPar"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="135" lineNum="64" pc="268446051" symbol="editPar"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="135" lineNum="65" pc="268446067" symbol="editPar"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="135" lineNum="67" pc="268446070" symbol="editPar"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="135" lineNum="68" pc="268446086" symbol="editPar"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="135" lineNum="70" pc="268446089" symbol="editPar"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="135" lineNum="71" pc="268446107" symbol="editPar"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="136" lineNum="74" pc="268446111" symbol="onMenu"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="136" lineNum="75" pc="268446115" symbol="onMenu"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="136" lineNum="76" pc="268446207" symbol="onMenu"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="137" lineNum="79" pc="268446211" symbol="onBack"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="137" lineNum="80" pc="268446215" symbol="onBack"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="137" lineNum="81" pc="268446233" symbol="onBack"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\SelectHoleView.mc" id="139" lineNum="8" pc="268446237" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\SelectHoleView.mc" id="139" lineNum="9" pc="268446241" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\SelectHoleView.mc" id="139" lineNum="10" pc="268446259" symbol="initialize"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\SelectHoleView.mc" id="140" lineNum="14" pc="268446270" symbol="onLayout"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\SelectHoleView.mc" id="140" lineNum="15" pc="268446274" symbol="onLayout"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\SelectHoleView.mc" id="141" lineNum="21" pc="268446321" symbol="onShow"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\SelectHoleView.mc" id="142" lineNum="25" pc="268446326" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\SelectHoleView.mc" id="142" lineNum="27" pc="268446330" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\SelectHoleView.mc" id="142" lineNum="28" pc="268446350" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\SelectHoleView.mc" id="143" lineNum="34" pc="268446369" symbol="onHide"/>
-<entry filename="Rez" id="149" lineNum="18" pc="268446374" symbol="initialize"/>
-<entry filename="Rez" id="149" lineNum="19" pc="268446378" symbol="initialize"/>
-<entry filename="Rez" id="149" lineNum="20" pc="268446396" symbol="initialize"/>
-<entry filename="Rez" id="149" lineNum="20" pc="268446449" symbol="initialize"/>
-<entry filename="Rez" id="149" lineNum="21" pc="268446501" symbol="initialize"/>
-<entry filename="Rez" id="149" lineNum="22" pc="268446553" symbol="initialize"/>
-<entry filename="Rez" id="149" lineNum="23" pc="268446605" symbol="initialize"/>
-<entry filename="Rez" id="152" lineNum="40" pc="268446658" symbol="MainLayout"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\MainGui.mc" id="28" lineNum="187" pc="268438709" symbol="drawArrows"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\MainGui.mc" id="28" lineNum="188" pc="268438722" symbol="drawArrows"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\MainGui.mc" id="28" lineNum="189" pc="268438735" symbol="drawArrows"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\MainGui.mc" id="28" lineNum="190" pc="268438779" symbol="drawArrows"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\MainGui.mc" id="28" lineNum="193" pc="268438823" symbol="drawArrows"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\MainGui.mc" id="28" lineNum="194" pc="268438843" symbol="drawArrows"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="30" lineNum="12" pc="268438864" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="30" lineNum="13" pc="268438868" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="30" lineNum="14" pc="268438878" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="30" lineNum="15" pc="268438888" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="30" lineNum="16" pc="268438913" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="31" lineNum="19" pc="268438939" symbol="update"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="31" lineNum="20" pc="268438943" symbol="update"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="31" lineNum="21" pc="268438971" symbol="update"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="31" lineNum="22" pc="268438983" symbol="update"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="32" lineNum="25" pc="268438996" symbol="setColor"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="32" lineNum="26" pc="268439000" symbol="setColor"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="32" lineNum="27" pc="268439038" symbol="setColor"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="33" lineNum="30" pc="268439061" symbol="updateText"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="33" lineNum="31" pc="268439065" symbol="updateText"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="33" lineNum="32" pc="268439077" symbol="updateText"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="33" lineNum="33" pc="268439089" symbol="updateText"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="34" lineNum="36" pc="268439102" symbol="drawLines"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="34" lineNum="37" pc="268439106" symbol="drawLines"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="34" lineNum="38" pc="268439165" symbol="drawLines"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="35" lineNum="41" pc="268439237" symbol="midRowText"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="35" lineNum="42" pc="268439241" symbol="midRowText"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="35" lineNum="43" pc="268439270" symbol="midRowText"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="35" lineNum="44" pc="268439289" symbol="midRowText"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="35" lineNum="45" pc="268439308" symbol="midRowText"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="36" lineNum="48" pc="268439361" symbol="topRowText"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="36" lineNum="49" pc="268439365" symbol="topRowText"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="36" lineNum="50" pc="268439394" symbol="topRowText"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="36" lineNum="52" pc="268439413" symbol="topRowText"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="36" lineNum="53" pc="268439424" symbol="topRowText"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="36" lineNum="54" pc="268439449" symbol="topRowText"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="37" lineNum="58" pc="268439505" symbol="bottomRowText"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="37" lineNum="59" pc="268439509" symbol="bottomRowText"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="37" lineNum="60" pc="268439538" symbol="bottomRowText"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="37" lineNum="61" pc="268439557" symbol="bottomRowText"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="37" lineNum="63" pc="268439603" symbol="bottomRowText"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="37" lineNum="64" pc="268439611" symbol="bottomRowText"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\SelectHoleGui.mc" id="37" lineNum="65" pc="268439636" symbol="bottomRowText"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="39" lineNum="8" pc="268439692" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="39" lineNum="9" pc="268439696" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="39" lineNum="10" pc="268439706" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="40" lineNum="13" pc="268439717" symbol="restart"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="40" lineNum="14" pc="268439721" symbol="restart"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="40" lineNum="15" pc="268439731" symbol="restart"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="41" lineNum="18" pc="268439741" symbol="isRegistered"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="41" lineNum="19" pc="268439745" symbol="isRegistered"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="42" lineNum="22" pc="268439755" symbol="getIndex"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="42" lineNum="23" pc="268439759" symbol="getIndex"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="43" lineNum="26" pc="268439769" symbol="getPar"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="43" lineNum="27" pc="268439773" symbol="getPar"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="44" lineNum="30" pc="268439783" symbol="setPar"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="44" lineNum="31" pc="268439787" symbol="setPar"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="45" lineNum="34" pc="268439798" symbol="score"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="45" lineNum="35" pc="268439802" symbol="score"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="46" lineNum="38" pc="268439821" symbol="setThrows"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="46" lineNum="39" pc="268439825" symbol="setThrows"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="46" lineNum="40" pc="268439835" symbol="setThrows"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="47" lineNum="43" pc="268439846" symbol="getThrows"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Hole.mc" id="47" lineNum="44" pc="268439850" symbol="getThrows"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Time.mc" id="49" lineNum="16" pc="268439860" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Time.mc" id="49" lineNum="17" pc="268439864" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Time.mc" id="49" lineNum="18" pc="268439876" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Time.mc" id="50" lineNum="21" pc="268439911" symbol="start"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Time.mc" id="50" lineNum="22" pc="268439915" symbol="start"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Time.mc" id="50" lineNum="23" pc="268439927" symbol="start"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Time.mc" id="51" lineNum="26" pc="268439990" symbol="getTime"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Time.mc" id="51" lineNum="27" pc="268439994" symbol="getTime"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Time.mc" id="51" lineNum="28" pc="268440017" symbol="getTime"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Time.mc" id="51" lineNum="29" pc="268440053" symbol="getTime"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Time.mc" id="52" lineNum="32" pc="268440090" symbol="now"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Time.mc" id="52" lineNum="33" pc="268440094" symbol="now"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Time.mc" id="53" lineNum="36" pc="268440119" symbol="update"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Time.mc" id="53" lineNum="37" pc="268440123" symbol="update"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="54" lineNum="32" pc="268440140" symbol="topRow"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="54" lineNum="33" pc="268440152" symbol="topRow"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="54" lineNum="34" pc="268440192" symbol="topRow"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="55" lineNum="37" pc="268440196" symbol="midRow"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="55" lineNum="38" pc="268440208" symbol="midRow"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="55" lineNum="39" pc="268440248" symbol="midRow"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="56" lineNum="42" pc="268440252" symbol="bottomRow"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="56" lineNum="43" pc="268440264" symbol="bottomRow"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="56" lineNum="44" pc="268440310" symbol="bottomRow"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="57" lineNum="51" pc="268440314" symbol="tapBoxUp"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="57" lineNum="52" pc="268440326" symbol="tapBoxUp"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="57" lineNum="53" pc="268440343" symbol="tapBoxUp"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="57" lineNum="54" pc="268440353" symbol="tapBoxUp"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="57" lineNum="55" pc="268440363" symbol="tapBoxUp"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="58" lineNum="58" pc="268440421" symbol="tapBoxDown"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="58" lineNum="59" pc="268440433" symbol="tapBoxDown"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="58" lineNum="60" pc="268440450" symbol="tapBoxDown"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="58" lineNum="61" pc="268440460" symbol="tapBoxDown"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="58" lineNum="62" pc="268440470" symbol="tapBoxDown"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="59" lineNum="71" pc="268440528" symbol="backgroundColor"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="59" lineNum="72" pc="268440540" symbol="backgroundColor"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="59" lineNum="73" pc="268440566" symbol="backgroundColor"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="60" lineNum="76" pc="268440593" symbol="frontColor"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\Gui.mc" id="60" lineNum="77" pc="268440605" symbol="frontColor"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\ScoreCardDelegate.mc" id="62" lineNum="8" pc="268440632" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\ScoreCardDelegate.mc" id="62" lineNum="9" pc="268440636" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\ScoreCardDelegate.mc" id="62" lineNum="10" pc="268440654" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\ScoreCardDelegate.mc" id="62" lineNum="11" pc="268440664" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\ScoreCardDelegate.mc" id="63" lineNum="14" pc="268440675" symbol="onKey"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\ScoreCardDelegate.mc" id="63" lineNum="15" pc="268440679" symbol="onKey"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\ScoreCardDelegate.mc" id="63" lineNum="17" pc="268440692" symbol="onKey"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\ScoreCardDelegate.mc" id="63" lineNum="19" pc="268440759" symbol="onKey"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\ScoreCardDelegate.mc" id="63" lineNum="20" pc="268440777" symbol="onKey"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\ScoreCardDelegate.mc" id="63" lineNum="22" pc="268440780" symbol="onKey"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\ScoreCardDelegate.mc" id="63" lineNum="23" pc="268440798" symbol="onKey"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\ScoreCardDelegate.mc" id="63" lineNum="25" pc="268440801" symbol="onKey"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\ScoreCardDelegate.mc" id="63" lineNum="26" pc="268440819" symbol="onKey"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Course.mc" id="65" lineNum="6" pc="268440823" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Course.mc" id="65" lineNum="7" pc="268440827" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Course.mc" id="65" lineNum="8" pc="268440834" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Course.mc" id="65" lineNum="10" pc="268440849" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Course.mc" id="66" lineNum="15" pc="268440864" symbol="lastCourse"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Course.mc" id="66" lineNum="16" pc="268440868" symbol="lastCourse"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Course.mc" id="66" lineNum="17" pc="268440888" symbol="lastCourse"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Course.mc" id="66" lineNum="18" pc="268440918" symbol="lastCourse"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Course.mc" id="66" lineNum="19" pc="268440944" symbol="lastCourse"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Course.mc" id="66" lineNum="20" pc="268440958" symbol="lastCourse"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Course.mc" id="66" lineNum="21" pc="268440975" symbol="lastCourse"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Course.mc" id="66" lineNum="23" pc="268440991" symbol="lastCourse"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Course.mc" id="67" lineNum="28" pc="268441018" symbol="createNewCourse"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Course.mc" id="67" lineNum="29" pc="268441022" symbol="createNewCourse"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Course.mc" id="67" lineNum="30" pc="268441036" symbol="createNewCourse"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Course.mc" id="67" lineNum="31" pc="268441066" symbol="createNewCourse"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Course.mc" id="68" lineNum="35" pc="268441115" symbol="getHoles"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Course.mc" id="68" lineNum="36" pc="268441119" symbol="getHoles"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="70" lineNum="10" pc="268441129" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="70" lineNum="11" pc="268441133" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="71" lineNum="14" pc="268441144" symbol="getGame"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="71" lineNum="15" pc="268441148" symbol="getGame"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="72" lineNum="18" pc="268441158" symbol="parPluss"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="72" lineNum="19" pc="268441162" symbol="parPluss"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="72" lineNum="20" pc="268441181" symbol="parPluss"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="72" lineNum="21" pc="268441194" symbol="parPluss"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="73" lineNum="24" pc="268441215" symbol="parMinus"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="73" lineNum="25" pc="268441219" symbol="parMinus"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="73" lineNum="26" pc="268441238" symbol="parMinus"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="73" lineNum="28" pc="268441251" symbol="parMinus"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="73" lineNum="29" pc="268441262" symbol="parMinus"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="74" lineNum="34" pc="268441286" symbol="parValue"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="74" lineNum="35" pc="268441290" symbol="parValue"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="75" lineNum="38" pc="268441327" symbol="nextHole"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="75" lineNum="39" pc="268441331" symbol="nextHole"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="75" lineNum="40" pc="268441368" symbol="nextHole"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="75" lineNum="41" pc="268441385" symbol="nextHole"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="75" lineNum="43" pc="268441406" symbol="nextHole"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="75" lineNum="44" pc="268441423" symbol="nextHole"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="76" lineNum="49" pc="268441450" symbol="previousHole"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="76" lineNum="50" pc="268441454" symbol="previousHole"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="76" lineNum="51" pc="268441491" symbol="previousHole"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="76" lineNum="52" pc="268441511" symbol="previousHole"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="76" lineNum="54" pc="268441532" symbol="previousHole"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="76" lineNum="55" pc="268441552" symbol="previousHole"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="77" lineNum="60" pc="268441582" symbol="currentHole"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="77" lineNum="61" pc="268441586" symbol="currentHole"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="78" lineNum="64" pc="268441620" symbol="currentHoleThrows"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="78" lineNum="65" pc="268441624" symbol="currentHoleThrows"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="78" lineNum="67" pc="268441652" symbol="currentHoleThrows"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="79" lineNum="70" pc="268441680" symbol="totalThrows"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="79" lineNum="71" pc="268441684" symbol="totalThrows"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="80" lineNum="74" pc="268441712" symbol="totalScore"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="80" lineNum="75" pc="268441716" symbol="totalScore"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="80" lineNum="76" pc="268441735" symbol="totalScore"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="80" lineNum="77" pc="268441746" symbol="totalScore"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="80" lineNum="79" pc="268441755" symbol="totalScore"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="80" lineNum="80" pc="268441766" symbol="totalScore"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="80" lineNum="83" pc="268441787" symbol="totalScore"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="81" lineNum="86" pc="268441800" symbol="plussOne"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="81" lineNum="87" pc="268441804" symbol="plussOne"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="81" lineNum="88" pc="268441823" symbol="plussOne"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="81" lineNum="90" pc="268441836" symbol="plussOne"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="81" lineNum="91" pc="268441843" symbol="plussOne"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="81" lineNum="92" pc="268441866" symbol="plussOne"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="81" lineNum="94" pc="268441872" symbol="plussOne"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="81" lineNum="95" pc="268441892" symbol="plussOne"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="82" lineNum="98" pc="268441896" symbol="minusOne"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="82" lineNum="99" pc="268441900" symbol="minusOne"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="82" lineNum="100" pc="268441919" symbol="minusOne"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="82" lineNum="102" pc="268441932" symbol="minusOne"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="82" lineNum="103" pc="268441939" symbol="minusOne"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="82" lineNum="104" pc="268441968" symbol="minusOne"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="82" lineNum="107" pc="268441974" symbol="minusOne"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="82" lineNum="108" pc="268441985" symbol="minusOne"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="82" lineNum="111" pc="268441991" symbol="minusOne"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="82" lineNum="112" pc="268442011" symbol="minusOne"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="83" lineNum="116" pc="268442015" symbol="save"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="83" lineNum="117" pc="268442019" symbol="save"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="83" lineNum="119" pc="268442036" symbol="save"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="83" lineNum="120" pc="268442064" symbol="save"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="83" lineNum="121" pc="268442078" symbol="save"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="83" lineNum="122" pc="268442102" symbol="save"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="83" lineNum="123" pc="268442119" symbol="save"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="83" lineNum="125" pc="268442141" symbol="save"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="83" lineNum="129" pc="268442164" symbol="save"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="84" lineNum="132" pc="268442184" symbol="newGame"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="84" lineNum="133" pc="268442188" symbol="newGame"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="84" lineNum="134" pc="268442216" symbol="newGame"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="84" lineNum="135" pc="268442240" symbol="newGame"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Controller.mc" id="84" lineNum="137" pc="268442268" symbol="newGame"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\DiscGolfView.mc" id="86" lineNum="11" pc="268442292" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\DiscGolfView.mc" id="86" lineNum="12" pc="268442296" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\DiscGolfView.mc" id="86" lineNum="13" pc="268442314" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\DiscGolfView.mc" id="87" lineNum="17" pc="268442325" symbol="onLayout"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\DiscGolfView.mc" id="87" lineNum="18" pc="268442329" symbol="onLayout"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\DiscGolfView.mc" id="88" lineNum="24" pc="268442374" symbol="onShow"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\DiscGolfView.mc" id="89" lineNum="28" pc="268442379" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\DiscGolfView.mc" id="89" lineNum="30" pc="268442383" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\DiscGolfView.mc" id="89" lineNum="31" pc="268442403" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\DiscGolfView.mc" id="89" lineNum="32" pc="268442421" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\DiscGolfView.mc" id="89" lineNum="33" pc="268442439" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\DiscGolfView.mc" id="90" lineNum="39" pc="268442443" symbol="onHide"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="92" lineNum="5" pc="268442448" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="92" lineNum="6" pc="268442452" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="92" lineNum="7" pc="268442462" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="93" lineNum="10" pc="268442482" symbol="firstNotRegisterdHole"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="93" lineNum="11" pc="268442486" symbol="firstNotRegisterdHole"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="93" lineNum="12" pc="268442505" symbol="firstNotRegisterdHole"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="93" lineNum="13" pc="268442529" symbol="firstNotRegisterdHole"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="93" lineNum="14" pc="268442547" symbol="firstNotRegisterdHole"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="93" lineNum="15" pc="268442553" symbol="firstNotRegisterdHole"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="93" lineNum="18" pc="268442572" symbol="firstNotRegisterdHole"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="94" lineNum="21" pc="268442582" symbol="playActiveHole"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="94" lineNum="22" pc="268442586" symbol="playActiveHole"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="95" lineNum="25" pc="268442607" symbol="nextHole"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="95" lineNum="26" pc="268442611" symbol="nextHole"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="96" lineNum="29" pc="268442647" symbol="previousHole"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="96" lineNum="30" pc="268442651" symbol="previousHole"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="97" lineNum="33" pc="268442687" symbol="selectHole"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="97" lineNum="34" pc="268442691" symbol="selectHole"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="98" lineNum="37" pc="268442720" symbol="getActiveHole"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="98" lineNum="38" pc="268442724" symbol="getActiveHole"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="99" lineNum="41" pc="268442734" symbol="getCourse"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="99" lineNum="42" pc="268442738" symbol="getCourse"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="100" lineNum="45" pc="268442748" symbol="totalScore"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="100" lineNum="46" pc="268442752" symbol="totalScore"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="100" lineNum="47" pc="268442771" symbol="totalScore"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="100" lineNum="49" pc="268442778" symbol="totalScore"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="100" lineNum="50" pc="268442802" symbol="totalScore"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="100" lineNum="51" pc="268442819" symbol="totalScore"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="100" lineNum="55" pc="268442854" symbol="totalScore"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="101" lineNum="58" pc="268442858" symbol="totalThrows"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="101" lineNum="59" pc="268442862" symbol="totalThrows"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="101" lineNum="60" pc="268442881" symbol="totalThrows"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="101" lineNum="61" pc="268442888" symbol="totalThrows"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="101" lineNum="62" pc="268442912" symbol="totalThrows"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="101" lineNum="63" pc="268442929" symbol="totalThrows"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Model\\Game.mc" id="101" lineNum="66" pc="268442964" symbol="totalThrows"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\MainMenuDelegate.mc" id="103" lineNum="7" pc="268442968" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\MainMenuDelegate.mc" id="103" lineNum="8" pc="268442972" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\MainMenuDelegate.mc" id="103" lineNum="9" pc="268442990" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\MainMenuDelegate.mc" id="104" lineNum="12" pc="268443001" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\MainMenuDelegate.mc" id="104" lineNum="13" pc="268443005" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\MainMenuDelegate.mc" id="104" lineNum="14" pc="268443016" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\MainMenuDelegate.mc" id="104" lineNum="15" pc="268443039" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\MainMenuDelegate.mc" id="104" lineNum="16" pc="268443071" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\MainMenuDelegate.mc" id="104" lineNum="17" pc="268443136" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\MainMenuDelegate.mc" id="104" lineNum="18" pc="268443147" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\MainMenuDelegate.mc" id="104" lineNum="19" pc="268443168" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\MainMenuDelegate.mc" id="104" lineNum="20" pc="268443179" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\MainMenuDelegate.mc" id="104" lineNum="21" pc="268443211" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\MainMenuDelegate.mc" id="104" lineNum="24" pc="268443276" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\MainMenuDelegate.mc" id="104" lineNum="25" pc="268443287" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\DiscGolfApp.mc" id="106" lineNum="11" pc="268443307" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\DiscGolfApp.mc" id="106" lineNum="12" pc="268443311" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\DiscGolfApp.mc" id="106" lineNum="13" pc="268443329" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\DiscGolfApp.mc" id="107" lineNum="17" pc="268443360" symbol="onStart"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\DiscGolfApp.mc" id="107" lineNum="18" pc="268443364" symbol="onStart"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\DiscGolfApp.mc" id="107" lineNum="19" pc="268443399" symbol="onStart"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\DiscGolfApp.mc" id="107" lineNum="20" pc="268443431" symbol="onStart"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\DiscGolfApp.mc" id="108" lineNum="24" pc="268443470" symbol="onStop"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\DiscGolfApp.mc" id="109" lineNum="28" pc="268443475" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\DiscGolfApp.mc" id="109" lineNum="29" pc="268443479" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\DiscGolfApp.mc" id="109" lineNum="30" pc="268443511" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\DiscGolfApp.mc" id="110" lineNum="33" pc="268443569" symbol="getLastGame"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\DiscGolfApp.mc" id="110" lineNum="34" pc="268443573" symbol="getLastGame"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="112" lineNum="24" pc="268443591" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="112" lineNum="25" pc="268443595" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="112" lineNum="26" pc="268443605" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="112" lineNum="27" pc="268443615" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="112" lineNum="28" pc="268443640" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="112" lineNum="30" pc="268443665" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="112" lineNum="32" pc="268443687" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="112" lineNum="33" pc="268443709" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="112" lineNum="34" pc="268443731" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="112" lineNum="36" pc="268443759" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="112" lineNum="38" pc="268443784" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="112" lineNum="39" pc="268443830" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="113" lineNum="43" pc="268443862" symbol="update"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="113" lineNum="44" pc="268443866" symbol="update"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="113" lineNum="45" pc="268443878" symbol="update"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="113" lineNum="46" pc="268443890" symbol="update"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="113" lineNum="47" pc="268443895" symbol="update"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="113" lineNum="49" pc="268443910" symbol="update"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="114" lineNum="54" pc="268443923" symbol="setColor"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="114" lineNum="55" pc="268443927" symbol="setColor"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="114" lineNum="56" pc="268443971" symbol="setColor"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="115" lineNum="59" pc="268444000" symbol="drawTable"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="115" lineNum="61" pc="268444004" symbol="drawTable"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="115" lineNum="62" pc="268444054" symbol="drawTable"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="115" lineNum="63" pc="268444104" symbol="drawTable"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="115" lineNum="65" pc="268444154" symbol="drawTable"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="115" lineNum="66" pc="268444164" symbol="drawTable"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="115" lineNum="67" pc="268444182" symbol="drawTable"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="115" lineNum="68" pc="268444220" symbol="drawTable"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="116" lineNum="72" pc="268444247" symbol="throws"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="116" lineNum="73" pc="268444251" symbol="throws"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="117" lineNum="76" pc="268444288" symbol="drawTopLine"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="117" lineNum="77" pc="268444292" symbol="drawTopLine"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="118" lineNum="80" pc="268444363" symbol="drawBottomLine"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="118" lineNum="81" pc="268444367" symbol="drawBottomLine"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="119" lineNum="85" pc="268444438" symbol="titleText"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="119" lineNum="86" pc="268444442" symbol="titleText"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="120" lineNum="89" pc="268444510" symbol="drawScoreFront9"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="120" lineNum="91" pc="268444514" symbol="drawScoreFront9"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="120" lineNum="93" pc="268444531" symbol="drawScoreFront9"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="120" lineNum="94" pc="268444568" symbol="drawScoreFront9"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="120" lineNum="96" pc="268444593" symbol="drawScoreFront9"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="120" lineNum="97" pc="268444611" symbol="drawScoreFront9"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="120" lineNum="98" pc="268444627" symbol="drawScoreFront9"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="120" lineNum="101" pc="268444653" symbol="drawScoreFront9"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="120" lineNum="102" pc="268444678" symbol="drawScoreFront9"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="120" lineNum="103" pc="268444696" symbol="drawScoreFront9"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="120" lineNum="104" pc="268444715" symbol="drawScoreFront9"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="120" lineNum="105" pc="268444745" symbol="drawScoreFront9"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="121" lineNum="109" pc="268444772" symbol="drawScoreBack9"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="121" lineNum="111" pc="268444776" symbol="drawScoreBack9"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="121" lineNum="113" pc="268444793" symbol="drawScoreBack9"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="121" lineNum="114" pc="268444830" symbol="drawScoreBack9"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="121" lineNum="116" pc="268444855" symbol="drawScoreBack9"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="121" lineNum="117" pc="268444873" symbol="drawScoreBack9"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="121" lineNum="118" pc="268444889" symbol="drawScoreBack9"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="121" lineNum="121" pc="268444915" symbol="drawScoreBack9"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="121" lineNum="122" pc="268444940" symbol="drawScoreBack9"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="121" lineNum="123" pc="268444964" symbol="drawScoreBack9"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="121" lineNum="124" pc="268444994" symbol="drawScoreBack9"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="122" lineNum="129" pc="268445021" symbol="color"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="122" lineNum="130" pc="268445025" symbol="color"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="122" lineNum="131" pc="268445041" symbol="color"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="122" lineNum="133" pc="268445045" symbol="color"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="122" lineNum="134" pc="268445064" symbol="color"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="122" lineNum="135" pc="268445090" symbol="color"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="122" lineNum="136" pc="268445118" symbol="color"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="122" lineNum="137" pc="268445165" symbol="color"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="122" lineNum="138" pc="268445191" symbol="color"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="122" lineNum="139" pc="268445219" symbol="color"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Gui\\ScoreCardGui.mc" id="122" lineNum="141" pc="268445266" symbol="color"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\ScoreCard.mc" id="124" lineNum="10" pc="268445295" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\ScoreCard.mc" id="124" lineNum="11" pc="268445299" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\ScoreCard.mc" id="124" lineNum="12" pc="268445317" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\ScoreCard.mc" id="125" lineNum="15" pc="268445328" symbol="onLayout"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\ScoreCard.mc" id="125" lineNum="16" pc="268445332" symbol="onLayout"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\ScoreCard.mc" id="126" lineNum="23" pc="268445377" symbol="onShow"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\ScoreCard.mc" id="127" lineNum="27" pc="268445382" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\ScoreCard.mc" id="127" lineNum="29" pc="268445386" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\ScoreCard.mc" id="127" lineNum="30" pc="268445406" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\ScoreCard.mc" id="127" lineNum="31" pc="268445432" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\ScoreCard.mc" id="128" lineNum="34" pc="268445436" symbol="shiftScoreCard"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\ScoreCard.mc" id="128" lineNum="35" pc="268445440" symbol="shiftScoreCard"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\ScoreCard.mc" id="128" lineNum="36" pc="268445451" symbol="shiftScoreCard"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\ScoreCard.mc" id="128" lineNum="38" pc="268445464" symbol="shiftScoreCard"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\ScoreCard.mc" id="129" lineNum="45" pc="268445475" symbol="onHide"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="131" lineNum="8" pc="268445480" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="131" lineNum="9" pc="268445484" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="131" lineNum="10" pc="268445502" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="131" lineNum="11" pc="268445512" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="132" lineNum="14" pc="268445523" symbol="onKey"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="132" lineNum="15" pc="268445527" symbol="onKey"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="132" lineNum="16" pc="268445540" symbol="onKey"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="132" lineNum="18" pc="268445560" symbol="onKey"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="132" lineNum="19" pc="268445577" symbol="onKey"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="132" lineNum="22" pc="268445594" symbol="onKey"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="133" lineNum="26" pc="268445609" symbol="onTap"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="133" lineNum="29" pc="268445613" symbol="onTap"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="133" lineNum="30" pc="268445629" symbol="onTap"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="133" lineNum="31" pc="268445647" symbol="onTap"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="133" lineNum="33" pc="268445668" symbol="onTap"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="133" lineNum="34" pc="268445684" symbol="onTap"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="133" lineNum="35" pc="268445702" symbol="onTap"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="133" lineNum="37" pc="268445720" symbol="onTap"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="134" lineNum="40" pc="268445724" symbol="tapDown"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="134" lineNum="41" pc="268445728" symbol="tapDown"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="134" lineNum="42" pc="268445741" symbol="tapDown"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="134" lineNum="44" pc="268445760" symbol="tapDown"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="135" lineNum="49" pc="268445878" symbol="tapUp"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="135" lineNum="50" pc="268445882" symbol="tapUp"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="135" lineNum="51" pc="268445895" symbol="tapUp"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="135" lineNum="53" pc="268445914" symbol="tapUp"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="136" lineNum="57" pc="268446032" symbol="setThrows"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="136" lineNum="58" pc="268446036" symbol="setThrows"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="136" lineNum="60" pc="268446121" symbol="setThrows"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="136" lineNum="61" pc="268446139" symbol="setThrows"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="136" lineNum="63" pc="268446142" symbol="setThrows"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="136" lineNum="64" pc="268446160" symbol="setThrows"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="136" lineNum="66" pc="268446163" symbol="setThrows"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="136" lineNum="67" pc="268446181" symbol="setThrows"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="136" lineNum="69" pc="268446184" symbol="setThrows"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="136" lineNum="70" pc="268446202" symbol="setThrows"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="137" lineNum="73" pc="268446206" symbol="editPar"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="137" lineNum="74" pc="268446210" symbol="editPar"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="137" lineNum="76" pc="268446329" symbol="editPar"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="137" lineNum="77" pc="268446347" symbol="editPar"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="137" lineNum="79" pc="268446350" symbol="editPar"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="137" lineNum="80" pc="268446368" symbol="editPar"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="137" lineNum="82" pc="268446371" symbol="editPar"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="137" lineNum="83" pc="268446387" symbol="editPar"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="137" lineNum="85" pc="268446390" symbol="editPar"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="137" lineNum="86" pc="268446406" symbol="editPar"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="137" lineNum="88" pc="268446409" symbol="editPar"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="137" lineNum="89" pc="268446427" symbol="editPar"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="138" lineNum="92" pc="268446431" symbol="onMenu"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="138" lineNum="93" pc="268446435" symbol="onMenu"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="138" lineNum="94" pc="268446527" symbol="onMenu"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="139" lineNum="97" pc="268446531" symbol="onBack"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="139" lineNum="98" pc="268446535" symbol="onBack"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\Delegate\\DiscGolfDelegate.mc" id="139" lineNum="99" pc="268446553" symbol="onBack"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\SelectHoleView.mc" id="141" lineNum="8" pc="268446557" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\SelectHoleView.mc" id="141" lineNum="9" pc="268446561" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\SelectHoleView.mc" id="141" lineNum="10" pc="268446579" symbol="initialize"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\SelectHoleView.mc" id="142" lineNum="14" pc="268446590" symbol="onLayout"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\SelectHoleView.mc" id="142" lineNum="15" pc="268446594" symbol="onLayout"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\SelectHoleView.mc" id="143" lineNum="21" pc="268446641" symbol="onShow"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\SelectHoleView.mc" id="144" lineNum="25" pc="268446646" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\SelectHoleView.mc" id="144" lineNum="27" pc="268446650" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\SelectHoleView.mc" id="144" lineNum="28" pc="268446670" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Martin Tellevik\\Documents\\Connect IQ\\DiscGolf\\source\\View\\SelectHoleView.mc" id="145" lineNum="34" pc="268446689" symbol="onHide"/>
+<entry filename="Rez" id="151" lineNum="18" pc="268446694" symbol="initialize"/>
+<entry filename="Rez" id="151" lineNum="19" pc="268446698" symbol="initialize"/>
+<entry filename="Rez" id="151" lineNum="20" pc="268446716" symbol="initialize"/>
+<entry filename="Rez" id="151" lineNum="20" pc="268446769" symbol="initialize"/>
+<entry filename="Rez" id="151" lineNum="21" pc="268446821" symbol="initialize"/>
+<entry filename="Rez" id="151" lineNum="22" pc="268446873" symbol="initialize"/>
+<entry filename="Rez" id="151" lineNum="23" pc="268446925" symbol="initialize"/>
+<entry filename="Rez" id="154" lineNum="40" pc="268446978" symbol="MainLayout"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388698" method="true" symbol="start"/>
@@ -584,8 +596,9 @@
 <entry field="true" id="8388720" symbol="hour"/>
 <entry id="56" method="true" symbol="drawTable"/>
 <entry field="true" id="48" symbol="mDc"/>
-<entry id="138" symbol="changePar"/>
+<entry id="140" symbol="changePar"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="136" method="true" symbol="tapUp"/>
 <entry id="73" method="true" symbol="editParValue"/>
 <entry id="85" method="true" symbol="bottomRowText"/>
 <entry id="130" method="true" symbol="createNewCourse"/>
@@ -602,7 +615,7 @@
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
 <entry id="89" method="true" symbol="firstNotRegisterdHole"/>
 <entry id="8389123" method="true" symbol="onShow"/>
-<entry id="136" method="true" symbol="shiftScoreCard"/>
+<entry id="138" method="true" symbol="shiftScoreCard"/>
 <entry id="20" object="true" symbol="DiscGolfDelegate"/>
 <entry id="81" method="true" symbol="holePar"/>
 <entry field="true" id="44" symbol="TAP_BOX_WIDTH"/>
@@ -630,7 +643,7 @@
 <entry id="68" method="true" symbol="getVersion"/>
 <entry id="8389080" method="true" symbol="onMenu"/>
 <entry id="60" method="true" symbol="titleText"/>
-<entry field="true" id="135" symbol="front"/>
+<entry field="true" id="137" symbol="front"/>
 <entry field="true" id="33" symbol="CENTER_TEXT"/>
 <entry field="true" id="109" symbol="LauncherIcon"/>
 <entry id="121" method="true" symbol="restart"/>
@@ -692,6 +705,7 @@
 <entry field="true" id="87" symbol="mCourse"/>
 <entry id="127" method="true" symbol="getThrows"/>
 <entry id="92" method="true" symbol="previousHole"/>
+<entry id="135" method="true" symbol="tapDown"/>
 <entry id="8388882" method="true" symbol="save"/>
 <entry field="true" id="128" symbol="mHoles"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
@@ -706,7 +720,7 @@
 <entry id="107" module="true" symbol="Menus"/>
 <entry id="82" method="true" symbol="drawArrows"/>
 <entry id="129" method="true" symbol="lastCourse"/>
-<entry id="137" symbol="scorecard"/>
+<entry id="139" symbol="scorecard"/>
 <entry id="42" method="true" symbol="tapBoxDown"/>
 <entry id="103" method="true" symbol="currentHoleThrows"/>
 <entry field="true" id="113" symbol="MenuNewGame"/>
@@ -751,135 +765,140 @@
 <entry endPc="268438164" name="par" stackId="1" startPc="268438101"/>
 <entry endPc="268438616" name="i" stackId="4" startPc="268438547"/>
 <entry endPc="268438709" name="i" stackId="5" startPc="268438640"/>
-<entry endPc="268438749" name="DOWN_ARROW" stackId="2" startPc="268438209"/>
-<entry endPc="268438749" name="UP_ARROW" stackId="1" startPc="268438209"/>
-<entry endPc="268438749" name="pos" stackId="3" startPc="268438209"/>
-<entry endPc="268438825" name="controller" stackId="2" startPc="268438750"/>
-<entry endPc="268438825" name="dc" stackId="1" startPc="268438750"/>
-<entry endPc="268438947" name="back" stackId="2" startPc="268438882"/>
-<entry endPc="268438947" name="front" stackId="1" startPc="268438882"/>
-<entry endPc="268439246" name="holeString" stackId="3" startPc="268439127"/>
-<entry endPc="268439246" name="hole" stackId="2" startPc="268439127"/>
-<entry endPc="268439246" name="pos" stackId="1" startPc="268439127"/>
-<entry endPc="268439387" name="holeString" stackId="3" startPc="268439310"/>
-<entry endPc="268439390" name="hole" stackId="2" startPc="268439251"/>
-<entry endPc="268439390" name="pos" stackId="1" startPc="268439251"/>
-<entry endPc="268439574" name="holeString" stackId="4" startPc="268439497"/>
-<entry endPc="268439577" name="hole" stackId="2" startPc="268439395"/>
-<entry endPc="268439577" name="numberOfHoles" stackId="3" startPc="268439395"/>
-<entry endPc="268439577" name="pos" stackId="1" startPc="268439395"/>
-<entry endPc="268439603" name="index" stackId="1" startPc="268439578"/>
-<entry endPc="268439684" name="par" stackId="1" startPc="268439669"/>
-<entry endPc="268439732" name="throws" stackId="1" startPc="268439707"/>
-<entry endPc="268440081" name="pos" stackId="3" startPc="268440038"/>
-<entry endPc="268440082" name="height" stackId="2" startPc="268440026"/>
-<entry endPc="268440082" name="width" stackId="1" startPc="268440026"/>
-<entry endPc="268440137" name="pos" stackId="3" startPc="268440094"/>
-<entry endPc="268440138" name="height" stackId="2" startPc="268440082"/>
-<entry endPc="268440138" name="width" stackId="1" startPc="268440082"/>
-<entry endPc="268440199" name="pos" stackId="3" startPc="268440150"/>
-<entry endPc="268440200" name="height" stackId="2" startPc="268440138"/>
-<entry endPc="268440200" name="width" stackId="1" startPc="268440138"/>
-<entry endPc="268440306" name="height" stackId="2" startPc="268440212"/>
-<entry endPc="268440306" name="width" stackId="3" startPc="268440212"/>
-<entry endPc="268440306" name="settings" stackId="1" startPc="268440212"/>
-<entry endPc="268440413" name="height" stackId="2" startPc="268440319"/>
-<entry endPc="268440413" name="width" stackId="3" startPc="268440319"/>
-<entry endPc="268440413" name="settings" stackId="1" startPc="268440319"/>
-<entry endPc="268440479" name="height" stackId="4" startPc="268440414"/>
-<entry endPc="268440479" name="dc" stackId="2" startPc="268440414"/>
-<entry endPc="268440479" name="color" stackId="1" startPc="268440414"/>
-<entry endPc="268440479" name="width" stackId="3" startPc="268440414"/>
-<entry endPc="268440518" name="dc" stackId="2" startPc="268440479"/>
-<entry endPc="268440518" name="color" stackId="1" startPc="268440479"/>
-<entry endPc="268440561" name="controller" stackId="2" startPc="268440518"/>
-<entry endPc="268440561" name="view" stackId="1" startPc="268440518"/>
-<entry endPc="268440708" name="key" stackId="2" startPc="268440565"/>
-<entry endPc="268440709" name="keyEvent" stackId="1" startPc="268440561"/>
-<entry endPc="268440750" name="state" stackId="1" startPc="268440709"/>
-<entry endPc="268440890" name="hole" stackId="3" startPc="268440804"/>
-<entry endPc="268440903" name="i" stackId="2" startPc="268440804"/>
-<entry endPc="268440904" name="state" stackId="1" startPc="268440750"/>
-<entry endPc="268441000" name="i" stackId="1" startPc="268440952"/>
-<entry endPc="268441030" name="game" stackId="1" startPc="268441015"/>
-<entry endPc="268441100" name="par" stackId="2" startPc="268441048"/>
-<entry endPc="268441100" name="hole" stackId="1" startPc="268441048"/>
-<entry endPc="268441171" name="par" stackId="2" startPc="268441105"/>
-<entry endPc="268441171" name="hole" stackId="1" startPc="268441105"/>
-<entry endPc="268441335" name="numberOfHoles" stackId="1" startPc="268441217"/>
-<entry endPc="268441467" name="numberOfHoles" stackId="1" startPc="268441340"/>
-<entry endPc="268441565" name="throws" stackId="1" startPc="268441510"/>
-<entry endPc="268441685" name="score" stackId="1" startPc="268441602"/>
-<entry endPc="268441781" name="throws" stackId="2" startPc="268441690"/>
-<entry endPc="268441781" name="hole" stackId="1" startPc="268441690"/>
-<entry endPc="268441900" name="throws" stackId="2" startPc="268441786"/>
-<entry endPc="268441900" name="hole" stackId="1" startPc="268441786"/>
-<entry endPc="268442050" name="i" stackId="4" startPc="268441988"/>
-<entry endPc="268442069" name="holes" stackId="2" startPc="268441905"/>
-<entry endPc="268442069" name="state" stackId="3" startPc="268441905"/>
-<entry endPc="268442069" name="app" stackId="1" startPc="268441905"/>
-<entry endPc="268442154" name="i" stackId="2" startPc="268442126"/>
-<entry endPc="268442177" name="holes" stackId="1" startPc="268442074"/>
-<entry endPc="268442211" name="controller" stackId="1" startPc="268442178"/>
-<entry endPc="268442260" name="dc" stackId="1" startPc="268442211"/>
-<entry endPc="268442329" name="dc" stackId="1" startPc="268442265"/>
-<entry endPc="268442368" name="course" stackId="1" startPc="268442334"/>
-<entry endPc="268442458" name="i" stackId="2" startPc="268442415"/>
-<entry endPc="268442467" name="holes" stackId="1" startPc="268442372"/>
-<entry endPc="268442493" name="score" stackId="1" startPc="268442468"/>
-<entry endPc="268442606" name="index" stackId="1" startPc="268442573"/>
-<entry endPc="268442740" name="i" stackId="3" startPc="268442688"/>
-<entry endPc="268442743" name="holes" stackId="1" startPc="268442638"/>
-<entry endPc="268442743" name="score" stackId="2" startPc="268442638"/>
-<entry endPc="268442850" name="i" stackId="3" startPc="268442798"/>
-<entry endPc="268442853" name="throws" stackId="2" startPc="268442748"/>
-<entry endPc="268442853" name="holes" stackId="1" startPc="268442748"/>
-<entry endPc="268442887" name="controller" stackId="1" startPc="268442854"/>
-<entry endPc="268443019" name="view" stackId="2" startPc="268442902"/>
-<entry endPc="268443159" name="view" stackId="3" startPc="268443065"/>
-<entry endPc="268443193" name="item" stackId="1" startPc="268442887"/>
-<entry endPc="268443355" name="course" stackId="2" startPc="268443250"/>
-<entry endPc="268443356" name="state" stackId="1" startPc="268443246"/>
-<entry endPc="268443361" name="state" stackId="1" startPc="268443356"/>
-<entry endPc="268443454" name="view" stackId="1" startPc="268443365"/>
-<entry endPc="268443748" name="controller" stackId="2" startPc="268443477"/>
-<entry endPc="268443748" name="dc" stackId="1" startPc="268443477"/>
-<entry endPc="268443809" name="front" stackId="1" startPc="268443748"/>
-<entry endPc="268444132" name="i" stackId="2" startPc="268444068"/>
-<entry endPc="268444132" name="x" stackId="1" startPc="268443890"/>
-<entry endPc="268444174" name="hole" stackId="1" startPc="268444133"/>
-<entry endPc="268444249" name="x" stackId="2" startPc="268444174"/>
-<entry endPc="268444249" name="text" stackId="1" startPc="268444174"/>
-<entry endPc="268444324" name="x" stackId="2" startPc="268444249"/>
-<entry endPc="268444324" name="text" stackId="1" startPc="268444249"/>
-<entry endPc="268444396" name="text" stackId="1" startPc="268444324"/>
-<entry endPc="268444539" name="i" stackId="3" startPc="268444497"/>
-<entry endPc="268444657" name="i" stackId="4" startPc="268444582"/>
-<entry endPc="268444657" name="x" stackId="2" startPc="268444400"/>
-<entry endPc="268444657" name="holes" stackId="1" startPc="268444400"/>
-<entry endPc="268444801" name="i" stackId="3" startPc="268444759"/>
-<entry endPc="268444906" name="i" stackId="4" startPc="268444850"/>
-<entry endPc="268444906" name="x" stackId="2" startPc="268444662"/>
-<entry endPc="268444906" name="holes" stackId="1" startPc="268444662"/>
-<entry endPc="268445181" name="x" stackId="2" startPc="268444907"/>
-<entry endPc="268445181" name="hole" stackId="1" startPc="268444907"/>
-<entry endPc="268445214" name="controller" stackId="1" startPc="268445181"/>
-<entry endPc="268445263" name="dc" stackId="1" startPc="268445214"/>
-<entry endPc="268445322" name="dc" stackId="1" startPc="268445268"/>
-<entry endPc="268445409" name="controller" stackId="2" startPc="268445366"/>
-<entry endPc="268445409" name="view" stackId="1" startPc="268445366"/>
-<entry endPc="268445494" name="key" stackId="2" startPc="268445413"/>
-<entry endPc="268445495" name="keyEvent" stackId="1" startPc="268445409"/>
-<entry endPc="268445711" name="tapUp" stackId="3" startPc="268445499"/>
-<entry endPc="268445711" name="coordinates" stackId="2" startPc="268445499"/>
-<entry endPc="268445711" name="tapDown" stackId="4" startPc="268445499"/>
-<entry endPc="268445712" name="keyEvent" stackId="1" startPc="268445495"/>
-<entry endPc="268445886" name="key" stackId="1" startPc="268445712"/>
-<entry endPc="268446111" name="key" stackId="1" startPc="268445886"/>
-<entry endPc="268446270" name="controller" stackId="1" startPc="268446237"/>
-<entry endPc="268446321" name="dc" stackId="1" startPc="268446270"/>
-<entry endPc="268446369" name="dc" stackId="1" startPc="268446326"/>
-<entry endPc="268446671" name="dc" stackId="1" startPc="268446658"/>
+<entry endPc="268438863" name="tapBox2" stackId="7" startPc="268438209"/>
+<entry endPc="268438863" name="tapBox" stackId="6" startPc="268438209"/>
+<entry endPc="268438863" name="DOWN_ARROW" stackId="2" startPc="268438209"/>
+<entry endPc="268438863" name="UP_ARROW" stackId="1" startPc="268438209"/>
+<entry endPc="268438863" name="pos" stackId="3" startPc="268438209"/>
+<entry endPc="268438939" name="controller" stackId="2" startPc="268438864"/>
+<entry endPc="268438939" name="dc" stackId="1" startPc="268438864"/>
+<entry endPc="268439061" name="back" stackId="2" startPc="268438996"/>
+<entry endPc="268439061" name="front" stackId="1" startPc="268438996"/>
+<entry endPc="268439360" name="holeString" stackId="3" startPc="268439241"/>
+<entry endPc="268439360" name="hole" stackId="2" startPc="268439241"/>
+<entry endPc="268439360" name="pos" stackId="1" startPc="268439241"/>
+<entry endPc="268439501" name="holeString" stackId="3" startPc="268439424"/>
+<entry endPc="268439504" name="hole" stackId="2" startPc="268439365"/>
+<entry endPc="268439504" name="pos" stackId="1" startPc="268439365"/>
+<entry endPc="268439688" name="holeString" stackId="4" startPc="268439611"/>
+<entry endPc="268439691" name="hole" stackId="2" startPc="268439509"/>
+<entry endPc="268439691" name="numberOfHoles" stackId="3" startPc="268439509"/>
+<entry endPc="268439691" name="pos" stackId="1" startPc="268439509"/>
+<entry endPc="268439717" name="index" stackId="1" startPc="268439692"/>
+<entry endPc="268439798" name="par" stackId="1" startPc="268439783"/>
+<entry endPc="268439846" name="throws" stackId="1" startPc="268439821"/>
+<entry endPc="268440195" name="pos" stackId="3" startPc="268440152"/>
+<entry endPc="268440196" name="height" stackId="2" startPc="268440140"/>
+<entry endPc="268440196" name="width" stackId="1" startPc="268440140"/>
+<entry endPc="268440251" name="pos" stackId="3" startPc="268440208"/>
+<entry endPc="268440252" name="height" stackId="2" startPc="268440196"/>
+<entry endPc="268440252" name="width" stackId="1" startPc="268440196"/>
+<entry endPc="268440313" name="pos" stackId="3" startPc="268440264"/>
+<entry endPc="268440314" name="height" stackId="2" startPc="268440252"/>
+<entry endPc="268440314" name="width" stackId="1" startPc="268440252"/>
+<entry endPc="268440420" name="height" stackId="2" startPc="268440326"/>
+<entry endPc="268440420" name="width" stackId="3" startPc="268440326"/>
+<entry endPc="268440420" name="settings" stackId="1" startPc="268440326"/>
+<entry endPc="268440527" name="height" stackId="2" startPc="268440433"/>
+<entry endPc="268440527" name="width" stackId="3" startPc="268440433"/>
+<entry endPc="268440527" name="settings" stackId="1" startPc="268440433"/>
+<entry endPc="268440593" name="height" stackId="4" startPc="268440528"/>
+<entry endPc="268440593" name="dc" stackId="2" startPc="268440528"/>
+<entry endPc="268440593" name="color" stackId="1" startPc="268440528"/>
+<entry endPc="268440593" name="width" stackId="3" startPc="268440528"/>
+<entry endPc="268440632" name="dc" stackId="2" startPc="268440593"/>
+<entry endPc="268440632" name="color" stackId="1" startPc="268440593"/>
+<entry endPc="268440675" name="controller" stackId="2" startPc="268440632"/>
+<entry endPc="268440675" name="view" stackId="1" startPc="268440632"/>
+<entry endPc="268440822" name="key" stackId="2" startPc="268440679"/>
+<entry endPc="268440823" name="keyEvent" stackId="1" startPc="268440675"/>
+<entry endPc="268440864" name="state" stackId="1" startPc="268440823"/>
+<entry endPc="268441004" name="hole" stackId="3" startPc="268440918"/>
+<entry endPc="268441017" name="i" stackId="2" startPc="268440918"/>
+<entry endPc="268441018" name="state" stackId="1" startPc="268440864"/>
+<entry endPc="268441114" name="i" stackId="1" startPc="268441066"/>
+<entry endPc="268441144" name="game" stackId="1" startPc="268441129"/>
+<entry endPc="268441214" name="par" stackId="2" startPc="268441162"/>
+<entry endPc="268441214" name="hole" stackId="1" startPc="268441162"/>
+<entry endPc="268441285" name="par" stackId="2" startPc="268441219"/>
+<entry endPc="268441285" name="hole" stackId="1" startPc="268441219"/>
+<entry endPc="268441449" name="numberOfHoles" stackId="1" startPc="268441331"/>
+<entry endPc="268441581" name="numberOfHoles" stackId="1" startPc="268441454"/>
+<entry endPc="268441679" name="throws" stackId="1" startPc="268441624"/>
+<entry endPc="268441799" name="score" stackId="1" startPc="268441716"/>
+<entry endPc="268441895" name="throws" stackId="2" startPc="268441804"/>
+<entry endPc="268441895" name="hole" stackId="1" startPc="268441804"/>
+<entry endPc="268442014" name="throws" stackId="2" startPc="268441900"/>
+<entry endPc="268442014" name="hole" stackId="1" startPc="268441900"/>
+<entry endPc="268442164" name="i" stackId="4" startPc="268442102"/>
+<entry endPc="268442183" name="holes" stackId="2" startPc="268442019"/>
+<entry endPc="268442183" name="state" stackId="3" startPc="268442019"/>
+<entry endPc="268442183" name="app" stackId="1" startPc="268442019"/>
+<entry endPc="268442268" name="i" stackId="2" startPc="268442240"/>
+<entry endPc="268442291" name="holes" stackId="1" startPc="268442188"/>
+<entry endPc="268442325" name="controller" stackId="1" startPc="268442292"/>
+<entry endPc="268442374" name="dc" stackId="1" startPc="268442325"/>
+<entry endPc="268442443" name="dc" stackId="1" startPc="268442379"/>
+<entry endPc="268442482" name="course" stackId="1" startPc="268442448"/>
+<entry endPc="268442572" name="i" stackId="2" startPc="268442529"/>
+<entry endPc="268442581" name="holes" stackId="1" startPc="268442486"/>
+<entry endPc="268442607" name="score" stackId="1" startPc="268442582"/>
+<entry endPc="268442720" name="index" stackId="1" startPc="268442687"/>
+<entry endPc="268442854" name="i" stackId="3" startPc="268442802"/>
+<entry endPc="268442857" name="holes" stackId="1" startPc="268442752"/>
+<entry endPc="268442857" name="score" stackId="2" startPc="268442752"/>
+<entry endPc="268442964" name="i" stackId="3" startPc="268442912"/>
+<entry endPc="268442967" name="throws" stackId="2" startPc="268442862"/>
+<entry endPc="268442967" name="holes" stackId="1" startPc="268442862"/>
+<entry endPc="268443001" name="controller" stackId="1" startPc="268442968"/>
+<entry endPc="268443133" name="view" stackId="2" startPc="268443016"/>
+<entry endPc="268443273" name="view" stackId="3" startPc="268443179"/>
+<entry endPc="268443307" name="item" stackId="1" startPc="268443001"/>
+<entry endPc="268443469" name="course" stackId="2" startPc="268443364"/>
+<entry endPc="268443470" name="state" stackId="1" startPc="268443360"/>
+<entry endPc="268443475" name="state" stackId="1" startPc="268443470"/>
+<entry endPc="268443568" name="view" stackId="1" startPc="268443479"/>
+<entry endPc="268443862" name="controller" stackId="2" startPc="268443591"/>
+<entry endPc="268443862" name="dc" stackId="1" startPc="268443591"/>
+<entry endPc="268443923" name="front" stackId="1" startPc="268443862"/>
+<entry endPc="268444246" name="i" stackId="2" startPc="268444182"/>
+<entry endPc="268444246" name="x" stackId="1" startPc="268444004"/>
+<entry endPc="268444288" name="hole" stackId="1" startPc="268444247"/>
+<entry endPc="268444363" name="x" stackId="2" startPc="268444288"/>
+<entry endPc="268444363" name="text" stackId="1" startPc="268444288"/>
+<entry endPc="268444438" name="x" stackId="2" startPc="268444363"/>
+<entry endPc="268444438" name="text" stackId="1" startPc="268444363"/>
+<entry endPc="268444510" name="text" stackId="1" startPc="268444438"/>
+<entry endPc="268444653" name="i" stackId="3" startPc="268444611"/>
+<entry endPc="268444771" name="i" stackId="4" startPc="268444696"/>
+<entry endPc="268444771" name="x" stackId="2" startPc="268444514"/>
+<entry endPc="268444771" name="holes" stackId="1" startPc="268444514"/>
+<entry endPc="268444915" name="i" stackId="3" startPc="268444873"/>
+<entry endPc="268445020" name="i" stackId="4" startPc="268444964"/>
+<entry endPc="268445020" name="x" stackId="2" startPc="268444776"/>
+<entry endPc="268445020" name="holes" stackId="1" startPc="268444776"/>
+<entry endPc="268445295" name="x" stackId="2" startPc="268445021"/>
+<entry endPc="268445295" name="hole" stackId="1" startPc="268445021"/>
+<entry endPc="268445328" name="controller" stackId="1" startPc="268445295"/>
+<entry endPc="268445377" name="dc" stackId="1" startPc="268445328"/>
+<entry endPc="268445436" name="dc" stackId="1" startPc="268445382"/>
+<entry endPc="268445523" name="controller" stackId="2" startPc="268445480"/>
+<entry endPc="268445523" name="view" stackId="1" startPc="268445480"/>
+<entry endPc="268445608" name="key" stackId="2" startPc="268445527"/>
+<entry endPc="268445609" name="keyEvent" stackId="1" startPc="268445523"/>
+<entry endPc="268445724" name="keyEvent" stackId="1" startPc="268445609"/>
+<entry endPc="268445877" name="coordinates" stackId="2" startPc="268445728"/>
+<entry endPc="268445877" name="tapDown" stackId="3" startPc="268445728"/>
+<entry endPc="268445878" name="keyEvent" stackId="1" startPc="268445724"/>
+<entry endPc="268446031" name="tapUp" stackId="3" startPc="268445882"/>
+<entry endPc="268446031" name="coordinates" stackId="2" startPc="268445882"/>
+<entry endPc="268446032" name="keyEvent" stackId="1" startPc="268445878"/>
+<entry endPc="268446206" name="key" stackId="1" startPc="268446032"/>
+<entry endPc="268446431" name="key" stackId="1" startPc="268446206"/>
+<entry endPc="268446590" name="controller" stackId="1" startPc="268446557"/>
+<entry endPc="268446641" name="dc" stackId="1" startPc="268446590"/>
+<entry endPc="268446689" name="dc" stackId="1" startPc="268446646"/>
+<entry endPc="268446991" name="dc" stackId="1" startPc="268446978"/>
 </localVars>
 <annotations/>
 <functions>
@@ -1297,6 +1316,14 @@
 <param id="keyEvent"/>
 <documentation/>
 </functionEntry>
+<functionEntry accessMode="protected" name="tapDown" parent="DiscGolfDelegate">
+<param id="keyEvent"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="protected" name="tapUp" parent="DiscGolfDelegate">
+<param id="keyEvent"/>
+<documentation/>
+</functionEntry>
 <functionEntry accessMode="protected" name="setThrows" parent="DiscGolfDelegate">
 <param id="key"/>
 <documentation/>
@@ -1361,8 +1388,8 @@
 <dataEntry offset="2403" parentId="globals" symbolId="Time" type="class"/>
 <dataEntry offset="2514" parentId="globals" symbolId="DiscGolfView" type="class"/>
 <dataEntry offset="2609" parentId="globals" symbolId="DiscGolfDelegate" type="class"/>
-<dataEntry offset="2720" parentId="globals" symbolId="ScoreCardDelegate" type="class"/>
-<dataEntry offset="2791" parentId="globals" symbolId="SelectHoleDelegate" type="class"/>
-<dataEntry offset="2878" parentId="globals" symbolId="ScoreCardView" type="class"/>
+<dataEntry offset="2736" parentId="globals" symbolId="ScoreCardDelegate" type="class"/>
+<dataEntry offset="2807" parentId="globals" symbolId="SelectHoleDelegate" type="class"/>
+<dataEntry offset="2894" parentId="globals" symbolId="ScoreCardView" type="class"/>
 </dataEntryOffsetMappings>
 </debugInfo>
