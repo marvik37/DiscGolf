@@ -32,7 +32,7 @@ class DiscGolfDelegate extends Ui.BehaviorDelegate {
         }
         if(tapDown(keyEvent)){
             mController.minusOne();
-            relatedView.requestUpdate;
+            relatedView.requestUpdate();
         }
         return false;
     }
