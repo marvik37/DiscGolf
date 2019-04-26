@@ -36,5 +36,24 @@ class SelectHoleDelegate extends Ui.BehaviorDelegate{
         mController.getGame().selectHole(currentHole - 1);
         return false;
     }
+
+    function onTap(clickEvent) {
+        var coordinate = clickEvent.getCoordinates();
+        var upRow = Gui.lineUp();
+        var downRow = Gui.lineDown();
+
+        if(coordinate[1] < upRow){
+            mController.previousHole();
+            relatedView.requestUpdate();
+        }
+        else if(coordinate[1] > downRow){
+            mController.nextHole();
+            relatedView.requestUpdate();
+        }
+        else{
+            Ui.popView(Ui.SLIDE_IMMEDIATE);
+        }
+        return false;
+    }
     
 }

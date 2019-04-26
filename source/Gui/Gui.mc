@@ -78,4 +78,20 @@ module Gui {
     }
 
 
+    /** Select hole **/
+    function lineUp() {
+        var settings = Sys.getDeviceSettings();
+        var height = settings.screenHeight;
+        var width = settings.screenWidth;
+        return [width, (height/3)];
+    }
+
+    function lineDown() {
+        var settings = Sys.getDeviceSettings();
+        var height = settings.screenHeight;
+        var width = settings.screenWidth;
+        return [width, (height/3)*2];
+    }
+
+    
 }
