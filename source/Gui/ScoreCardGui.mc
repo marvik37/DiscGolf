@@ -133,10 +133,10 @@ module Gui{
             x = x - (columnWidth/2);
             if(hole.getThrows() < hole.getPar()){
                 frontColor(GREEN, mDc);
-                mDc.fillRectangle(x, middle, columnWidth, columnHeight);
+                mDc.fillRectangle(x+1, middle+1, columnWidth-1, columnHeight-1);
             }else if(hole.getThrows() > hole.getPar()){
                 frontColor(RED, mDc);
-                mDc.fillRectangle(x,middle, columnWidth, columnHeight);
+                mDc.fillRectangle(x+1,middle+1, columnWidth-1, columnHeight-1);
             }
             frontColor(BLACK, mDc);
         }

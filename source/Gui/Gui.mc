@@ -27,7 +27,7 @@ module Gui {
     const RED = Gfx.COLOR_RED;
 
 
-    /** MainView Positions **//
+    /** MainView Positions **/
     function parSection() {
         var settings = Sys.getDeviceSettings();
         var height = settings.screenHeight;
@@ -35,7 +35,7 @@ module Gui {
         return [(width/4) * 3, (height/3)];
     }
 
-    function totaltSection() {
+    function totalSection() {
         var settings = Sys.getDeviceSettings();
         var height = settings.screenHeight;
         var width = settings.screenWidth;
@@ -77,8 +77,12 @@ module Gui {
     const TAP_BOX_HEIGHT = 50;
     const TAP_BOX_WIDTH = 50;
 
-    const ARROW_POS = [(width/3) , (height / 5) * 3 ];
-
+    function arrowPos() {
+        var settings = Sys.getDeviceSettings();
+        var height = settings.screenHeight;
+        var width = settings.screenWidth;
+        return [(width/3) , (height / 5) * 3 ];
+    }
 
 
     /** Rows **/

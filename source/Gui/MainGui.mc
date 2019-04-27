@@ -168,8 +168,10 @@ module Gui{
         }
 
         hidden function drawArrows() {
-
-            var pos = ARROW_POS;
+            var UP_ARROW = [[0,20], [30,20], [15,0]];
+            var DOWN_ARROW = [[0,0], [30,0], [15,20]];
+            
+            var pos = arrowPos();
 
             for(var i = 0; i < UP_ARROW.size(); i++){
                 UP_ARROW[i][0] += pos[0];
