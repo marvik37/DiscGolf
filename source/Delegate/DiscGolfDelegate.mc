@@ -102,6 +102,7 @@ class DiscGolfDelegate extends Ui.BehaviorDelegate {
     }
 
     function onMenu() {
+        mController.editPar = false;
         Ui.pushView(new Rez.Menus.MainMenu(), new MainMenuDelegate(mController), Ui.SLIDE_UP);
         return true;
     }
