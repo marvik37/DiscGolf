@@ -25,4 +25,10 @@ class ScoreCardDelegate extends Ui.BehaviorDelegate{
         relatedView.requestUpdate();
         return false;
     }
+
+    function onTap(clickEvent) {
+        relatedView.shiftScoreCard();
+        relatedView.requestUpdate();
+        return false;
+    }
 }
