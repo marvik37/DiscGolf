@@ -27,6 +27,63 @@ module Gui {
     const RED = Gfx.COLOR_RED;
 
 
+    /** MainView Positions **/
+    function parSection() {
+        var settings = Sys.getDeviceSettings();
+        var height = settings.screenHeight;
+        var width = settings.screenWidth;
+        return [(width/4) * 3, (height/3)];
+    }
+
+    function totalSection() {
+        var settings = Sys.getDeviceSettings();
+        var height = settings.screenHeight;
+        var width = settings.screenWidth;
+        return [(width/4) * 3, (height/5)*3];
+    }
+
+    function scoreSection() {
+        var settings = Sys.getDeviceSettings();
+        var height = settings.screenHeight;
+        var width = settings.screenWidth;
+        return [width/4, height/3];
+    }
+
+    function scoreValueSection() {
+        var settings = Sys.getDeviceSettings();
+        var height = settings.screenHeight;
+        var width = settings.screenWidth;
+        return [width/5 , (height/5) * 3];
+    }
+
+    /** Arrows **/
+    const UP_ARROW = [[0,20], [30,20], [15,0]];
+    const DOWN_ARROW = [[0,0], [30,0], [15,20]];
+
+    function tapBoxUp() {
+        var settings = Sys.getDeviceSettings();
+        var height = settings.screenHeight;
+        var width = settings.screenWidth;
+        return [width/3 - 10, (height/5) *3 - 40];
+    }
+
+    function tapBoxDown() {
+        var settings = Sys.getDeviceSettings();
+        var height = settings.screenHeight;
+        var width = settings.screenWidth;
+        return [width/3 - 10, (height/5) *3 + 10];
+    }
+
+    const TAP_BOX_HEIGHT = 50;
+    const TAP_BOX_WIDTH = 50;
+
+    function arrowPos() {
+        var settings = Sys.getDeviceSettings();
+        var height = settings.screenHeight;
+        var width = settings.screenWidth;
+        return [(width/3) , (height / 5) * 3 ];
+    }
+
 
     /** Rows **/
     function topRow(width, height) {
@@ -46,24 +103,6 @@ module Gui {
 
 
     
-
-    /** Arrows **/
-    function tapBoxUp() {
-        var settings = Sys.getDeviceSettings();
-        var height = settings.screenHeight;
-        var width = settings.screenWidth;
-        return [width/3 - 10, (height/5) *3 - 40];
-    }
-
-    function tapBoxDown() {
-        var settings = Sys.getDeviceSettings();
-        var height = settings.screenHeight;
-        var width = settings.screenWidth;
-        return [width/3 - 10, (height/5) *3 + 10];
-    }
-
-    const TAP_BOX_HEIGHT = 50;
-    const TAP_BOX_WIDTH = 50;
 
 
 

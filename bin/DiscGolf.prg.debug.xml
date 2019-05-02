@@ -599,181 +599,186 @@
 </pcToLineNum>
 <symbolTable>
 <entry id="8388698" method="true" symbol="start"/>
-<entry id="86" method="true" symbol="drawLineDown"/>
-<entry id="103" method="true" symbol="getGame"/>
+<entry id="91" method="true" symbol="drawLineDown"/>
+<entry id="108" method="true" symbol="getGame"/>
 <entry id="8388644" module="true" symbol="System"/>
-<entry field="true" id="123" symbol="mThrows"/>
-<entry id="38" method="true" symbol="topRow"/>
-<entry field="true" id="43" symbol="TAP_BOX_HEIGHT"/>
-<entry field="true" id="119" symbol="MainMenuTitle"/>
-<entry id="127" method="true" symbol="getIndex"/>
-<entry field="true" id="66" symbol="parPos"/>
+<entry field="true" id="128" symbol="mThrows"/>
+<entry id="49" method="true" symbol="topRow"/>
+<entry field="true" id="46" symbol="TAP_BOX_HEIGHT"/>
+<entry id="39" method="true" symbol="totalSection"/>
+<entry field="true" id="124" symbol="MainMenuTitle"/>
+<entry id="132" method="true" symbol="getIndex"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
-<entry id="85" method="true" symbol="drawLineUp"/>
-<entry id="60" method="true" symbol="drawTopLine"/>
-<entry field="true" id="67" symbol="totalPos"/>
-<entry id="78" method="true" symbol="scoreText"/>
+<entry id="90" method="true" symbol="drawLineUp"/>
+<entry id="67" method="true" symbol="drawTopLine"/>
+<entry id="83" method="true" symbol="scoreText"/>
 <entry field="true" id="8389642" symbol="title"/>
 <entry id="10" object="true" symbol="SelectHoleDelegate"/>
+<entry field="true" id="42" symbol="UP_ARROW"/>
 <entry id="8389097" method="true" symbol="onKey"/>
-<entry id="126" method="true" symbol="isRegistered"/>
-<entry field="true" id="54" symbol="middle"/>
+<entry id="131" method="true" symbol="isRegistered"/>
+<entry field="true" id="61" symbol="middle"/>
 <entry field="true" id="23" symbol="controller"/>
 <entry id="17" object="true" symbol="MainMenuDelegate"/>
 <entry id="21" object="true" symbol="SelectHoleView"/>
-<entry field="true" id="55" symbol="bottom"/>
+<entry field="true" id="62" symbol="bottom"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
 <entry id="8388645" module="true" object="true" symbol="Time"/>
-<entry field="true" id="106" method="true" symbol="currentHole"/>
-<entry id="108" method="true" symbol="plussOne"/>
-<entry id="114" object="true" symbol="MainMenu"/>
+<entry field="true" id="111" method="true" symbol="currentHole"/>
+<entry id="113" method="true" symbol="plussOne"/>
+<entry id="119" object="true" symbol="MainMenu"/>
 <entry field="true" id="8388720" symbol="hour"/>
-<entry id="58" method="true" symbol="drawTable"/>
-<entry field="true" id="50" symbol="mDc"/>
-<entry id="144" symbol="changePar"/>
+<entry id="65" method="true" symbol="drawTable"/>
+<entry field="true" id="57" symbol="mDc"/>
+<entry id="149" symbol="changePar"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
-<entry id="140" method="true" symbol="tapUp"/>
-<entry id="75" method="true" symbol="editParValue"/>
-<entry id="89" method="true" symbol="bottomRowText"/>
-<entry id="134" method="true" symbol="createNewCourse"/>
-<entry id="63" method="true" symbol="drawScoreFront9"/>
-<entry id="41" method="true" symbol="tapBoxUp"/>
+<entry id="38" method="true" symbol="parSection"/>
+<entry id="145" method="true" symbol="tapUp"/>
+<entry id="80" method="true" symbol="editParValue"/>
+<entry id="94" method="true" symbol="bottomRowText"/>
+<entry id="139" method="true" symbol="createNewCourse"/>
+<entry id="70" method="true" symbol="drawScoreFront9"/>
+<entry id="44" method="true" symbol="tapBoxUp"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
-<entry id="100" method="true" symbol="totalScore"/>
+<entry id="105" method="true" symbol="totalScore"/>
 <entry id="27" object="true" symbol="SelectHoleGui"/>
-<entry id="87" method="true" symbol="midRowText"/>
-<entry id="88" method="true" symbol="topRowText"/>
+<entry id="92" method="true" symbol="midRowText"/>
+<entry id="93" method="true" symbol="topRowText"/>
 <entry id="8388639" module="true" symbol="Graphics"/>
-<entry id="115" method="true" symbol="MainLayout"/>
+<entry id="48" method="true" symbol="arrowPos"/>
+<entry id="120" method="true" symbol="MainLayout"/>
 <entry id="19" object="true" symbol="ScoreCardView"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
-<entry id="93" method="true" symbol="firstNotRegisterdHole"/>
+<entry id="98" method="true" symbol="firstNotRegisterdHole"/>
 <entry id="8389123" method="true" symbol="onShow"/>
-<entry id="142" method="true" symbol="shiftScoreCard"/>
+<entry id="147" method="true" symbol="shiftScoreCard"/>
 <entry id="20" object="true" symbol="DiscGolfDelegate"/>
-<entry id="83" method="true" symbol="holePar"/>
-<entry field="true" id="44" symbol="TAP_BOX_WIDTH"/>
-<entry field="true" id="102" method="true" symbol="editPar"/>
-<entry id="68" method="true" symbol="setTotalPos"/>
+<entry id="88" method="true" symbol="holePar"/>
+<entry field="true" id="47" symbol="TAP_BOX_WIDTH"/>
+<entry field="true" id="73" symbol="parValuePos"/>
+<entry field="true" id="107" method="true" symbol="editPar"/>
 <entry field="true" id="8388889" symbol="mIndex"/>
 <entry id="15" object="true" symbol="DiscGolfView"/>
-<entry id="104" method="true" symbol="parPluss"/>
+<entry id="109" method="true" symbol="parPluss"/>
 <entry field="true" id="22" symbol="game"/>
-<entry id="61" method="true" symbol="drawBottomLine"/>
+<entry id="68" method="true" symbol="drawBottomLine"/>
 <entry id="8389098" method="true" symbol="onTap"/>
-<entry id="81" method="true" symbol="totalText"/>
-<entry field="true" id="136" symbol="timer"/>
+<entry id="86" method="true" symbol="totalText"/>
+<entry field="true" id="141" symbol="timer"/>
 <entry id="8389131" method="true" symbol="setColor"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry field="true" id="124" symbol="registered"/>
-<entry field="true" id="120" symbol="AppName"/>
+<entry field="true" id="129" symbol="registered"/>
+<entry field="true" id="125" symbol="AppName"/>
 <entry field="true" id="8389343" symbol="minutes"/>
 <entry field="true" id="32" symbol="SMALL_FONT"/>
-<entry id="137" method="true" symbol="getTime"/>
-<entry id="40" method="true" symbol="bottomRow"/>
-<entry id="69" method="true" symbol="setParPos"/>
+<entry id="142" method="true" symbol="getTime"/>
+<entry id="51" method="true" symbol="bottomRow"/>
+<entry id="74" method="true" symbol="setParPos"/>
 <entry id="8388922" method="true" symbol="now"/>
 <entry id="8389126" method="true" symbol="setLayout"/>
-<entry id="70" method="true" symbol="getVersion"/>
+<entry id="75" method="true" symbol="getVersion"/>
 <entry id="8389080" method="true" symbol="onMenu"/>
-<entry id="46" method="true" symbol="lineUp"/>
-<entry id="62" method="true" symbol="titleText"/>
-<entry field="true" id="141" symbol="front"/>
+<entry id="53" method="true" symbol="lineUp"/>
+<entry id="69" method="true" symbol="titleText"/>
+<entry field="true" id="146" symbol="front"/>
+<entry id="41" method="true" symbol="scoreValueSection"/>
 <entry field="true" id="33" symbol="CENTER_TEXT"/>
-<entry field="true" id="113" symbol="LauncherIcon"/>
-<entry id="125" method="true" symbol="restart"/>
-<entry id="74" method="true" symbol="parValue"/>
-<entry id="73" method="true" symbol="drawTime"/>
+<entry field="true" id="118" symbol="LauncherIcon"/>
+<entry id="130" method="true" symbol="restart"/>
+<entry id="79" method="true" symbol="parValue"/>
+<entry id="78" method="true" symbol="drawTime"/>
 <entry id="8388646" module="true" object="true" symbol="Timer"/>
 <entry id="8389081" method="true" symbol="onBack"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
-<entry id="95" method="true" symbol="nextHole"/>
+<entry id="100" method="true" symbol="nextHole"/>
 <entry id="18" object="true" symbol="DiscGolfApp"/>
 <entry id="8389281" method="true" symbol="onStop"/>
-<entry id="59" method="true" symbol="throws"/>
-<entry id="79" method="true" symbol="score"/>
+<entry id="66" method="true" symbol="throws"/>
+<entry id="84" method="true" symbol="score"/>
 <entry field="true" id="31" symbol="MEDIUM_FONT"/>
-<entry field="true" id="53" symbol="top"/>
-<entry field="true" id="90" symbol="gui"/>
+<entry field="true" id="60" symbol="top"/>
+<entry field="true" id="95" symbol="gui"/>
 <entry id="8390514" method="true" symbol="update"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
-<entry field="true" id="138" symbol="relatedView"/>
+<entry field="true" id="143" symbol="relatedView"/>
 <entry id="11" module="true" symbol="Gui"/>
-<entry field="true" id="122" symbol="mPar"/>
-<entry id="48" object="true" symbol="ScoreCardGui"/>
+<entry field="true" id="127" symbol="mPar"/>
+<entry id="55" object="true" symbol="ScoreCardGui"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
-<entry id="135" method="true" symbol="getHoles"/>
-<entry id="80" method="true" symbol="totalThrows"/>
+<entry id="140" method="true" symbol="getHoles"/>
+<entry id="85" method="true" symbol="totalThrows"/>
 <entry id="8389279" method="true" symbol="onStart"/>
 <entry field="true" id="37" symbol="RED"/>
 <entry id="13" object="true" symbol="ScoreCardDelegate"/>
+<entry id="40" method="true" symbol="scoreSection"/>
 <entry id="8389190" method="true" symbol="drawText"/>
-<entry id="129" method="true" symbol="setPar"/>
-<entry id="110" method="true" symbol="newGame"/>
-<entry field="true" id="56" symbol="left"/>
-<entry field="true" id="52" symbol="columnHeight"/>
-<entry field="true" id="57" symbol="right"/>
-<entry field="true" id="118" symbol="MenuScorecard"/>
-<entry id="77" method="true" symbol="drawLines"/>
+<entry id="134" method="true" symbol="setPar"/>
+<entry id="115" method="true" symbol="newGame"/>
+<entry field="true" id="63" symbol="left"/>
+<entry field="true" id="59" symbol="columnHeight"/>
+<entry field="true" id="64" symbol="right"/>
+<entry field="true" id="123" symbol="MenuScorecard"/>
+<entry id="82" method="true" symbol="drawLines"/>
 <entry field="true" id="8389743" method="true" symbol="backgroundColor"/>
-<entry field="true" id="51" symbol="columnWidth"/>
+<entry field="true" id="58" symbol="columnWidth"/>
 <entry id="8389347" method="true" symbol="color"/>
-<entry id="128" method="true" symbol="getPar"/>
-<entry id="71" method="true" symbol="loadLayout"/>
+<entry id="133" method="true" symbol="getPar"/>
+<entry id="76" method="true" symbol="loadLayout"/>
 <entry id="12" object="true" symbol="Hole"/>
 <entry field="true" id="8389067" symbol="height"/>
 <entry id="26" object="true" symbol="MainGui"/>
-<entry id="39" method="true" symbol="midRow"/>
+<entry id="50" method="true" symbol="midRow"/>
 <entry id="8389109" method="true" symbol="onMenuItem"/>
 <entry field="true" id="24" symbol="time"/>
 <entry id="25" method="true" symbol="getLastGame"/>
-<entry id="82" method="true" symbol="parText"/>
-<entry field="true" id="116" symbol="MenuSelectHole"/>
+<entry id="87" method="true" symbol="parText"/>
+<entry field="true" id="121" symbol="MenuSelectHole"/>
 <entry field="true" id="29" symbol="Vivoactive"/>
 <entry id="8389959" object="true" symbol="Course"/>
 <entry id="16" object="true" symbol="Game"/>
-<entry id="112" module="true" symbol="Layouts"/>
-<entry id="105" method="true" symbol="parMinus"/>
-<entry field="true" id="49" symbol="mController"/>
+<entry id="117" module="true" symbol="Layouts"/>
+<entry id="110" method="true" symbol="parMinus"/>
+<entry field="true" id="56" symbol="mController"/>
 <entry id="14" object="true" symbol="Controller"/>
 <entry id="8389125" method="true" symbol="onHide"/>
-<entry field="true" id="91" symbol="mCourse"/>
-<entry id="131" method="true" symbol="getThrows"/>
-<entry id="96" method="true" symbol="previousHole"/>
-<entry id="139" method="true" symbol="tapDown"/>
-<entry id="47" method="true" symbol="lineDown"/>
+<entry field="true" id="96" symbol="mCourse"/>
+<entry id="136" method="true" symbol="getThrows"/>
+<entry id="101" method="true" symbol="previousHole"/>
+<entry id="144" method="true" symbol="tapDown"/>
+<entry id="54" method="true" symbol="lineDown"/>
 <entry id="8388882" method="true" symbol="save"/>
-<entry field="true" id="132" symbol="mHoles"/>
+<entry field="true" id="137" symbol="mHoles"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-<entry id="76" method="true" symbol="topText"/>
+<entry id="81" method="true" symbol="topText"/>
 <entry field="true" id="28" symbol="Forerunner235"/>
 <entry field="true" id="8389066" symbol="width"/>
-<entry id="98" method="true" symbol="getActiveHole"/>
+<entry id="103" method="true" symbol="getActiveHole"/>
 <entry field="true" id="36" symbol="GREEN"/>
-<entry id="99" method="true" symbol="getCourse"/>
-<entry id="130" method="true" symbol="setThrows"/>
-<entry field="true" id="121" symbol="MenuPar"/>
-<entry id="111" module="true" symbol="Menus"/>
-<entry id="84" method="true" symbol="drawArrows"/>
-<entry id="133" method="true" symbol="lastCourse"/>
-<entry id="143" symbol="scorecard"/>
-<entry id="42" method="true" symbol="tapBoxDown"/>
-<entry id="107" method="true" symbol="currentHoleThrows"/>
-<entry field="true" id="117" symbol="MenuNewGame"/>
+<entry field="true" id="43" symbol="DOWN_ARROW"/>
+<entry id="104" method="true" symbol="getCourse"/>
+<entry id="135" method="true" symbol="setThrows"/>
+<entry field="true" id="126" symbol="MenuPar"/>
+<entry id="116" module="true" symbol="Menus"/>
+<entry id="89" method="true" symbol="drawArrows"/>
+<entry id="138" method="true" symbol="lastCourse"/>
+<entry id="148" symbol="scorecard"/>
+<entry id="45" method="true" symbol="tapBoxDown"/>
+<entry id="112" method="true" symbol="currentHoleThrows"/>
+<entry field="true" id="122" symbol="MenuNewGame"/>
 <entry field="true" id="35" symbol="WHITE"/>
-<entry id="45" method="true" symbol="frontColor"/>
-<entry id="109" method="true" symbol="minusOne"/>
-<entry field="true" id="101" symbol="mGame"/>
-<entry id="64" method="true" symbol="drawScoreBack9"/>
-<entry id="72" method="true" symbol="updateText"/>
+<entry id="52" method="true" symbol="frontColor"/>
+<entry id="114" method="true" symbol="minusOne"/>
+<entry field="true" id="106" symbol="mGame"/>
+<entry id="71" method="true" symbol="drawScoreBack9"/>
+<entry id="77" method="true" symbol="updateText"/>
 <entry field="true" id="30" symbol="LARGE_FONT"/>
-<entry id="97" method="true" symbol="selectHole"/>
+<entry id="102" method="true" symbol="selectHole"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
 <entry field="true" id="34" symbol="BLACK"/>
-<entry field="true" id="92" symbol="activeHole"/>
-<entry id="94" method="true" symbol="playActiveHole"/>
+<entry field="true" id="97" symbol="activeHole"/>
+<entry id="99" method="true" symbol="playActiveHole"/>
 <entry id="8388635" module="true" symbol="Application"/>
-<entry field="true" id="65" symbol="version"/>
+<entry field="true" id="72" symbol="version"/>
 </symbolTable>
 <localVars>
 <entry endPc="268435518" name="controller" stackId="2" startPc="268435456"/>
@@ -968,9 +973,6 @@
 <param id="controller"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="protected" name="setTotalPos" parent="MainGui">
-<documentation/>
-</functionEntry>
 <functionEntry accessMode="protected" name="setParPos" parent="MainGui">
 <param id="version"/>
 <documentation/>
@@ -1115,6 +1117,27 @@
 <functionEntry accessMode="public" name="update" parent="Time">
 <documentation/>
 </functionEntry>
+<functionEntry accessMode="public" name="parSection" parent="Gui">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="totalSection" parent="Gui">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="scoreSection" parent="Gui">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="scoreValueSection" parent="Gui">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="tapBoxUp" parent="Gui">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="tapBoxDown" parent="Gui">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="arrowPos" parent="Gui">
+<documentation/>
+</functionEntry>
 <functionEntry accessMode="public" name="topRow" parent="Gui">
 <param id="width"/>
 <param id="height"/>
@@ -1128,12 +1151,6 @@
 <functionEntry accessMode="public" name="bottomRow" parent="Gui">
 <param id="width"/>
 <param id="height"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="tapBoxUp" parent="Gui">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="tapBoxDown" parent="Gui">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="backgroundColor" parent="Gui">
