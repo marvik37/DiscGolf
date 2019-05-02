@@ -7,11 +7,24 @@ module Gui {
             Forerunner235, Vivoactive, Forerunner645
         }
 
+    function getVersion() {
+        var height = Sys.getDeviceSettings().screenHeight;
+            if(height == 180){
+                return Forerunner235;
+            }else if(height == 148){
+                return Vivoactive;
+            }else if(height == 240){
+                return Forerunner645;
+            }
+            return null;
+        }
+
     /** FONTS **/
     const LARGE_FONT = Gfx.FONT_LARGE;
     const MEDIUM_FONT = Gfx.FONT_MEDIUM;
     const SMALL_FONT = Gfx.FONT_SMALL;
     const TINY_FONT = Gfx.FONT_TINY;
+    const XTINY_FONT = Gfx.FONT_XTINY;
 
 
 
@@ -26,6 +39,7 @@ module Gui {
     const WHITE = Gfx.COLOR_WHITE;
     const GREEN = Gfx.COLOR_GREEN;
     const RED = Gfx.COLOR_RED;
+    const GREY = Gfx.COLOR_LT_GRAY;
 
 
     /** MainView Positions **/

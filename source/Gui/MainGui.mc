@@ -49,16 +49,7 @@ module Gui{
             parValuePos = pos;
         }
 
-        hidden function getVersion() {
-            if(height == 180){
-                return Forerunner235;
-            }else if(height == 148){
-                return Vivoactive;
-            }else if(height == 240){
-                return Forerunner645;
-            }
-            return null;
-        }
+        
         
         function loadLayout() {
             setColor();

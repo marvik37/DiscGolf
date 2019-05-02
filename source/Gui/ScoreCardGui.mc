@@ -9,8 +9,11 @@ module Gui{
         hidden var width;
         hidden var mDc;
 
-        hidden const columnWidth = 18;
+        hidden var columnWidth = 18;
         hidden var columnHeight;
+
+        var col = true;
+
 
         hidden var title;
         hidden var top;
@@ -35,8 +38,15 @@ module Gui{
 
             columnHeight = middle - top;
 
+            var version = getVersion();
+            if(version == Forerunner645){
+                columnWidth =23;
+            }
+
             left = (mDc.getWidth() - (columnWidth*9)) / 2;
             right = left + columnWidth * 9;
+
+            
         }
 
 
@@ -63,6 +73,9 @@ module Gui{
             mDc.drawLine(left, bottom, right, bottom);
 
             var x = left;
+
+           
+
             for(var i = 0; i < 10; i++){
                 mDc.drawLine(x, top, x, bottom);
                 x += columnWidth;
@@ -74,7 +87,24 @@ module Gui{
         }
 
         hidden function drawTopLine(text, x){
-            mDc.drawText(x, top - ((top - middle) / 2), SMALL_FONT, text, CENTER_TEXT);
+            var version = getVersion();
+            var xx = x - (columnWidth/2);
+            switch(version){
+                case Forerunner645:
+                    if(col){
+                        frontColor(GREY,mDc);
+                        mDc.fillRectangle(xx+1, top+1, columnWidth-1, columnHeight-1);
+                        frontColor(BLACK, mDc);
+                        col = false; 
+                    }else{
+                        col = true;
+                    }
+                    mDc.drawText(x, top - ((top - middle) / 2), XTINY_FONT, text, CENTER_TEXT);
+                    break;
+                default:
+                    mDc.drawText(x, top - ((top - middle) / 2), SMALL_FONT, text, CENTER_TEXT);
+                    break;
+            }
         }
 
         hidden function drawBottomLine(text, x) {
