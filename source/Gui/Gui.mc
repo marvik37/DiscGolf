@@ -4,13 +4,14 @@ using Toybox.System as Sys;
 module Gui {
 
     enum{
-            Forerunner235, Vivoactive
+            Forerunner235, Vivoactive, Forerunner645
         }
 
     /** FONTS **/
     const LARGE_FONT = Gfx.FONT_LARGE;
     const MEDIUM_FONT = Gfx.FONT_MEDIUM;
     const SMALL_FONT = Gfx.FONT_SMALL;
+    const TINY_FONT = Gfx.FONT_TINY;
 
 
 
