@@ -43,20 +43,13 @@ module Gui{
                     pos[1] += Gfx.getFontHeight(SMALL_FONT);
                     break;
                 default:
-                    pos[1] += Gfx.getFontHeight(MEDIUM_FONT);
+                    pos[1] += Gfx.getFontHeight(TINY_FONT);
                     break;
             }
             parValuePos = pos;
         }
 
-        hidden function getVersion() {
-            if(height == 180){
-                return Forerunner235;
-            }else if(height == 148){
-                return Vivoactive;
-            }
-            return null;
-        }
+        
         
         function loadLayout() {
             setColor();
@@ -85,7 +78,11 @@ module Gui{
         hidden function drawTime() {
             var pos = [width/2, height/20];
             time.start();
-            mDc.drawText(pos[0], pos[1], SMALL_FONT, time.now(), CENTER_TEXT);
+            if(version == Forerunner645){
+                mDc.drawText(pos[0], pos[1], XTINY_FONT, time.now(), CENTER_TEXT);
+            }else {
+                mDc.drawText(pos[0], pos[1], SMALL_FONT, time.now(), CENTER_TEXT);
+            }
         }
 
         hidden function parValue() {
@@ -95,13 +92,17 @@ module Gui{
                     editParValue(MEDIUM_FONT);
                 }else if(version == Vivoactive){
                     editParValue(SMALL_FONT);
+                }else if(version == Forerunner645){
+                    editParValue(TINY_FONT);
                 }
                     
             }else{
                 if(version == Forerunner235){
                     holePar(mController.parValue(), MEDIUM_FONT);
-                }else if(version == Vivoactive){
+                }else if(version == Vivoactive ){
                     holePar(mController.parValue(), SMALL_FONT);
+                }else if(version == Forerunner645){
+                    holePar(mController.parValue(), TINY_FONT);
                 }
                 
             }
@@ -149,7 +150,7 @@ module Gui{
 
         hidden function parText() {
             var pos = parSection();
-            if(version == Vivoactive){
+            if(version == Vivoactive  || version == Forerunner645){
                 mDc.drawText(pos[0], pos[1], SMALL_FONT, "Par", CENTER_TEXT);
             }else if(version == Forerunner235){
                 mDc.drawText(pos[0], pos[1], MEDIUM_FONT, "Par", CENTER_TEXT);
