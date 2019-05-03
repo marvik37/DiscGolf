@@ -78,7 +78,11 @@ module Gui{
         hidden function drawTime() {
             var pos = [width/2, height/20];
             time.start();
-            mDc.drawText(pos[0], pos[1], SMALL_FONT, time.now(), CENTER_TEXT);
+            if(version == Forerunner645){
+                mDc.drawText(pos[0], pos[1], XTINY_FONT, time.now(), CENTER_TEXT);
+            }else {
+                mDc.drawText(pos[0], pos[1], SMALL_FONT, time.now(), CENTER_TEXT);
+            }
         }
 
         hidden function parValue() {

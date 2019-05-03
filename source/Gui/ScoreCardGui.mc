@@ -150,6 +150,7 @@ module Gui{
 
             x = left + (columnWidth/2);
             for(var i = 9; i < holes.size(); i++){
+                color(holes[i], x);
                 drawBottomLine(throws(holes[i]), x);
                 x += columnWidth;
             }
