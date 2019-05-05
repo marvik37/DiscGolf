@@ -128,7 +128,7 @@ module Gui{
 
         hidden function scoreText() {
             var pos = scoreSection();
-            mDc.drawText(pos[0], pos[1], MEDIUM_FONT, "Score:", CENTER_TEXT);
+            mDc.drawText(pos[0], pos[1], MEDIUM_FONT, "Shots:", CENTER_TEXT);
         }
 
         hidden function score(score) {
@@ -140,7 +140,20 @@ module Gui{
             var pos = totalSection();
             pos[1] += Gfx.getFontHeight(MEDIUM_FONT)+5;
             var text = score + "(" + throws + ")";
-            mDc.drawText(pos[0], pos[1], LARGE_FONT, text, CENTER_TEXT);
+            var version = getVersion();
+            switch(version){
+                case Forerunner645:
+                    var length = text.length();
+                    if(length > 5){
+                        mDc.drawText(pos[0] - (5*(length-5)), pos[1], SMALL_FONT, text, CENTER_TEXT);
+                    }else{
+                        mDc.drawText(pos[0], pos[1], SMALL_FONT, text, CENTER_TEXT);
+                    }
+                    break;
+                default:
+                    mDc.drawText(pos[0], pos[1], LARGE_FONT, text, CENTER_TEXT);
+                    break;
+            }
         }
 
         hidden function totalText() {
