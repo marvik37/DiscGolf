@@ -1,14 +1,19 @@
 using Toybox.WatchUi as Ui;
+using Toybox.System as Sys;
+
 
 class DiscGolfDelegate extends Ui.BehaviorDelegate {
 
     hidden var relatedView;
     hidden var mController;
+    hidden var mKeys;
+
 
     function initialize(view, controller) {
         BehaviorDelegate.initialize();
         relatedView = view;
         mController = controller;
+        mKeys = new [Ui has :EXTENDED_KEYS ? 23 : 16];
     }
 
     function onKey(keyEvent) {
@@ -103,13 +108,41 @@ class DiscGolfDelegate extends Ui.BehaviorDelegate {
 
     function onMenu() {
         mController.editPar = false;
-        Ui.pushView(new Rez.Menus.MainMenu(), new MainMenuDelegate(mController), Ui.SLIDE_UP);
+        pushMenu();
         return true;
+    }
+
+    function onHold(evt) {
+        onMenu();
+        return false;
+    }
+
+    function pushMenu() {
+        Ui.pushView(new Rez.Menus.MainMenu(), new MainMenuDelegate(mController), Ui.SLIDE_UP);        
     }
 
     function onBack() {
         mController.save();
         return false;
+    }
+
+        function onKeyPressed(evt) {
+        var key = evt.getKey();
+        var now = Sys.getTimer();
+        mKeys[key] = now;
+    }
+
+    function onKeyReleased(evt) {
+        var key = evt.getKey();
+
+        if (mKeys[key] != null) {
+            var now = Sys.getTimer();
+            var delta = now - mKeys[key];
+        
+            Sys.println(Lang.format("Key $1$ held for $2$ms", [ key, delta ]));
+
+            mKeys[key] = null;
+        }
     }
 
 }
