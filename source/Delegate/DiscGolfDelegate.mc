@@ -186,7 +186,7 @@ class DiscGolfDelegate extends Ui.BehaviorDelegate {
 
             Sys.println(Lang.format("Key $1$ held for $2$ms", [ key, delta ]));
             
-            if(delta > 2000 && key == Ui.KEY_ENTER){
+            if(delta > 1000 && key == Ui.KEY_ENTER){
                 mController.changeHole = true;
             }
 
