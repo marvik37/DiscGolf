@@ -55,5 +55,19 @@ class SelectHoleDelegate extends Ui.BehaviorDelegate{
         }
         return false;
     }
+
+    function onSwipe(evt) {
+        var dir = evt.getDirection();
+        switch(dir){
+            case Ui.SWIPE_UP:
+                mController.nextHole();
+                break;
+            case Ui.SWIPE_DOWN:
+                mController.previousHole();
+                break;
+        }
+        relatedView.requestUpdate();
+        return false;
+    }
     
 }
