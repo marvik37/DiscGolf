@@ -6,6 +6,7 @@ class Controller{
     hidden var mGame;
     
     var editPar = false;
+    var changeHole = false;
 
     function initialize(game) {
         mGame = game;

@@ -118,7 +118,14 @@ module Gui{
 
         hidden function topText(text) {
             var pos = [width/2, height/6];
+            if(mController.changeHole){
+                mDc.fillRectangle(pos[0] - 50, pos[1] - Gfx.getFontHeight(LARGE_FONT)/2, 100, Gfx.getFontHeight(LARGE_FONT));
+                frontColor(WHITE, mDc);
+            }else{
+                frontColor(BLACK, mDc);
+            }
             mDc.drawText(pos[0], pos[1], LARGE_FONT, text, CENTER_TEXT);
+            frontColor(BLACK,mDc);
         }
 
         hidden function drawLines() {

@@ -23,6 +23,9 @@ class DiscGolfDelegate extends Ui.BehaviorDelegate {
         if(mController.editPar){
             return editPar(key);
         }
+        else if (mController.changeHole){
+            return setHole(key);
+        }
         else{
             return setThrows(key);
         }
@@ -31,27 +34,50 @@ class DiscGolfDelegate extends Ui.BehaviorDelegate {
     function onTap(keyEvent) {
         
         if(mController.editPar){
-            if(tapUp(keyEvent)){
-                mController.parPluss();
-                relatedView.requestUpdate();
-            }
-            if(tapDown(keyEvent)){
-                mController.parMinus();
-                relatedView.requestUpdate();
-            }
-        }else{
-            if(tapUp(keyEvent)){
-                mController.plussOne();
-                relatedView.requestUpdate();
-            }
-            if(tapDown(keyEvent)){
-                mController.minusOne();
-                relatedView.requestUpdate();
-            }
+            editParTap(keyEvent);
+        }
+        else if(mController.changeHole){
+            setHoleTap(keyEvent);
+        }
+        else
+        {
+            setThrowsTap(keyEvent);
         }
         
         
         return false;
+    }
+
+    hidden function setThrowsTap(keyEvent) {
+        if(tapUp(keyEvent)){
+                mController.plussOne();
+                relatedView.requestUpdate();
+            }
+        if(tapDown(keyEvent)){
+            mController.minusOne();
+            relatedView.requestUpdate();
+        }
+    }
+
+    hidden function setHoleTap(keyEvent) {
+        if(tapUp(keyEvent)){
+            mController.nextHole();
+        }
+        if(tapDown(keyEvent)){
+            mController.previousHole();
+        }
+        relatedView.requestUpdate();
+    }
+
+    hidden function editParTap(keyEvent) {
+        if(tapUp(keyEvent)){
+                mController.parPluss();
+                relatedView.requestUpdate();
+            }
+        if(tapDown(keyEvent)){
+            mController.parMinus();
+            relatedView.requestUpdate();
+        }
     }
 
     hidden function tapDown(keyEvent) {
@@ -69,6 +95,25 @@ class DiscGolfDelegate extends Ui.BehaviorDelegate {
 
         return coordinates[0] > tapUp[0] && coordinates[0] < tapUp[0] + Gui.TAP_BOX_WIDTH
         && coordinates[1] > tapUp[1] && coordinates[1] < tapUp[1] + Gui.TAP_BOX_HEIGHT;
+    }
+
+    hidden function setHole(key){
+        switch(key){
+            case Ui.KEY_UP:
+                mController.nextHole();
+                break;
+            case Ui.KEY_DOWN:
+                mController.previousHole();
+                break;
+            case Ui.KEY_ENTER:
+                mController.changeHole = false;
+                break;
+            case Ui.KEY_ESC:
+                mController.changeHole = false;
+                break;
+        }
+        relatedView.requestUpdate();
+        return true;
     }
 
     hidden function setThrows(key) {
@@ -138,10 +183,15 @@ class DiscGolfDelegate extends Ui.BehaviorDelegate {
         if (mKeys[key] != null) {
             var now = Sys.getTimer();
             var delta = now - mKeys[key];
-        
+
             Sys.println(Lang.format("Key $1$ held for $2$ms", [ key, delta ]));
+            
+            if(delta > 1000 && key == Ui.KEY_ENTER){
+                mController.changeHole = true;
+            }
 
             mKeys[key] = null;
+            relatedView.requestUpdate();
         }
     }
 
