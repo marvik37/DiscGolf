@@ -3,23 +3,7 @@ using Toybox.System as Sys;
 
 module Gui {
 
-    enum{
-            Forerunner235, Vivoactive, Forerunner645
-        }
-
-    function getVersion() {
-        var height = Sys.getDeviceSettings().screenHeight;
-            if(height == 180){
-                return Forerunner235;
-            }else if(height == 148){
-                return Vivoactive;
-            }else if(height == 240){
-                return Forerunner645;
-            }
-            return null;
-        }
-
-    /** FONTS **/
+     /** FONTS **/
     const LARGE_FONT = Gfx.FONT_LARGE;
     const MEDIUM_FONT = Gfx.FONT_MEDIUM;
     const SMALL_FONT = Gfx.FONT_SMALL;
@@ -42,76 +26,77 @@ module Gui {
     const GREY = Gfx.COLOR_LT_GRAY;
 
 
-    /** MainView Positions **/
-    function parSection() {
-        var settings = Sys.getDeviceSettings();
-        var height = settings.screenHeight;
-        var width = settings.screenWidth;
-        return [(width/4) * 3, (height/3)];
+    enum{
+            Forerunner235, Vivoactive, Forerunner645
+        }
+
+    class CommomGui{
+
+        hidden var height;
+        hidden var width;
+        hidden var settings;
+        hidden var version;
+        hidden var mDc;
+
+        function initialize(dc, controller) {
+            settings = Sys.getDeviceSettings();
+            height = settings.screenHeight;
+            width = settings.screenWidth;
+            version = getVersion();
+        }
+
+        function getVersion() {
+            var height = Sys.getDeviceSettings().screenHeight;
+            if(height == 180){
+                return Forerunner235;
+            }else if(height == 148){
+                return Vivoactive;
+            }else if(height == 240){
+                return Forerunner645;
+            }
+            return null;
+        }
+
+        /** Color **/
+
+        function setColor() {
+            backgroundColor(WHITE);
+            frontColor(BLACK);
+        }
+
+        function backgroundColor(color) {
+            mDc.setColor(color, Gfx.COLOR_TRANSPARENT);
+            mDc.fillRectangle(0, 0, width, height);
+        }
+
+        function frontColor(color){
+            mDc.setColor(color, Gfx.COLOR_TRANSPARENT);
+        }
+
+        function drawText(text, pos, font, justification) {
+            mDc.drawText(pos[0], pos[1], font, text, justification);
+        }
+
     }
 
-    function totalSection() {
-        var settings = Sys.getDeviceSettings();
-        var height = settings.screenHeight;
-        var width = settings.screenWidth;
-        return [(width/4) * 3, (height/5)*3];
-    }
 
-    function scoreSection() {
-        var settings = Sys.getDeviceSettings();
-        var height = settings.screenHeight;
-        var width = settings.screenWidth;
-        return [width/4, height/3];
-    }
+    
 
-    function scoreValueSection() {
-        var settings = Sys.getDeviceSettings();
-        var height = settings.screenHeight;
-        var width = settings.screenWidth;
-        return [width/5 , (height/5) * 3];
-    }
-
-    /** Arrows **/
-    const UP_ARROW = [[0,20], [30,20], [15,0]];
-    const DOWN_ARROW = [[0,0], [30,0], [15,20]];
-
-    function tapBoxUp() {
-        var settings = Sys.getDeviceSettings();
-        var height = settings.screenHeight;
-        var width = settings.screenWidth;
-        return [width/3 - 10, (height/5) *3 - 40];
-    }
-
-    function tapBoxDown() {
-        var settings = Sys.getDeviceSettings();
-        var height = settings.screenHeight;
-        var width = settings.screenWidth;
-        return [width/3 - 10, (height/5) *3 + 10];
-    }
-
-    const TAP_BOX_HEIGHT = 50;
-    const TAP_BOX_WIDTH = 50;
-
-    function arrowPos() {
-        var settings = Sys.getDeviceSettings();
-        var height = settings.screenHeight;
-        var width = settings.screenWidth;
-        return [(width/3) , (height / 5) * 3 ];
-    }
+  
 
 
     /** Rows **/
-    function topRow(width, height) {
+    function topRow() {
         var pos = [width/2, height/4];
         return pos;
     }
 
-    function midRow(width, height) {
+    function midRow() {
         var pos = [width/2, height/2];
         return pos;
     }
 
-    function bottomRow(width, height) {
+    function bottomRow() {
         var pos = [width/2, (height/4)*3];
         return pos;
     }
@@ -121,15 +106,7 @@ module Gui {
 
 
 
-    /** Color **/
-    function backgroundColor(color, dc, width, height) {
-        dc.setColor(color, Gfx.COLOR_TRANSPARENT);
-        dc.fillRectangle(0, 0, width, height);
-    }
-
-    function frontColor(color, dc){
-        dc.setColor(color, Gfx.COLOR_TRANSPARENT);
-    }
+    
 
 
     /** Select hole **/
