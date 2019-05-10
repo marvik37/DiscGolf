@@ -3,17 +3,20 @@ using Toybox.System as Sys;
 using Toybox.Application as App;
 
 
-
-
 module Gui{
+
+    
 
     class MainGui extends CommonGui{
 
         const UP_ARROW = [[0,20], [30,20], [15,0]];
-        const DOWN_ARROW = [[0,0], [30,0], [15,20]];   
+        const DOWN_ARROW = [[0,0], [30,0], [15,20]]; 
 
         const TAP_BOX_HEIGHT = 50;
         const TAP_BOX_WIDTH = 50; 
+
+        var tapBoxUp;
+        var tapBoxDown;
 
         hidden var parValuePos;
         hidden var time;
@@ -23,14 +26,13 @@ module Gui{
         hidden var scoreSection;
         hidden var scoreValueSection;
         hidden var arrowPos;
-        hidden var tapBoxUp;
-        hidden var tapBoxDown;
+        
         hidden var upSectionLine;
+        hidden var midSectionLine;
 
-
-        function initialize(dc, controller) {
-            CommonGui(dc, controller);
-            Sys.println(mDc.getHeight());
+        function initialize(dc, mController) {
+            CommonGui.initialize(dc, mController);
+            Sys.println(height);
 
             time = App.getApp().time;
             timePos = [width/2, height/20];
@@ -54,7 +56,7 @@ module Gui{
        
 
         hidden function setParPos(version) {
-            var pos = parSection;
+            var pos = [parSection[0], parSection[1]];
             switch (version){
                 case Forerunner235:
                     pos[1] += Gfx.getFontHeight(MEDIUM_FONT);
@@ -101,9 +103,9 @@ module Gui{
             var pos = timePos;
             time.start();
             if(version == Forerunner645){
-                mDc.drawText(pos[0], pos[1], XTINY_FONT, time.now(), CENTER_TEXT);
+                CommonGui.drawText(time.now(), pos, XTINY_FONT, CENTER_TEXT);
             }else {
-                mDc.drawText(pos[0], pos[1], SMALL_FONT, time.now(), CENTER_TEXT);
+                CommonGui.drawText(time.now(), pos, SMALL_FONT, CENTER_TEXT);
             }
         }
 
@@ -146,60 +148,60 @@ module Gui{
             }else{
                 frontColor(BLACK);
             }
-            drawText(text, pos, LARGE_FONT, CENTER_TEXT);
+            CommonGui.drawText(text, pos, LARGE_FONT, CENTER_TEXT);
             frontColor(BLACK);
         }
 
         
 
         hidden function scoreText() {
-            var pos = scoreSection();
-            mDc.drawText(pos[0], pos[1], MEDIUM_FONT, "Shots:", CENTER_TEXT);
+            var pos = scoreSection;
+            CommonGui.drawText("Shots", pos, MEDIUM_FONT, CENTER_TEXT);
         }
 
         hidden function score(score) {
-            var pos = scoreValueSection();
-            mDc.drawText(pos[0], pos[1], LARGE_FONT, score, CENTER_TEXT);
+            var pos = scoreValueSection;
+            CommonGui.drawText(score, pos, LARGE_FONT, CENTER_TEXT);
         }
 
         hidden function totalThrows(throws, score) {
-            var pos = totalSection;
+            var pos = [totalSection[0], totalSection[1]];
             pos[1] += Gfx.getFontHeight(MEDIUM_FONT)+5;
             var text = score + "(" + throws + ")";
-            var version = getVersion();
+            var version = CommonGui.getVersion();
             switch(version){
                 case Forerunner645:
                     var length = text.length();
                     if(length > 5){
                         pos[0] = pos[0] - (5*(length-5));
-                        drawText(text,pos,SMALL_FONT, CENTER_TEXT);
+                        CommonGui.drawText(text,pos,SMALL_FONT, CENTER_TEXT);
                     }else{
-                        drawText(text, pos, SMALL_FONT, CENTER_TEXT);
+                        CommonGui.drawText(text, pos, SMALL_FONT, CENTER_TEXT);
                     }
                     break;
                 default:
-                    drawText(text, pos, LARGE_FONT, CENTER_TEXT);
+                    CommonGui.drawText(text, pos, LARGE_FONT, CENTER_TEXT);
                     break;
             }
         }
 
         hidden function totalText() {
             var pos = totalSection;
-            mDc.drawText(pos[0], pos[1], MEDIUM_FONT, "Total", CENTER_TEXT);    
+            CommonGui.drawText("Total", pos, MEDIUM_FONT, CENTER_TEXT);
         }
 
         hidden function parText() {
             var pos = parSection;
             if(version == Vivoactive  || version == Forerunner645){
-                mDc.drawText(pos[0], pos[1], SMALL_FONT, "Par", CENTER_TEXT);
+                CommonGui.drawText("Par", pos, SMALL_FONT, CENTER_TEXT);
             }else if(version == Forerunner235){
-                mDc.drawText(pos[0], pos[1], MEDIUM_FONT, "Par", CENTER_TEXT);
+                CommonGui.drawText("Par", pos, MEDIUM_FONT, CENTER_TEXT);
             }
             
         }
 
         hidden function holePar(par, font) {
-            mDc.drawText(parValuePos[0], parValuePos[1], font, par, CENTER_TEXT);
+            CommonGui.drawText(par, parValuePos, font, CENTER_TEXT);
         }
 
         hidden function drawText(){
@@ -209,11 +211,32 @@ module Gui{
         }
 
         hidden function drawArrows() {
-            var up = UP_ARROW;
-            var down = DOWN_ARROW;
+            var up = [UP_ARROW[0], UP_ARROW[1], UP_ARROW[2]];
+            var down = [DOWN_ARROW[0], DOWN_ARROW[1], DOWN_ARROW[2]];
             
-            var pos = arrowPos;
+            var pos = [arrowPos[0], arrowPos[1]];
 
+            setArrowPos(up, down, pos);
+           
+            mDc.fillPolygon(up);
+            mDc.fillPolygon(down);
+
+            resetArrowPos(up, down, pos);
+        }
+
+        hidden function resetArrowPos(up, down, pos) {
+            for(var i = 0; i < up.size(); i++){
+                up[i][0] -= pos[0];
+                up[i][1] -= pos[1] - 15;
+            }
+
+            for(var i = 0; i < down.size(); i++){
+                down[i][0] -= pos[0];
+                down[i][1] -= pos[1] + 15;
+            }
+        }
+
+        hidden function setArrowPos(up, down, pos) {
             for(var i = 0; i < up.size(); i++){
                 up[i][0] += pos[0];
                 up[i][1] += pos[1] - 15;
@@ -223,10 +246,6 @@ module Gui{
                 down[i][0] += pos[0];
                 down[i][1] += pos[1] + 15;
             }
-
-
-            mDc.fillPolygon(up);
-            mDc.fillPolygon(down);
         }
     }
 }

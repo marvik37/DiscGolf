@@ -82,19 +82,21 @@ class DiscGolfDelegate extends Ui.BehaviorDelegate {
 
     hidden function tapDown(keyEvent) {
         var coordinates = keyEvent.getCoordinates();
-        var tapDown = Gui.tapBoxDown();
+        var gui = relatedView.gui;
+        var tapDown = gui.tapBoxDown;
 
-        return coordinates[0] > tapDown[0] && coordinates[0] < tapDown[0] + Gui.TAP_BOX_WIDTH
-        && coordinates[1] > tapDown[1] && coordinates[1] < tapDown[1] + Gui.TAP_BOX_HEIGHT;
+        return coordinates[0] > tapDown[0] && coordinates[0] < tapDown[0] + gui.TAP_BOX_WIDTH
+        && coordinates[1] > tapDown[1] && coordinates[1] < tapDown[1] + gui.TAP_BOX_HEIGHT;
 
     }
 
     hidden function tapUp(keyEvent) {
         var coordinates = keyEvent.getCoordinates();
-        var tapUp = Gui.tapBoxUp();
+        var gui = relatedView.gui;
+        var tapUp = gui.tapBoxUp;
 
-        return coordinates[0] > tapUp[0] && coordinates[0] < tapUp[0] + Gui.TAP_BOX_WIDTH
-        && coordinates[1] > tapUp[1] && coordinates[1] < tapUp[1] + Gui.TAP_BOX_HEIGHT;
+        return coordinates[0] > tapUp[0] && coordinates[0] < tapUp[0] + gui.TAP_BOX_WIDTH
+        && coordinates[1] > tapUp[1] && coordinates[1] < tapUp[1] + gui.TAP_BOX_HEIGHT;
     }
 
     hidden function setHole(key){
