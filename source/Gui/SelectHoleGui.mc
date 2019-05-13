@@ -31,7 +31,7 @@ module Gui{
         }
 
         function update() {
-            CommonGui.setColor();
+            setColor();
             drawLines();
             updateText();
         }
