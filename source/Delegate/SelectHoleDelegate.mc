@@ -39,8 +39,8 @@ class SelectHoleDelegate extends Ui.BehaviorDelegate{
 
     function onTap(clickEvent) {
         var coordinate = clickEvent.getCoordinates();
-        var upRow = Gui.lineUp();
-        var downRow = Gui.lineDown();
+        var upRow = relatedView.lineUp;
+        var downRow = relatedView.lineDown;
 
         if(coordinate[1] < upRow[1]){
             mController.previousHole();
