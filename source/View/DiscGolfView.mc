@@ -8,6 +8,9 @@ class DiscGolfView extends WatchUi.View {
     
     hidden var mController;
 
+    var upBox;
+    var downBox;
+
     function initialize( controller) {
         View.initialize();
         mController = controller; 

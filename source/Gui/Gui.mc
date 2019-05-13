@@ -3,23 +3,7 @@ using Toybox.System as Sys;
 
 module Gui {
 
-    enum{
-            Forerunner235, Vivoactive, Forerunner645
-        }
-
-    function getVersion() {
-        var height = Sys.getDeviceSettings().screenHeight;
-            if(height == 180){
-                return Forerunner235;
-            }else if(height == 148){
-                return Vivoactive;
-            }else if(height == 240){
-                return Forerunner645;
-            }
-            return null;
-        }
-
-    /** FONTS **/
+     /** FONTS **/
     const LARGE_FONT = Gfx.FONT_LARGE;
     const MEDIUM_FONT = Gfx.FONT_MEDIUM;
     const SMALL_FONT = Gfx.FONT_SMALL;
@@ -42,110 +26,68 @@ module Gui {
     const GREY = Gfx.COLOR_LT_GRAY;
 
 
-    /** MainView Positions **/
-    function parSection() {
-        var settings = Sys.getDeviceSettings();
-        var height = settings.screenHeight;
-        var width = settings.screenWidth;
-        return [(width/4) * 3, (height/3)];
-    }
+    public enum{
+            Forerunner235, Vivoactive, Forerunner645
+        }
 
-    function totalSection() {
-        var settings = Sys.getDeviceSettings();
-        var height = settings.screenHeight;
-        var width = settings.screenWidth;
-        return [(width/4) * 3, (height/5)*3];
-    }
+    class CommonGui{
 
-    function scoreSection() {
-        var settings = Sys.getDeviceSettings();
-        var height = settings.screenHeight;
-        var width = settings.screenWidth;
-        return [width/4, height/3];
-    }
+        hidden var height;
+        hidden var width;
+        hidden var settings;
+        hidden var version;
+        hidden var mDc;
+        hidden var mController;
 
-    function scoreValueSection() {
-        var settings = Sys.getDeviceSettings();
-        var height = settings.screenHeight;
-        var width = settings.screenWidth;
-        return [width/5 , (height/5) * 3];
-    }
+        function initialize(dc, controller) {
+            mDc = dc;
+            settings = Sys.getDeviceSettings();
+            height = settings.screenHeight;
+            width = settings.screenWidth;
+            version = getVersion();
+            mController = controller;
+        }
 
-    /** Arrows **/
-    const UP_ARROW = [[0,20], [30,20], [15,0]];
-    const DOWN_ARROW = [[0,0], [30,0], [15,20]];
+        function getVersion() {
+            if(height == 180){
+                return Forerunner235;
+            }else if(height == 148){
+                return Vivoactive;
+            }else if(height == 240){
+                return Forerunner645;
+            }
+            return null;
+        }
 
-    function tapBoxUp() {
-        var settings = Sys.getDeviceSettings();
-        var height = settings.screenHeight;
-        var width = settings.screenWidth;
-        return [width/3 - 10, (height/5) *3 - 40];
-    }
+        /** Color **/
 
-    function tapBoxDown() {
-        var settings = Sys.getDeviceSettings();
-        var height = settings.screenHeight;
-        var width = settings.screenWidth;
-        return [width/3 - 10, (height/5) *3 + 10];
-    }
+        function setColor() {
+            backgroundColor(WHITE);
+            frontColor(BLACK);
+        }
 
-    const TAP_BOX_HEIGHT = 50;
-    const TAP_BOX_WIDTH = 50;
+        function backgroundColor(color) {
+            mDc.setColor(color, Gfx.COLOR_TRANSPARENT);
+            mDc.fillRectangle(0, 0, width, height);
+        }
 
-    function arrowPos() {
-        var settings = Sys.getDeviceSettings();
-        var height = settings.screenHeight;
-        var width = settings.screenWidth;
-        return [(width/3) , (height / 5) * 3 ];
-    }
+        function frontColor(color){
+            mDc.setColor(color, Gfx.COLOR_TRANSPARENT);
+        }
 
+      
 
-    /** Rows **/
-    function topRow(width, height) {
-        var pos = [width/2, height/4];
-        return pos;
-    }
+        function drawText(text, pos, font, justification) {
+            mDc.drawText(pos[0], pos[1], font, text, justification);
+        }
 
-    function midRow(width, height) {
-        var pos = [width/2, height/2];
-        return pos;
-    }
-
-    function bottomRow(width, height) {
-        var pos = [width/2, (height/4)*3];
-        return pos;
     }
 
 
     
 
 
-
-    /** Color **/
-    function backgroundColor(color, dc, width, height) {
-        dc.setColor(color, Gfx.COLOR_TRANSPARENT);
-        dc.fillRectangle(0, 0, width, height);
-    }
-
-    function frontColor(color, dc){
-        dc.setColor(color, Gfx.COLOR_TRANSPARENT);
-    }
-
-
-    /** Select hole **/
-    function lineUp() {
-        var settings = Sys.getDeviceSettings();
-        var height = settings.screenHeight;
-        var width = settings.screenWidth;
-        return [width, (height/3)];
-    }
-
-    function lineDown() {
-        var settings = Sys.getDeviceSettings();
-        var height = settings.screenHeight;
-        var width = settings.screenWidth;
-        return [width, (height/3)*2];
-    }
+ 
 
     
 }
