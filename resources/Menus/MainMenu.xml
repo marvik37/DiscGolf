@@ -3,4 +3,5 @@
     <menu-item id="changePar" label="@Strings.MenuPar"></menu-item>
     <menu-item id="newGame" label="@Strings.MenuNewGame"></menu-item>
     <menu-item id="scorecard" label="@Strings.MenuScorecard"></menu-item>
+    <menu-item id="createCourse" label="@Strings.CreateCourse"></menu-item>
 </menu>

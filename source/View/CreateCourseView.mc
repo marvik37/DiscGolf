@@ -1,20 +1,21 @@
 using Toybox.WatchUi as Ui;
 
-class EditParView extends Ui.View{
-
-    hidden var gui;
-    hidden var mController;
-
-    function initialize() {
-        View.initialize();
-    }
-
-     // Load your resources here
+class CreateCourseView extends Ui.View{
+	
+	hidden var mController;
+	
+	var gui;
+	
+	function initialize(controller){
+		View.initialize();
+		mController = controller;
+	}
+	
+	   // Load your resources here
     function onLayout(dc) {
-        gui = new Gui.EditParGui(dc, mController);
+        gui = new Gui.CreateCourseGui(dc, mController);
     }
 
-    
     // Called when this View is brought to the foreground. Restore
     // the state of this View and prepare it to be shown. This includes
     // loading resources into memory.
@@ -25,7 +26,7 @@ class EditParView extends Ui.View{
     function onUpdate(dc) {
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
-        gui.update();
+        return true;
     }
 
     // Called when this View is removed from the screen. Save the
@@ -34,3 +35,4 @@ class EditParView extends Ui.View{
     function onHide() {
     }
 }
+
