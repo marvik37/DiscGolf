@@ -19,7 +19,7 @@ class DiscGolfApp extends Application.AppBase {
         var course = null;
         try{
             course = new Course(lastGame);
-        }catch(UnexpectedTypeException){
+        }catch( ex ){
             lastGame = null;
             course = new Course(lastGame);
         }
