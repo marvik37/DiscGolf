@@ -13,15 +13,15 @@ class Course{
     }
 
     function lastCourse(state) {
-        mHoles = new [state[0].size()];
+        mHoles = new [state.size()];
         for(var i = 0; i < mHoles.size(); i++){
             var hole = new Hole(i);
-            if(state[0][i] != 0){
-                hole.setThrows(state[0][i]);
+            if(state[i] != 0){
+                hole.setThrows(state[i]);
+                mHoles[i] = hole;
+            }else{
+                mHoles[i] = hole;
             }
-            hole.setPar(state[1][i]);
-            mHoles[i] = hole;
-
         }
     }
 
