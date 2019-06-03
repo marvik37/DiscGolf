@@ -15,7 +15,14 @@ class DiscGolfApp extends Application.AppBase {
 
     // onStart() is called on application start up
     function onStart(state) {
-        var course = new Course(getLastGame());
+        var lastGame = getLastGame();
+        var course = null;
+        try{
+            course = new Course(lastGame);
+        }catch(UnexpectedTypeException){
+            lastGame = null;
+            course = new Course(lastGame);
+        }
         game = new Game(course);
         controller = new Controller(game);
     }
