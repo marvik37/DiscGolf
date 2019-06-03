@@ -39,8 +39,8 @@ class SelectHoleDelegate extends Ui.BehaviorDelegate{
 
     function onTap(clickEvent) {
         var coordinate = clickEvent.getCoordinates();
-        var upRow = Gui.lineUp();
-        var downRow = Gui.lineDown();
+        var upRow = relatedView.lineUp;
+        var downRow = relatedView.lineDown;
 
         if(coordinate[1] < upRow[1]){
             mController.previousHole();
@@ -53,6 +53,20 @@ class SelectHoleDelegate extends Ui.BehaviorDelegate{
         else{
             Ui.popView(Ui.SLIDE_IMMEDIATE);
         }
+        return false;
+    }
+
+    function onSwipe(evt) {
+        var dir = evt.getDirection();
+        switch(dir){
+            case Ui.SWIPE_UP:
+                mController.nextHole();
+                break;
+            case Ui.SWIPE_DOWN:
+                mController.previousHole();
+                break;
+        }
+        relatedView.requestUpdate();
         return false;
     }
     

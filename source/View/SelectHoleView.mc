@@ -5,6 +5,9 @@ class SelectHoleView extends Ui.View{
     hidden var gui;
     hidden var mController;
 
+    var lineUp;
+    var lineDown;
+
     function initialize(controller) {
         View.initialize();
         mController = controller;
@@ -13,6 +16,8 @@ class SelectHoleView extends Ui.View{
     // Load your resources here
     function onLayout(dc) {
         gui = new Gui.SelectHoleGui(dc, mController);
+        lineDown = gui.getLineDown();
+        lineUp = gui.getLineUp();
     }
 
     // Called when this View is brought to the foreground. Restore

@@ -2,12 +2,8 @@ using Toybox.Graphics as Gfx;
 
 module Gui{
 
-    class ScoreCardGui{
+    class ScoreCardGui extends CommonGui{
 
-        hidden var mController;
-        hidden var height;
-        hidden var width;
-        hidden var mDc;
 
         hidden var columnWidth = 18;
         hidden var columnHeight;
@@ -22,30 +18,25 @@ module Gui{
 
         hidden var left;
         hidden var right;
+
         
 
         function initialize(dc, controller) {
-            mDc = dc;
-            mController = controller;
-            height = mDc.getHeight();
-            width = mDc.getWidth();
-
+            CommonGui.initialize(dc, controller);
+         
             title = height / 8;
 
+
+            if(version == Forerunner645){
+                columnWidth = 23;
+            }
             top = height / 4;
             middle = height / 2;
             bottom = (height/4) * 3;
-
-            columnHeight = middle - top;
-
-            var version = getVersion();
-            if(version == Forerunner645){
-                columnWidth =23;
-            }
-
-            left = (mDc.getWidth() - (columnWidth*9)) / 2;
+            left = (width - (columnWidth*9)) / 2;
             right = left + columnWidth * 9;
 
+            columnHeight = middle - top;
             
         }
 
@@ -61,11 +52,7 @@ module Gui{
             
         }
 
-        hidden function setColor() {
-            backgroundColor(WHITE, mDc, width, height);
-            frontColor(BLACK, mDc);
-        }
-
+    
         hidden function drawTable() {
 
             mDc.drawLine(left, top, right, top);
@@ -87,14 +74,13 @@ module Gui{
         }
 
         hidden function drawTopLine(text, x){
-            var version = getVersion();
             var xx = x - (columnWidth/2);
             switch(version){
                 case Forerunner645:
                     if(col){
-                        frontColor(GREY,mDc);
+                        frontColor(GREY);
                         mDc.fillRectangle(xx+1, top+1, columnWidth-1, columnHeight-1);
-                        frontColor(BLACK, mDc);
+                        frontColor(BLACK);
                         col = false; 
                     }else{
                         col = true;
@@ -113,7 +99,8 @@ module Gui{
         }
 
         hidden function titleText(text) {
-            mDc.drawText(mDc.getWidth()/2, title, LARGE_FONT, text, CENTER_TEXT);
+            var pos = [width/2, title];
+            drawText(text, pos, LARGE_FONT, CENTER_TEXT);
         }
 
         hidden function drawScoreFront9() {
@@ -163,13 +150,13 @@ module Gui{
             }
             x = x - (columnWidth/2);
             if(hole.getThrows() < hole.getPar()){
-                frontColor(GREEN, mDc);
+                frontColor(GREEN);
                 mDc.fillRectangle(x+1, middle+1, columnWidth-1, columnHeight-1);
             }else if(hole.getThrows() > hole.getPar()){
-                frontColor(RED, mDc);
+                frontColor(RED);
                 mDc.fillRectangle(x+1,middle+1, columnWidth-1, columnHeight-1);
             }
-            frontColor(BLACK, mDc);
+            frontColor(BLACK);
         }
     }
 
