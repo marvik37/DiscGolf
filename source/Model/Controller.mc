@@ -118,22 +118,19 @@ class Controller{
         var app = App.getApp();
 
         var holes = mGame.getCourse().getHoles();
-        var state = new [2];
-
-        for(var i = 0; i < state.size(); i++){
-            state[i] = new [holes.size()];
-        }
-
+        var state = new [holes.size()];
+        var par = new [holes.size()];
         for(var i = 0; i < holes.size(); i++){
             if(holes[i].isRegistered()){
-                state[0][i] = holes[i].getThrows();
+                state[i] = holes[i].getThrows();
             }else{
-                state[0][i] = 0;
+                state[i] = 0;
             }
-            state[1][i] = holes[i].getPar();
+            par[i] = holes[i].getPar();
         }
 
         app.setProperty("CurrentGame", state);
+        app.setProperty("Par", par);
     }
 
     function newGame() {

@@ -15,14 +15,7 @@ class DiscGolfApp extends Application.AppBase {
 
     // onStart() is called on application start up
     function onStart(state) {
-        var lastGame = getLastGame();
-        var course = null;
-        try{
-            course = new Course(lastGame);
-        }catch( ex ){
-            lastGame = null;
-            course = new Course(lastGame);
-        }
+        var course = new Course(getLastGame(), getCourse());
         game = new Game(course);
         controller = new Controller(game);
     }
@@ -39,6 +32,10 @@ class DiscGolfApp extends Application.AppBase {
 
     function getLastGame(){
         return getProperty("CurrentGame");
+    }
+
+    function getCourse() {
+        return getProperty("Par");
     }
 
 }
