@@ -119,15 +119,18 @@ class Controller{
 
         var holes = mGame.getCourse().getHoles();
         var state = new [holes.size()];
+        var par = new [holes.size()];
         for(var i = 0; i < holes.size(); i++){
             if(holes[i].isRegistered()){
                 state[i] = holes[i].getThrows();
             }else{
                 state[i] = 0;
             }
+            par[i] = holes[i].getPar();
         }
 
         app.setProperty("CurrentGame", state);
+        app.setProperty("Par", par);
     }
 
     function newGame() {

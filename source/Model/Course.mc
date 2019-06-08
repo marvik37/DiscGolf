@@ -3,16 +3,16 @@ class Course{
 
     hidden var mHoles;
 
-    function initialize(state){
+    function initialize(state, par){
         if(state == null){
-            createNewCourse();
+            createNewCourse(par);
         }else{
-            lastCourse(state);
+            lastCourse(state, par);
         }
         
     }
 
-    function lastCourse(state) {
+    function lastCourse(state, par) {
         mHoles = new [state.size()];
         for(var i = 0; i < mHoles.size(); i++){
             var hole = new Hole(i);
@@ -22,13 +22,20 @@ class Course{
             }else{
                 mHoles[i] = hole;
             }
+
+            if(par != null){
+                mHoles[i].setPar(par[i]);
+            }
         }
     }
 
-    function createNewCourse() {
+    function createNewCourse(par) {
         mHoles = new [18];
         for(var i = 0; i < mHoles.size(); i++){
             mHoles[i] = new Hole(i);
+            if(par != null){
+                mHoles[i].setPar(par[i]);
+            }
         }
     }
 
