@@ -1,5 +1,7 @@
 using Toybox.WatchUi as Ui;
 using Toybox.System as Sys;
+using Toybox.Timer;
+
 
 
 class DiscGolfDelegate extends Ui.BehaviorDelegate {
@@ -7,6 +9,8 @@ class DiscGolfDelegate extends Ui.BehaviorDelegate {
     hidden var relatedView;
     hidden var mController;
     hidden var mKeys;
+    hidden var timer;
+
 
 
     function initialize(view, controller) {
@@ -14,6 +18,7 @@ class DiscGolfDelegate extends Ui.BehaviorDelegate {
         relatedView = view;
         mController = controller;
         mKeys = new [Ui has :EXTENDED_KEYS ? 23 : 16];
+        timer = new Timer.Timer();
     }
 
     function onKey(keyEvent) {
@@ -173,10 +178,21 @@ class DiscGolfDelegate extends Ui.BehaviorDelegate {
         return false;
     }
 
-        function onKeyPressed(evt) {
+    function onKeyPressed(evt) {
         var key = evt.getKey();
         var now = Sys.getTimer();
         mKeys[key] = now;
+
+        if(key == Ui.KEY_ENTER){
+            timer.start(method(:changeHole), 1000, false);
+        }
+    }
+
+    function changeHole() {
+        if(mKeys[Ui.KEY_ENTER] != null){
+            mController.changeHole = true;
+            relatedView.requestUpdate();
+        }
     }
 
     function onKeyReleased(evt) {
@@ -188,9 +204,7 @@ class DiscGolfDelegate extends Ui.BehaviorDelegate {
 
             Sys.println(Lang.format("Key $1$ held for $2$ms", [ key, delta ]));
             
-            if(delta > 1000 && key == Ui.KEY_ENTER){
-                mController.changeHole = true;
-            }
+            
 
             mKeys[key] = null;
             relatedView.requestUpdate();
