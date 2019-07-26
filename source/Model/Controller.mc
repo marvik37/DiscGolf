@@ -38,6 +38,10 @@ class Controller{
 
     function nextHole() {
         var numberOfHoles = mGame.getCourse().getHoles().size();
+        if(allHolesPlayed()){
+            //TODO: Push nytt view med slutt score
+        }
+
         if(currentHole() < numberOfHoles){
             mGame.nextHole();
         }
@@ -45,6 +49,16 @@ class Controller{
             mGame.selectHole(0);
         }
         
+    }
+
+    hidden function allHolesPlayed() {
+        var holes = mGame.getCourse().getHoles();
+        for(var i = 0; i < holes.size(); i++){
+            if(!holes[i].isRegistered()){
+                return false;
+            }
+        }
+        return true;
     }
 
     function previousHole() {
@@ -131,6 +145,14 @@ class Controller{
 
         app.setProperty("CurrentGame", state);
         app.setProperty("Par", par);
+    }
+
+    function saveScorecard() {
+        var app = App.getApp();
+
+        var holes = mGame.getCourse().getHoles();
+        
+        var savedGame = app.getProperty("savedGames")
     }
 
     function newGame() {

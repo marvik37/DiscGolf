@@ -1,0 +1,6 @@
+<menu id = "GameEnd" title="Finnish">
+    <menu-item id="scorecard" label="@Strings.MenuScorecard"></menu-item>
+    <menu-item id="save" label="@Strings.Save"></menu-item>
+    <menu-item id="newGame" label="@Strings.MenuNewGame"></menu-item>
+    <menu-item id="exit" label="@Strings.Exit"></menu-item> 
+</menu>
