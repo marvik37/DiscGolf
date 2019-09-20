@@ -184,7 +184,7 @@ class DiscGolfDelegate extends Ui.BehaviorDelegate {
         mKeys[key] = now;
 
         if(key == Ui.KEY_ENTER){
-            timer.start(method(:changeHole), 1000, false);
+            timer.start(method(:changeHole), 800, false);
         }
     }
 

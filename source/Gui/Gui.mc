@@ -53,7 +53,7 @@ module Gui {
                 return Forerunner235;
             }else if(height == 148){
                 return Vivoactive;
-            }else if(height == 240){
+            }else if(height == 240 || height == 280 || height == 260 || height == 218){
                 return Forerunner645;
             }
             return null;
