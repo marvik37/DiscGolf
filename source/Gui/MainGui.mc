@@ -104,7 +104,10 @@ module Gui{
             time.start();
             if(version == Forerunner645){
                 CommonGui.drawText(time.now(), pos, XTINY_FONT, CENTER_TEXT);
-            }else {
+            }else if(version == Big){
+            	CommonGui.drawText(time.now(), pos, TINY_FONT, CENTER_TEXT);
+            }
+            else {
                 CommonGui.drawText(time.now(), pos, SMALL_FONT, CENTER_TEXT);
             }
         }
@@ -117,7 +120,7 @@ module Gui{
                 }else if(version == Vivoactive){
                     editParValue(SMALL_FONT);
                 }else if(version == Forerunner645){
-                    editParValue(TINY_FONT);
+                    editParValue(TINY_FONT|| version == Big);
                 }
                     
             }else{
@@ -125,7 +128,7 @@ module Gui{
                     holePar(mController.parValue(), MEDIUM_FONT);
                 }else if(version == Vivoactive ){
                     holePar(mController.parValue(), SMALL_FONT);
-                }else if(version == Forerunner645){
+                }else if(version == Forerunner645 || version == Big){
                     holePar(mController.parValue(), TINY_FONT);
                 }
                 
@@ -170,6 +173,7 @@ module Gui{
             var text = score + "(" + throws + ")";
             var version = CommonGui.getVersion();
             switch(version){
+            	case Big:
                 case Forerunner645:
                     var length = text.length();
                     if(length > 5){
@@ -192,7 +196,7 @@ module Gui{
 
         hidden function parText() {
             var pos = parSection;
-            if(version == Vivoactive  || version == Forerunner645){
+            if(version == Vivoactive  || version == Forerunner645 || version == Big){
                 CommonGui.drawText("Par", pos, SMALL_FONT, CENTER_TEXT);
             }else if(version == Forerunner235){
                 CommonGui.drawText("Par", pos, MEDIUM_FONT, CENTER_TEXT);

@@ -27,7 +27,7 @@ module Gui {
 
 
     public enum{
-            Forerunner235, Vivoactive, Forerunner645
+            Forerunner235, Vivoactive, Forerunner645, Big
         }
 
     class CommonGui{
@@ -55,6 +55,8 @@ module Gui {
                 return Vivoactive;
             }else if(height == 240 || height == 280 || height == 260 || height == 218){
                 return Forerunner645;
+            }else if(height == 390){
+            	return Big;
             }
             return null;
         }

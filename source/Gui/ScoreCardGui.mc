@@ -29,7 +29,10 @@ module Gui{
 
             if(version == Forerunner645){
                 columnWidth = 23;
+            }else if(version == Big){
+            	columnWidth = 35;
             }
+            
             top = height / 4;
             middle = height / 2;
             bottom = (height/4) * 3;
@@ -76,6 +79,7 @@ module Gui{
         hidden function drawTopLine(text, x){
             var xx = x - (columnWidth/2);
             switch(version){
+            	case Big:
                 case Forerunner645:
                     if(col){
                         frontColor(GREY);
