@@ -1,6 +1,7 @@
 <menu id="MainMenu" title="@Strings.MainMenuTitle">
     <menu-item id="selectHole" label="@Strings.MenuSelectHole"></menu-item>
     <menu-item id="changePar" label="@Strings.MenuPar"></menu-item>
+    <menu-item id="numberOfHoles" label="@Strings.NumberOfHoles"></menu-item>
     <menu-item id="newGame" label="@Strings.MenuNewGame"></menu-item>
     <menu-item id="scorecard" label="@Strings.MenuScorecard"></menu-item>
 </menu>

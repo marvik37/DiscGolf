@@ -6,7 +6,11 @@ class Game{
         mCourse = course;
         activeHole = firstNotRegisterdHole();
     }
-
+	
+	function newCourse(numbOfHoles){
+		mCourse.createCourse(numbOfHoles);
+	}
+	
     function firstNotRegisterdHole() {
         var holes = mCourse.getHoles();
         for(var i = 0; i < holes.size(); i++){

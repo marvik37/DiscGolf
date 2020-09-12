@@ -19,8 +19,11 @@ class MainMenuDelegate extends Ui.MenuInputDelegate{
         }else if(item == :scorecard){
             var view = new ScoreCardView(mController);
             Ui.switchToView(view, new ScoreCardDelegate(view, mController), Ui.SLIDE_UP);
+        }else if(item == :numberOfHoles){
+        	var picker = new SelectNumberOfHolesView(mController);
+        	Ui.pushView(picker, new SelectNumberOfHolesDelegate(picker, mController), Ui.SLIDE_UP);
         }
-
+		
         if(item == :changePar){
             mController.editPar = true;
         }

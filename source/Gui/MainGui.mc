@@ -9,11 +9,8 @@ module Gui{
 
     class MainGui extends CommonGui{
 
-        const UP_ARROW = [[0,20], [30,20], [15,0]];
-        const DOWN_ARROW = [[0,0], [30,0], [15,20]]; 
+       
 
-        const TAP_BOX_HEIGHT = 50;
-        const TAP_BOX_WIDTH = 50; 
 
         var tapBoxUp;
         var tapBoxDown;
@@ -119,8 +116,8 @@ module Gui{
                     editParValue(MEDIUM_FONT);
                 }else if(version == Vivoactive){
                     editParValue(SMALL_FONT);
-                }else if(version == Forerunner645){
-                    editParValue(TINY_FONT|| version == Big);
+                }else if(version == Forerunner645 || version == Big){
+                    editParValue(TINY_FONT);
                 }
                     
             }else{

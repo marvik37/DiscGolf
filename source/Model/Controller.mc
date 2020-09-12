@@ -31,7 +31,11 @@ class Controller{
         }
     
     }
-
+	
+	function addHole(){
+		
+	}
+	
     function parValue() {
         return mGame.getActiveHole().getPar().toString();
     }
@@ -139,5 +143,9 @@ class Controller{
             holes[i].restart();
         }
         mGame.selectHole(0);
+    }
+    
+    function createNewCourse(numberOfHoles){
+    	mGame.newCourse(numberOfHoles);
     }
 }
