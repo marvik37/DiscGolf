@@ -52,7 +52,7 @@ class DiscGolfDelegate extends Ui.BehaviorDelegate {
         
         return false;
     }
-
+	
     hidden function setThrowsTap(keyEvent) {
         if(tapUp(keyEvent)){
                 mController.plussOne();
@@ -137,6 +137,19 @@ class DiscGolfDelegate extends Ui.BehaviorDelegate {
         }
         relatedView.requestUpdate();
         return false;
+    }
+    
+    function onSwipe(swipeEvent){
+    	var dir = swipeEvent.getDirection();
+        System.println(dir);    	
+    	if(dir == SWIPE_LEFT){
+    		mController.nextHole();
+    	}
+    	else if(dir == SWIPE_RIGHT){
+    		mController.previousHole();
+    	}    		
+    	relatedView.requestUpdate();
+    	return true;
     }
 
     hidden function editPar(key) {
