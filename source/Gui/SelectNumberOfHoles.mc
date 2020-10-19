@@ -13,8 +13,12 @@ module Gui{
 			CommonGui.initialize(dc, controller);
 			numberPos = [ width/2, height/2 ];
 			
+			tapBoxUp = [numberPos[0] - 25, numberPos[1] - 75];
+			tapBoxDown = [numberPos[0] - 25, numberPos[1] + 25];
+			
 			numberOfHoles = controller.getGame().getCourse().getNumberOfHoles();
 		}
+		
 		
 		function setNumberOfHoles(n){
 			numberOfHoles = n;
@@ -45,7 +49,7 @@ module Gui{
             var pos = [numberPos[0] - 15, numberPos[1] - 10];
 
             setArrowPos(up, down, pos);
-           
+                       
             mDc.fillPolygon(up);
             mDc.fillPolygon(down);
 

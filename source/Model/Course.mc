@@ -56,10 +56,15 @@ class Course{
     }
     
     function createCourse(holes){
+    	var keepScore = mHoles;
     	numberOfHoles = holes;
     	mHoles = new [numberOfHoles];
         for(var i = 0; i < mHoles.size(); i++){
             mHoles[i] = new Hole(i);
+            if(keepScore != null && keepScore.size() > i && keepScore[i].isRegistered()){
+            	mHoles[i].setThrows(keepScore[i].getThrows());
+            	mHoles[i].setPar(keepScore[i].getPar());
+            }
         }
     }
 

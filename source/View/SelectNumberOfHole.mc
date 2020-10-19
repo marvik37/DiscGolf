@@ -2,7 +2,7 @@ using Toybox.WatchUi as Ui;
 
 class SelectNumberOfHolesView extends Ui.View{
     
-    hidden var gui;
+    var gui;
     hidden var mController;
     
     hidden const MAX = 36;
@@ -41,6 +41,9 @@ class SelectNumberOfHolesView extends Ui.View{
     function setHole(){
     	var holes = gui.getNumberOfHoles();
     	mController.createNewCourse(holes);
+    	if(mController.getGame().getActiveHole().getIndex() >= holes){
+    		mController.getGame().selectHole(holes - 1);
+    	}
     }
     
     function addHole(){    	
