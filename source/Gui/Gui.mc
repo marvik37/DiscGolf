@@ -15,8 +15,15 @@ module Gui {
     /** TEXT JUSTIFYCATION **/
     const CENTER_TEXT = Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER;
 
-
-
+	
+        
+	/** Arrows **/
+	const UP_ARROW = [[0,20], [30,20], [15,0]];
+    const DOWN_ARROW = [[0,0], [30,0], [15,20]]; 
+	
+	
+	const TAP_BOX_HEIGHT = 50;
+	const TAP_BOX_WIDTH = 50; 
 
     /** COLORS **/
     const BLACK = Gfx.COLOR_BLACK;

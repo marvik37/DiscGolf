@@ -44,17 +44,39 @@ module Gui{
         }
 
 
-        function update(front) {
+        function update(page) {
             setColor();
             drawTable();
-            if(front){
-                drawScoreFront9();
-            }else{
-                drawScoreBack9();
-            }
+            drawScore(page);
             
         }
+		
+		hidden function drawScore(page){
+			var startHole = 9*page - 8;
+			var lastHole = 9*page;
+			var holes = mController.getGame().getCourse().getHoles();
+			if(holes.size() < lastHole){
+            	lastHole = holes.size();
+            }
+			var title = "Hole " + startHole + "-" + lastHole;
+			titleText(title);
+			
+            var x = left + (columnWidth/2);
+            
+            
+            
+            for(var i = startHole; i <= lastHole; i++){
+                drawTopLine(i, x);
+                x += columnWidth;
+            }
 
+            x = left + (columnWidth/2);
+            for(var i = startHole-1; i < lastHole; i++){
+                color(holes[i], x);
+                drawBottomLine(throws(holes[i]), x);
+                x += columnWidth;
+            }
+		}
     
         hidden function drawTable() {
 

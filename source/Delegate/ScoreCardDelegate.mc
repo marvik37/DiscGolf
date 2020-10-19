@@ -16,10 +16,10 @@ class ScoreCardDelegate extends Ui.BehaviorDelegate{
 
         switch(key){
             case Ui.KEY_UP:
-                relatedView.shiftScoreCard();
+                relatedView.previousPage();
                 break;
             case Ui.KEY_DOWN:
-                relatedView.shiftScoreCard();
+                relatedView.nextPage();
                 break;
         }
         relatedView.requestUpdate();
@@ -27,7 +27,7 @@ class ScoreCardDelegate extends Ui.BehaviorDelegate{
     }
 
     function onTap(clickEvent) {
-        relatedView.shiftScoreCard();
+        relatedView.nextPage();
         relatedView.requestUpdate();
         return false;
     }
