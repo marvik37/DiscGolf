@@ -40,7 +40,6 @@ class ScoreCardView extends Ui.View{
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
         gui.update(page);
-        return true;
     }
 	
 	function nextPage(){

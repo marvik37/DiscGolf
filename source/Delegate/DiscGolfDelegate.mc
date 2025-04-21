@@ -199,6 +199,7 @@ class DiscGolfDelegate extends Ui.BehaviorDelegate {
         if(key == Ui.KEY_ENTER){
             timer.start(method(:changeHole), 800, false);
         }
+        return true;
     }
 
     function changeHole() {
@@ -222,6 +223,7 @@ class DiscGolfDelegate extends Ui.BehaviorDelegate {
             mKeys[key] = null;
             relatedView.requestUpdate();
         }
+        return true;
     }
 
 }

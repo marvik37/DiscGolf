@@ -33,7 +33,6 @@ class DiscGolfView extends WatchUi.View {
         View.onUpdate(dc);
         gui.loadLayout();
         gui.updateText();
-        return true;
     }
 
     // Called when this View is removed from the screen. Save the

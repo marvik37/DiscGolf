@@ -80,7 +80,7 @@ module Gui{
         function setLayout() {
             drawLines();
             drawArrows();   
-            drawText();
+            drawLabels();
         }
 
         hidden function drawLines() {
@@ -205,7 +205,7 @@ module Gui{
             CommonGui.drawText(par, parValuePos, font, CENTER_TEXT);
         }
 
-        hidden function drawText(){
+        hidden function drawLabels(){
             scoreText();
             totalText();
             parText();
