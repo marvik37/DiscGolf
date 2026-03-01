@@ -34,8 +34,34 @@ module Gui {
 
 
     public enum{
-            Forerunner235, Vivoactive, Forerunner645, Big
+            Big, MediumBig, Medium, Small
         }
+
+    class StaticGui {
+        static function drawText(dc, text, pos, font, justification) {
+            dc.drawText(pos[0], pos[1], font, text, justification);
+        }
+        
+        static function getWhiteColor() {
+            return Gfx.COLOR_WHITE;
+        }
+        
+        static function getBlackColor() {
+            return Gfx.COLOR_BLACK;
+        }
+        
+        static function getGreenColor() {
+            return Gfx.COLOR_GREEN;
+        }
+        
+        static function getRedColor() {
+            return Gfx.COLOR_RED;
+        }
+        
+        static function getGreyColor() {
+            return Gfx.COLOR_LT_GRAY;
+        }
+    }
 
     class CommonGui{
 
@@ -57,11 +83,11 @@ module Gui {
 
         function getVersion() {
             if(height == 180){
-                return Forerunner235;
+                return Medium;
             }else if(height == 148){
-                return Vivoactive;
+                return Small;
             }else if(height == 240 || height == 280 || height == 260 || height == 218){
-                return Forerunner645;
+                return MediumBig;
             }else if(height == 390){
             	return Big;
             }
@@ -71,32 +97,40 @@ module Gui {
         /** Color **/
 
         function setColor() {
-            backgroundColor(WHITE);
-            frontColor(BLACK);
+            backgroundColor(StaticGui.getWhiteColor());
+            frontColor(StaticGui.getBlackColor());
         }
 
         function backgroundColor(color) {
-            mDc.setColor(color, Gfx.COLOR_TRANSPARENT);
-            mDc.fillRectangle(0, 0, width, height);
+            if (mDc != null) {
+                if (color != null) {
+                    mDc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
+                    mDc.fillRectangle(0, 0, width, height);
+                } else {
+                    mDc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
+                    mDc.fillRectangle(0, 0, width, height);
+                }
+            }
         }
 
         function frontColor(color){
-            mDc.setColor(color, Gfx.COLOR_TRANSPARENT);
+            if (mDc != null) {
+                if (color != null) {
+                    mDc.setColor(color, Gfx.COLOR_TRANSPARENT);
+                } else {
+                    mDc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT);
+                }
+            }
         }
 
       
 
         function drawText(text, pos, font, justification) {
-            mDc.drawText(pos[0], pos[1], font, text, justification);
+            if (mDc != null) {
+                mDc.drawText(pos[0], pos[1], font, text, justification);
+            }
         }
 
     }
 
-
-    
-
-
- 
-
-    
 }

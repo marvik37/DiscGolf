@@ -1,34 +1,33 @@
 using Toybox.WatchUi as Ui;
 
-class MainMenuDelegate extends Ui.MenuInputDelegate{
+class MainMenuDelegate extends Ui.Menu2InputDelegate{
 
     hidden var mController;
 
     function initialize(controller) {
-        MenuInputDelegate.initialize();
+        Menu2InputDelegate.initialize();
         mController = controller;
     }
 
-    function onMenuItem(item) {
-        if(item == :selectHole){
+    function onSelect(item) {
+        var id = item.getId();
+        if(id.equals("selectHole")){
             System.println("Select hole");
             var view = new SelectHoleView(mController);
-            Ui.switchToView(view, new SelectHoleDelegate(view, mController), Ui.SLIDE_UP);
-        }else if(item == :newGame){
+            Ui.popView(Ui.SLIDE_IMMEDIATE);
+            Ui.pushView(view, new SelectHoleDelegate(view, mController), Ui.SLIDE_UP);
+        }else if(id.equals("newGame")){
             mController.newGame();
-        }else if(item == :scorecard){
+        }else if(id.equals("scorecard")){
             var view = new ScoreCardView(mController);
-            Ui.switchToView(view, new ScoreCardDelegate(view, mController), Ui.SLIDE_UP);
-        }else if(item == :numberOfHoles){
+            Ui.popView(Ui.SLIDE_IMMEDIATE);
+            Ui.pushView(view, new ScoreCardDelegate(view, mController), Ui.SLIDE_UP);
+        }else if(id.equals("numberOfHoles")){
         	var picker = new SelectNumberOfHolesView(mController);
         	Ui.pushView(picker, new SelectNumberOfHolesDelegate(picker, mController), Ui.SLIDE_UP);
-        }
-		
-        if(item == :changePar){
+        }else if(id.equals("changePar")){
             mController.editPar = true;
         }
     }
-
-    
 
 }

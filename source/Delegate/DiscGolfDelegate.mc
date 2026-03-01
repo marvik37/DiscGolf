@@ -128,10 +128,10 @@ class DiscGolfDelegate extends Ui.BehaviorDelegate {
             case Ui.KEY_UP:
                 mController.plussOne();
                 break;
-            case KEY_DOWN:
+            case Ui.KEY_DOWN:
                 mController.minusOne();
                 break;
-            case KEY_ENTER:
+            case Ui.KEY_ENTER:
                 mController.nextHole();
                 break;
         }
@@ -142,10 +142,10 @@ class DiscGolfDelegate extends Ui.BehaviorDelegate {
     function onSwipe(swipeEvent){
     	var dir = swipeEvent.getDirection();
         System.println(dir);    	
-    	if(dir == SWIPE_LEFT){
+    	if(dir == Ui.SWIPE_LEFT){
     		mController.nextHole();
     	}
-    	else if(dir == SWIPE_RIGHT){
+    	else if(dir == Ui.SWIPE_RIGHT){
     		mController.previousHole();
     	}    		
     	relatedView.requestUpdate();
@@ -183,7 +183,13 @@ class DiscGolfDelegate extends Ui.BehaviorDelegate {
     }
 
     function pushMenu() {
-        Ui.pushView(new Rez.Menus.MainMenu(), new MainMenuDelegate(mController), Ui.SLIDE_UP);        
+        var menu = new Ui.Menu2({:title=>"Menu"});
+        menu.addItem(new Ui.MenuItem("Select hole", null, "selectHole", null));
+        menu.addItem(new Ui.MenuItem("Edit Par", null, "changePar", null));
+        menu.addItem(new Ui.MenuItem("Number of holes", null, "numberOfHoles", null));
+        menu.addItem(new Ui.MenuItem("New game", null, "newGame", null));
+        menu.addItem(new Ui.MenuItem("Scorecard", null, "scorecard", null));
+        Ui.pushView(menu, new MainMenuDelegate(mController), Ui.SLIDE_UP);
     }
 
     function onBack() {

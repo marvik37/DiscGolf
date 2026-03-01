@@ -11,8 +11,9 @@ class SelectNumberOfHolesDelegate extends Ui.BehaviorDelegate{
         mController = controller;
     }
 
-   function onCancel() {
+   function onBack() {
         WatchUi.popView(WatchUi.SLIDE_IMMEDIATE);
+        return true;
     }
 
 	 function onKey(keyEvent) {

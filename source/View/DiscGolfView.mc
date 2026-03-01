@@ -31,8 +31,8 @@ class DiscGolfView extends WatchUi.View {
     function onUpdate(dc) {
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
-        gui.loadLayout();
-        gui.updateText();
+        gui.loadLayout(dc);
+        gui.updateText(dc);
     }
 
     // Called when this View is removed from the screen. Save the

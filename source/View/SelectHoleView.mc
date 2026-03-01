@@ -30,7 +30,7 @@ class SelectHoleView extends Ui.View{
     function onUpdate(dc) {
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
-        gui.update();
+        gui.update(dc);
     }
 
     // Called when this View is removed from the screen. Save the

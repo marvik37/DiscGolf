@@ -1,4 +1,5 @@
 using Toybox.Application;
+using Toybox.Application.Storage;
 using Toybox.WatchUi;
 
 class DiscGolfApp extends Application.AppBase {
@@ -31,11 +32,11 @@ class DiscGolfApp extends Application.AppBase {
     }
 
     function getLastGame(){
-        return getProperty("CurrentGame");
+        return Storage.getValue("CurrentGame");
     }
 
     function getCourse() {
-        return getProperty("Par");
+        return Storage.getValue("Par");
     }
 
 }

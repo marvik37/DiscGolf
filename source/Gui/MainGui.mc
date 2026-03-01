@@ -55,10 +55,10 @@ module Gui{
         hidden function setParPos(version) {
             var pos = [parSection[0], parSection[1]];
             switch (version){
-                case Forerunner235:
+                case Medium:
                     pos[1] += Gfx.getFontHeight(MEDIUM_FONT);
                     break;
-                case Vivoactive:
+                case Small:
                     pos[1] += Gfx.getFontHeight(SMALL_FONT);
                     break;
                 default:
@@ -70,7 +70,10 @@ module Gui{
 
         
         
-        function loadLayout() {
+        function loadLayout(dc) {
+            if (dc != null) {
+                mDc = dc;
+            }
             setColor();
             setLayout();
         }
@@ -84,11 +87,16 @@ module Gui{
         }
 
         hidden function drawLines() {
-            mDc.drawLine(0, upSectionLine, width, upSectionLine);
-            mDc.drawLine(midSectionLine, upSectionLine, midSectionLine, height);
+            if (mDc != null) {
+                mDc.drawLine(0, upSectionLine, width, upSectionLine);
+                mDc.drawLine(midSectionLine, upSectionLine, midSectionLine, height);
+            }
         }
 
-        function updateText(){
+        function updateText(dc){
+            if (dc != null) {
+                mDc = dc;
+            }
             drawTime();
             score(mController.currentHoleThrows());
             totalThrows(mController.totalThrows(), mController.totalScore());
@@ -99,33 +107,33 @@ module Gui{
         hidden function drawTime() {
             var pos = timePos;
             time.start();
-            if(version == Forerunner645){
-                CommonGui.drawText(time.now(), pos, XTINY_FONT, CENTER_TEXT);
+            if(version == MediumBig){
+                StaticGui.drawText(mDc, time.now(), pos, XTINY_FONT, CENTER_TEXT);
             }else if(version == Big){
-            	CommonGui.drawText(time.now(), pos, TINY_FONT, CENTER_TEXT);
+            	StaticGui.drawText(mDc, time.now(), pos, TINY_FONT, CENTER_TEXT);
             }
             else {
-                CommonGui.drawText(time.now(), pos, SMALL_FONT, CENTER_TEXT);
+                StaticGui.drawText(mDc, time.now(), pos, SMALL_FONT, CENTER_TEXT);
             }
         }
 
         hidden function parValue() {
             //Edit par box
             if(mController.editPar){
-                if(version == Forerunner235){
+                if(version == Medium){
                     editParValue(MEDIUM_FONT);
-                }else if(version == Vivoactive){
+                }else if(version == Small){
                     editParValue(SMALL_FONT);
-                }else if(version == Forerunner645 || version == Big){
+                }else if(version == MediumBig || version == Big){
                     editParValue(TINY_FONT);
                 }
                     
             }else{
-                if(version == Forerunner235){
+                if(version == Medium){
                     holePar(mController.parValue(), MEDIUM_FONT);
-                }else if(version == Vivoactive ){
+                }else if(version == Small ){
                     holePar(mController.parValue(), SMALL_FONT);
-                }else if(version == Forerunner645 || version == Big){
+                }else if(version == MediumBig || version == Big){
                     holePar(mController.parValue(), TINY_FONT);
                 }
                 
@@ -133,76 +141,80 @@ module Gui{
         }
 
         hidden function editParValue(font) {
-            var size = Gfx.getFontHeight(font);
-            mDc.fillRectangle(parValuePos[0] - (size/2), parValuePos[1] - (size/2), size, size);
-            frontColor(WHITE);
-            holePar(mController.parValue(), font);
-            frontColor(BLACK);
+            if (mDc != null) {
+                var size = Gfx.getFontHeight(font);
+                mDc.fillRectangle(parValuePos[0] - (size/2), parValuePos[1] - (size/2), size, size);
+                frontColor(StaticGui.getWhiteColor());
+                holePar(mController.parValue(), font);
+                frontColor(StaticGui.getBlackColor());
+            }
         }
 
         hidden function topText(text) {
-            var pos = [width/2, height/6];
-            if(mController.changeHole){
-                mDc.fillRectangle(pos[0] - 50, pos[1] - Gfx.getFontHeight(LARGE_FONT)/2, 100, Gfx.getFontHeight(LARGE_FONT));
-                frontColor(WHITE);
-            }else{
-                frontColor(BLACK);
+            if (mDc != null) {
+                var pos = [width/2, height/6];
+                if(mController.changeHole){
+                    mDc.fillRectangle(pos[0] - 50, pos[1] - Gfx.getFontHeight(LARGE_FONT)/2, 100, Gfx.getFontHeight(LARGE_FONT));
+                    frontColor(StaticGui.getWhiteColor());
+                }else{
+                    frontColor(StaticGui.getBlackColor());
+                }
+                StaticGui.drawText(mDc, text, pos, LARGE_FONT, CENTER_TEXT);
+                frontColor(StaticGui.getBlackColor());
             }
-            CommonGui.drawText(text, pos, LARGE_FONT, CENTER_TEXT);
-            frontColor(BLACK);
         }
 
         
 
         hidden function scoreText() {
             var pos = scoreSection;
-            CommonGui.drawText("Shots", pos, MEDIUM_FONT, CENTER_TEXT);
+            StaticGui.drawText(mDc, "Shots", pos, MEDIUM_FONT, CENTER_TEXT);
         }
 
         hidden function score(score) {
             var pos = scoreValueSection;
-            CommonGui.drawText(score, pos, LARGE_FONT, CENTER_TEXT);
+            StaticGui.drawText(mDc, score, pos, LARGE_FONT, CENTER_TEXT);
         }
 
         hidden function totalThrows(throws, score) {
             var pos = [totalSection[0], totalSection[1]];
             pos[1] += Gfx.getFontHeight(MEDIUM_FONT)+5;
             var text = score + "(" + throws + ")";
-            var version = CommonGui.getVersion();
+            var version = getVersion();
             switch(version){
             	case Big:
-                case Forerunner645:
+                case MediumBig:
                     var length = text.length();
                     if(length > 5){
                         pos[0] = pos[0] - (5*(length-5));
-                        CommonGui.drawText(text,pos,SMALL_FONT, CENTER_TEXT);
+                        StaticGui.drawText(mDc, text, pos, SMALL_FONT, CENTER_TEXT);
                     }else{
-                        CommonGui.drawText(text, pos, SMALL_FONT, CENTER_TEXT);
+                        StaticGui.drawText(mDc, text, pos, SMALL_FONT, CENTER_TEXT);
                     }
                     break;
                 default:
-                    CommonGui.drawText(text, pos, LARGE_FONT, CENTER_TEXT);
+                    StaticGui.drawText(mDc, text, pos, LARGE_FONT, CENTER_TEXT);
                     break;
             }
         }
 
         hidden function totalText() {
             var pos = totalSection;
-            CommonGui.drawText("Total", pos, MEDIUM_FONT, CENTER_TEXT);
+            StaticGui.drawText(mDc, "Total", pos, MEDIUM_FONT, CENTER_TEXT);
         }
 
         hidden function parText() {
             var pos = parSection;
-            if(version == Vivoactive  || version == Forerunner645 || version == Big){
-                CommonGui.drawText("Par", pos, SMALL_FONT, CENTER_TEXT);
-            }else if(version == Forerunner235){
-                CommonGui.drawText("Par", pos, MEDIUM_FONT, CENTER_TEXT);
+            if(version == Small  || version == MediumBig || version == Big){
+                StaticGui.drawText(mDc, "Par", pos, SMALL_FONT, CENTER_TEXT);
+            }else if(version == Medium){
+                StaticGui.drawText(mDc, "Par", pos, MEDIUM_FONT, CENTER_TEXT);
             }
             
         }
 
         hidden function holePar(par, font) {
-            CommonGui.drawText(par, parValuePos, font, CENTER_TEXT);
+            StaticGui.drawText(mDc, par, parValuePos, font, CENTER_TEXT);
         }
 
         hidden function drawLabels(){
@@ -212,17 +224,19 @@ module Gui{
         }
 
         hidden function drawArrows() {
-            var up = [UP_ARROW[0], UP_ARROW[1], UP_ARROW[2]];
-            var down = [DOWN_ARROW[0], DOWN_ARROW[1], DOWN_ARROW[2]];
-            
-            var pos = [arrowPos[0], arrowPos[1]];
+            if (mDc != null) {
+                var up = [UP_ARROW[0], UP_ARROW[1], UP_ARROW[2]];
+                var down = [DOWN_ARROW[0], DOWN_ARROW[1], DOWN_ARROW[2]];
+                
+                var pos = [arrowPos[0], arrowPos[1]];
 
-            setArrowPos(up, down, pos);
-           
-            mDc.fillPolygon(up);
-            mDc.fillPolygon(down);
+                setArrowPos(up, down, pos);
+               
+                mDc.fillPolygon(up);
+                mDc.fillPolygon(down);
 
-            resetArrowPos(up, down, pos);
+                resetArrowPos(up, down, pos);
+            }
         }
 
         hidden function resetArrowPos(up, down, pos) {

@@ -30,7 +30,10 @@ module Gui{
             return lineDown;
         }
 
-        function update() {
+        function update(dc) {
+            if (dc != null) {
+                mDc = dc;
+            }
             setColor();
             drawLines();
             updateText();
@@ -61,7 +64,7 @@ module Gui{
             var pos = midRow;
             var hole = mController.currentHole();
             var holeString = "Hole " + hole.toString();
-            drawText(holeString, pos, MEDIUM_FONT, CENTER_TEXT);
+            StaticGui.drawText(mDc, holeString, pos, MEDIUM_FONT, CENTER_TEXT);
         }
 
         hidden function topRowText() {
@@ -70,7 +73,7 @@ module Gui{
             
             if(hole > 1){
                 var holeString = "Hole " + (hole-1).toString();
-                drawText(holeString, pos, MEDIUM_FONT, CENTER_TEXT);
+                StaticGui.drawText(mDc, holeString, pos, MEDIUM_FONT, CENTER_TEXT);
             }
         }
 
@@ -81,7 +84,7 @@ module Gui{
 
             if(hole < numberOfHoles){
                 var holeString = "Hole " + (hole+1).toString();
-                drawText(holeString, pos, MEDIUM_FONT, CENTER_TEXT);
+                StaticGui.drawText(mDc, holeString, pos, MEDIUM_FONT, CENTER_TEXT);
             }
         }
     }

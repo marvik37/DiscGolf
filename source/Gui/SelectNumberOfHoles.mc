@@ -1,4 +1,3 @@
-
 module Gui{
 	class SelectNumberOfHoles extends CommonGui{
 		
@@ -28,7 +27,10 @@ module Gui{
 			return numberOfHoles;
 		}
 		
-		function update(){
+		function update(dc){
+			if (dc != null) {
+				mDc = dc;
+			}
 			setColor();
 			updateNumber();
 		}
@@ -39,7 +41,7 @@ module Gui{
 		}
 		
 		hidden function drawNumber(){
-			drawText(numberOfHoles,numberPos, LARGE_FONT, CENTER_TEXT);
+			StaticGui.drawText(mDc, numberOfHoles, numberPos, LARGE_FONT, CENTER_TEXT);
 		}
 		
 		hidden function drawArrows() {

@@ -1,5 +1,5 @@
 
-using Toybox.Application as App;
+using Toybox.Application.Storage;
 
 class Controller{
 
@@ -119,8 +119,6 @@ class Controller{
     }
 
     function save() {
-        var app = App.getApp();
-
         var holes = mGame.getCourse().getHoles();
         var state = new [holes.size()];
         var par = new [holes.size()];
@@ -133,8 +131,8 @@ class Controller{
             par[i] = holes[i].getPar();
         }
 
-        app.setProperty("CurrentGame", state);
-        app.setProperty("Par", par);
+        Storage.setValue("CurrentGame", state);
+        Storage.setValue("Par", par);
     }
 
     function newGame() {
